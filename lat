@@ -1,0 +1,354 @@
+(define r 0)
+(define atom? 
+	(lambda (x)
+		(and (not (pair? x)) (not (null? x)))))
+
+(define lat?
+	(lambda (l)
+		(cond
+			((null? l) #t)
+			((atom? (car l)) (lat? (cdr l)))
+			(else #f))))
+
+
+;This function will affirm  one member from a list
+(define member?
+	(lambda (a lat)
+		(cond
+			((null? lat) #f)
+			(else (or (eq? (car lat) a)
+				(member? a (cdr lat)))))))
+
+;This function will remove one member from a list
+(define rember
+	(lambda (a lat)
+		(cond
+			((null? lat) (quote ()))
+			((eq? (car lat) a) (cdr lat))
+				(else (cons (car lat)
+					(rember a (cdr lat)))))))
+
+
+(define firsts
+	(lambda (lat)
+		(cond
+			((null? lat) (quote()))
+			(else (cons (car (car lat))
+				(firsts (cdr lat)))))))
+
+
+(define insertR
+	(lambda (new old lat)
+		(cond 
+			((null? lat) (quote()))
+			(else (cond			
+					((eq? (car lat) old)
+						(cons old (cons new (cdr lat))))
+					(else (cons (car lat)
+						(insertR new old
+							(cdr lat)))))))))
+
+
+
+(define insertL
+	(lambda (new old lat)
+		(cond
+			((null? lat) (quote()))
+			(else
+				(cond
+					((eq? (car lat) old) 
+						(cons new lat))
+					(else (cons (car lat)
+						(insertL new old
+							(cdr lat)))))))))
+
+
+
+;Subst some word if find the word
+(define subst
+	(lambda (new old lat)
+		(cond
+			((null? lat) (quote()))
+			(else (cond
+					((eq? (car lat) old)
+						(cons new (cdr lat)))
+					(else (cons (car lat)
+						(subst new old
+						(cdr lat)))))))))
+
+
+
+;Subst the  word if it found alternative word first in two lists
+(define subst2
+	(lambda (new o1 o2 lat)
+		(cond
+			((null? lat) (quate ()))
+			(else (cond
+			((or (eq? (car lat) o1) (eq? (car lat) o2))
+				(cons new (cdr lat)))
+			(else (cons (car lat)
+				(subst2 new o1 o2 (cdr lat)))))))))
+
+
+
+;Find out all the word a, and then remove it.
+(define multirember
+	(lambda (a lat)
+		(cond
+			((null? lat) (quote ()))
+			(else (cond
+				((eq? (car lat) a)
+					(multirember a (cdr lat)))
+					(else (cons (car lat)
+						(multirember a
+							(cdr lat)))))))))
+
+
+
+
+;Find out all the word old,and replace with new
+(define multiinsertR
+	(lambda (new old lat)
+		(cond
+			((null? lat) (quote()))
+			(else
+				(cond
+					((eq? (car lat) old)
+					(cons (car lat)
+					(cons new
+						(multiinsertR new old
+								(cdr lat)))))
+					(else (cons (car lat)
+						(multiinsertR new old
+							(cdr lat)))))))))
+
+
+
+
+
+;Find out all the word old, and insert the word new at the leftward
+(define multiinsertL
+	(lambda (new old lat)
+		(cond
+			((null? lat) (quote()))
+			(else
+				(cond
+					((eq? (car lat) old)
+					(cons new 
+					(cons old
+						(multiinsertL new old (cdr lat)))))
+					(else (cons (car lat)
+						(multiinsertL new old
+							(cdr lat)))))))))
+
+
+
+
+
+;替换函数
+(define multisubst
+	(lambda (new old lat)
+		(cond
+			((null? lat) (quote()))
+			(else (cond
+				((eq? (car lat) old)
+					(cons new
+						(multisubst new old
+							(cdr lat))))
+				(else (cons (car lat)
+					(multisubst new old (cdr lat)))))))))
+
+
+
+
+
+;add1
+(define add1
+	(lambda (n)
+		(+ n 1)))	
+;sub1
+(define sub1
+	(lambda (n)
+		(- n 1)))
+
+
+
+;function of add
+(define add
+	(lambda (n m)
+		(cond
+			((zero? m) n)
+			(else (add1 (add n (sub1 m)))))))
+
+
+
+; And sub
+(define sub
+	(lambda (n m)
+		(cond
+			((zero? m) n)
+			(else (sub1 (sub n (sub1 m)))))))
+
+
+
+(define addtup
+	(lambda (tup)
+		(cond
+		((null? tup) 0)
+		(else
+			(add (car tup) (addtup (cdr tup)))))))
+
+
+
+; Try to write the function multiply
+(define multi
+	(lambda (n m)
+		(cond
+			((zero? m) 0)
+			(else (add n (multi n (sub1 m)))))))
+
+
+
+(define tupadd
+	(lambda (tup1 tup2)
+		(cond
+			((null? tup1) tup2)
+			((null? tup2) tup1)
+			(else
+				(cons
+					(add (car tup1) (car tup2))
+					(tupadd 
+						(cdr tup1) (cdr tup2)))))))		
+
+
+
+
+
+;Now try to write greater
+(define greater
+	(lambda (n m)
+		(cond
+			((zero? n) #f)
+			(zero? m)
+			(else (greater (sub1 n) (sub1 m))))))
+
+
+
+
+(define less
+	(lambda (n m)
+		(cond
+			((zero? m) 0)
+			((zero? n) 1)
+			(else (less (sub1 n) (sub1 m))))))
+
+
+
+;Here is the definition of equ
+(define equ
+	(lambda (n m)
+		(cond
+			((zero? m) (zero? n))
+			((zero? n) #f)
+			(else (equ (sub1 n) (sub1 m))))))
+
+
+(define =
+	(lambda (n m)
+		(cond
+			((greater n m) #f)
+			((less n m) #f)
+			(else #t))))
+
+
+
+
+;Write the function of expt
+(define expt 
+	(lambda (n m)
+		(cond
+			((eq? m 0) 1)
+			(else (multi n (expt n (sub1 m)))))))
+
+
+(define quotient
+	(lambda (n m)
+		(cond
+			((< n m) 0)
+			(else (add1 (quotient (sub n m) m))))))
+
+
+
+
+;Now try to write the function length
+(define length
+	(lambda (lat)
+		(cond
+			((null? lat) 0)
+			(else (add1 (length (cdr lat)))))))
+
+
+(define pick
+	(lambda (n lat)
+		(cond
+			((zero? (sub1 n)) (car lat))
+			(else (pick (sub1 n) (cdr lat))))))
+
+
+
+(define rempick
+	(lambda (n lat)
+		(cond
+			((one? n) (cdr lat))
+			(else (cons (car lat)
+				(rempick (sub1 n)
+					(cdr lat)))))))
+
+
+
+
+;Write the function no-nums
+(define no-nums
+	(lambda (lat)
+		(cond
+			((null? lat) (quote ()))
+			(else (cond
+				((number? (car lat))
+					(no-nums (cdr lat)))
+				(else (cons (car lat)
+					(no-nums
+						(cdr lat)))))))))
+
+
+
+;Now write all-nums which extracts a tup from a lat using all the numbers in the lat.
+(define all-nums
+	(lambda (lat)
+		(cond
+			((null? lat) (quote ()))
+			(else
+				(cond
+					((number? (car lat))
+						(cons (car lat)
+							(all-nums (cdr lat))))
+					(else (all-nums (cdr lat))))))))
+
+
+
+;Write the function eqan? whic is true if its two arguments (a1 and a2) are the same atom.
+(define eqan?
+	(lambda (a1 a2)
+		(cond
+			((and (number? a1) (number? a2))
+				(o= a1 a2))
+			((or (number? a1) (number? a2))
+				#f)
+			(else (eq? a1 a2)))))
+
+
+(define one?
+	(lambda (n)
+		(eq? n 1)))
+
+
+
