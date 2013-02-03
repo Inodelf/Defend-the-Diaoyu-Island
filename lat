@@ -1,4 +1,3 @@
-(define r 0)
 (define atom? 
 	(lambda (x)
 		(and (not (pair? x)) (not (null? x)))))
@@ -229,7 +228,7 @@
 	(lambda (n m)
 		(cond
 			((zero? n) #f)
-			(zero? m)
+			((zero? m) #t)
 			(else (greater (sub1 n) (sub1 m))))))
 
 
@@ -305,6 +304,15 @@
 					(cdr lat)))))))
 
 
+(define numb?
+	(lambda (n)
+		(cond
+			((atom? n)
+			((zero? n) 
+			(numb? (sub1 n)))))))
+
+
+
 
 
 ;Write the function no-nums
@@ -340,10 +348,22 @@
 	(lambda (a1 a2)
 		(cond
 			((and (number? a1) (number? a2))
-				(o= a1 a2))
+				(equ a1 a2))
 			((or (number? a1) (number? a2))
 				#f)
 			(else (eq? a1 a2)))))
+
+
+
+(define occur
+	(lambda (a lat)
+		(cond
+			((null? lat) 0)
+			(else 
+				(cond
+					((eq? (car lat) a)
+					(add1 (occur a (cdr lat))))
+					(else (occur a (cdr lat))))))))
 
 
 (define one?
@@ -352,3 +372,315 @@
 
 
 
+(define rember*
+	(lambda (a l)
+		(cond
+			((null? l) (quote ()))
+			((atom? (car l))
+				(cond
+					((eq? (car l) a)
+						(rember* a (cdr l)))
+					(else (cons (car l)
+						(rember* a (cdr l))))))	
+			(else (cons (rember* a (car l))
+				(rember* a (cdr l)))))))
+
+
+( define insertR*
+	(lambda (new old l)
+		(cond
+			((null? l) (quote ()))
+			((atom? (car l))
+     				(cond
+					((eq? (car l) old )
+						(cons old
+							(cons new
+								(insertR* new old
+								 (cdr l)))))
+				(else (cons (car l)
+					(insertR* new old
+					 (cdr l))))))
+			(else (cons (insertR* new old
+				(car l))
+			(insertR* new old
+			 (cdr l)))))))
+
+
+
+(define occur*
+	(lambda (a l)
+		(cond
+			((null? l) 0)
+			((atom?	(car l))
+				(cond
+					((eq? (car l) a)
+					(add1 (occur* a (cdr l))))
+					(else (occur* a (cdr l)))))
+			(else (add (occur* a (car l))
+				(occur* a (cdr l)))))))
+
+
+(define subst*
+	(lambda (new old l)
+		(cond
+			((null? l) (quote ()))
+			((atom? (car l))
+			(cond
+				((eq? (car l) old)
+				(cons new (subst* new old (cdr l))))
+				(else (cons (car l)
+					(subst* new old (cdr l))))))
+		(else
+			(cons (subst* new old (car))
+			(subst* new old (cdr l)))))))
+
+
+
+
+(define insertL*
+	(lambda (new old l)
+		(cond
+			((null? l) (quote ()))
+			((atom? (car l))
+			(cond
+				((eq? (car l) old)
+				(cons new
+					(cons old
+					(insertL* new old (cdr l)))))
+			(else (cons (car l)
+				(insertL* new old (cdr l))))))
+		(else (cons (insertL* new old (car l))
+			(insertL* new old (cdr l)))))))
+
+
+
+(define member*
+	(lambda (a l)
+		(cond
+			((null? l) #f)
+			((atom? (car l))
+			(or (eq? (car l) a)
+				(member* a (cdr l))))
+			(else (or (member* a (car l))
+				(member* a (cdr l)))))))
+
+
+(define leftmost
+	(lambda (l)
+		(cond
+			((atom? (car l)) (car l))
+			(else (leftmost (car l))))))
+
+
+
+
+
+(define equal?
+	(lambda (s1 s2)
+		(cond
+			((and (atom? s1) (atom? s2))
+			(eqan? s1 s2))
+			((or (atom? s1) (atom? s2)) #f)
+			(else (eqlist? s1 s2)))))
+
+
+
+(define eqlist?	
+	(lambda (l1 l2)
+		(cond
+			((and (null? l1) (null? l2)) #t)
+			((or (null? l1) (null? l2)) #f)
+			(else 
+				(and (equal? (car l1) (car l2))
+					(eqlist? (cdr l1) (cdr l2)))))))
+
+
+(define rember2
+	(lambda (s l)
+		(cond
+			((null? l) (quote ()))
+			((equal? (car l) s) (cdr l))
+			(else (cons (car l)
+				(rember2 s (cdr l)))))))
+
+
+;the Sixth Chapter
+(define numbered?
+	(lambda (aexp)
+		(cond
+			((atom? aexp) (number? aexp))
+				(else
+				(and (numbered? (car aexp)) 
+					 (numbered? (car (cdr (cdr aexp)))))))))
+
+
+(define value
+	(lambda (nexp)
+		(cond
+			((atom? nexp) nexp)
+			((eq? (operator nexp) (quote +))
+				(add (value (1st-sub-exp nexp))
+				 (value (2nd-sub-exp nexp))))
+				((eq? (car nexp) (quote *))
+					(multi (value (1st-sub-exp nexp))
+					 (value (2nd-sub-exp nexp))))
+			(else
+				(expt (value (1st-sub-exp nexp))
+					(value (2nd-sub-exp nexp)))))))
+
+(define 1st-sub-exp
+	(lambda (aexp)
+		(car (cdr aexp))))
+
+(define 2nd-sub-exp
+	(lambda (aexp)
+		(car (cdr (cdr aexp)))))
+
+(define operator
+	(lambda (aexp)
+		(car aexp)))
+
+
+
+(define makeset
+	(lambda (lat)
+		(cond
+			((null? lat) (quote ()))
+			((member? (car lat) (cdr lat))
+				  (makeset (cdr lat)))
+			(else (cons (car lat)
+			      (makeset (cdr lat)))))))
+
+
+(define subset?
+	(lambda (set1 set2)
+		(cond
+			((null? set1) #t)
+			((member? (car set1) set2)
+			(subset? (cdr set1) set2))
+			(else #f))))
+
+
+(define intersect
+	(lambda (set1 set2)
+		(cond
+			((null? set1) (quote ()))
+			((member? (car set1) set2)
+			(cons (car set1)
+			      (intersect (cdr set1) set2)))
+			(else
+				(intersect (cdr set1) set2)))))
+
+
+(define union
+	(lambda (set1 set2)
+		(cond
+			((null? set1) set2)
+			((member? (car set1) set2)
+				  (union (cdr set1) set2))
+			(else (cons (car set1)
+			      (union (cdr set1) set2))))))
+
+(define part1
+	(lambda (set1 set2)
+		(cond
+		((null? set1) (quote ()))
+		((member? (car set1) set2)
+			  (part1 (cdr set1) set2))
+		(else (cons (car set1)
+		      (part1 (cdr set1) set2))))))
+
+(define intersectall
+	(lambda (l-set)
+		(cond
+		((null? (cdr l-set)) (car l-set))
+		(else (intersect (car l-set)
+		      (intersectall (cdr l-set)))))))	
+
+
+(define a-pair?
+	(lambda (set)
+		(cond
+			((atom? set) #f)
+			((null? set) #f)
+			((null? (cdr set)) #f)
+			((null? (cdr (cdr set))) #t)
+			(else #f))))	
+
+(define first
+	(lambda (p)
+		(car p)))
+	
+(define second
+	(lambda (p)
+		(car (cdr p))))
+	
+(define build
+	(lambda (s1 s2)
+		(cond
+			(else
+				(cons s1
+				      (cons s2 (quote ())))))))
+
+(define third
+	(lambda (p)
+		(car (cdr (cdr p)))))
+
+(define fun?
+	(lambda (rel)
+		(set? (firsts rel))))
+
+(define revrel
+	(lambda (rel)
+		(cond
+			((null? rel) (quote ()))
+			(else	(cons
+				(build (second (car rel)) 
+				       (first (car rel)))
+				(revrel (cdr rel)))))))
+
+
+
+		
+(define eqset?
+	(lambda (set1 set2)
+			(and (subset? set1 set2)
+			(subset? set2 set1))))
+
+(define set?
+	 (lambda (lat)
+		 (cond
+			((null? lat) #t)
+			((member? (car lat) (cdr lat)) #f)
+			(else (set?  (cdr lat))))))
+(define eq?-c
+	(lambda (a)
+		(lambda (x)
+			(eq? x a))))
+
+
+(define multirember_co
+	(lambda (a lat col)
+		(cond
+			((null? lat)
+			(col (quote ()) (quote ())))
+			((eq? (car lat) a)
+				(multirember_co a (cdr lat)
+				(lambda (newlat seen)
+					(col newlat
+						(cons (car lat) seen)))))
+			(else
+				(multirember_co a
+					(cdr lat)
+					(lambda (newlat seen)
+						(col (cons (car lat) newlat)
+						seen)))))))	
+
+(define a-friend
+	(lambda (x y)
+		(null? y)))
+
+
+(define last-friend 
+	(lambda (x y)
+		(length x)))
