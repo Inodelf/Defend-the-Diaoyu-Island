@@ -1,0 +1,994 @@
+    1  ls
+    2  sudo yum update
+    3  su
+    4  exit
+    5  sudo yum update
+    6  su
+    7  sudo yum update
+    8  sudo yum update -y
+    9  reboot
+   10  sudo yum ibus
+   11  sudo yum install ibus
+   12  cp /usr/share/locale/zh_CN/LC_MESSAGES/ibus*  /usr/share/locale/en_US/LC_MESSAGES 
+   13  sudo cp /usr/share/locale/zh_CN/LC_MESSAGES/ibus*  /usr/share/locale/en_US/LC_MESSAGES 
+   14  sudo vi /etc/X11/xinit/xinitrc.d/50-xinput.sh 
+   15  sudo yum install ibus-table-wubi
+   16  exit
+   17  sudo yum install emacs
+   18  exit
+   19  vim .emacs
+   20  exit
+   21  sudo yum install git git-core
+   22  https://github.com/Inodelf/Defend-the-Diaoyu-Island.git
+   23  git clone https://github.com/Inodelf/Defend-the-Diaoyu-Island.git
+   24  ls
+   25  cd Defend-the-Diaoyu-Island/
+   26  ls
+   27  cd
+   28  cd Defend-the-Diaoyu-Island/
+   29  ls
+   30  vim README 
+   31  cat README 
+   32  vim README 
+   33  cat README 
+   34  vim README 
+   35  cd
+   36  ls
+   37  vim .emacs
+   38  cd Defend-the-Diaoyu-Island/
+   39  ls
+   40  cat README 
+   41  vim README 
+   42  cat README 
+   43  cat README
+   44  vim README 
+   45  cat README
+   46  vim README 
+   47  >README 
+   48  vim README 
+   49  cat '真好' >README
+   50  cd
+   51  ls
+   52  wget http://support7.qnx.com/download/download/21179/qnxsdp-6.5.0-201007091524-linux.bin
+   53  ls
+   54  cd Downloads/
+   55  ls
+   56  cd
+   57  ls
+   58  cd Downloads/
+   59  ls
+   60  mv qnxsdp-6.5.0-201007091524-linux.bin ../
+   61  cd
+   62  ls
+   63  chmod u+x qnxsdp-6.5.0-201007091524-linux.bin 
+   64  ./qnxsdp-6.5.0-201007091524-linux.bin &
+   65  sudo ./qnxsdp-6.5.0-201007091524-linux.bin 
+   66  ls
+   67  cd
+   68  ls
+   69  slogin 
+   70  slogin
+   71  man qnx
+   72  use qnx
+   73  qconn
+   74  which qconn
+   75  locate qconn
+   76  ls
+   77  ./qnxsdp-6.5.0-201007091524-linux.bin 
+   78  ls
+   79  ps -aux |grep qnx
+   80  ps -aux |grep qnxsdp
+   81  ls
+   82  sudo ./qnxsdp-6.5.0-201007091524-linux.bin 
+   83  lsvim qnxsdp-6.5.0-201007091524-linux.bin 
+   84  vim qnxsdp-6.5.0-201007091524-linux.bin 
+   85  ls
+   86  cd Downloads/
+   87  ls
+   88  vim License_Text_File_Workstation_901_A.txt 
+   89  vim --help
+   90  vim -R License_Text_File_Workstation_901_A.txt 
+   91  wget https://my.vmware.com/group/vmware/details?downloadGroup=WKST-901-LX&productId=293&rPId=3086#
+   92  wget https://download2.vmware.com/software/wkst/VMware-Workstation-Full-9.0.1-894247.x86_64.bundle?HashKey=f713a822962fcbe202d7e699a17636e2&AuthKey=1360330357_120052df72751ffb32c69baf774b9277
+   93  cd
+   94  ls
+   95  vim cd Documents/
+   96  cd Documents/
+   97  ls
+   98  vim vmware_key
+   99  cd
+  100  cd Downloads/
+  101  ls
+  102  rm *bundle
+  103  ls
+  104  vim login 
+  105  rm login 
+  106  ls
+  107  cd
+  108  cd -
+  109  ls
+  110  chmod u+x VMware-Workstation-Full-9.0.1-894247.x86_64.bundle 
+  111  ls
+  112  sudo ./VMware-Workstation-Full-9.0.1-894247.x86_64.bundle 
+  113  sudo yum install libpk-gtk-module libcanberra-gtk-module
+  114  sudo ./VMware-Workstation-Full-9.0.1-894247.x86_64.bundle 
+  115  cd
+  116  ls
+  117  chmod u-x qnxsdp-6.5.0-201007091524-linux.bin 
+  118  ls
+  119  cd Documents/
+  120  ls
+  121  vim vmware_key 
+  122  ls
+  123  cp ./CDROM qnx.iso
+  124  ls
+  125  cp /dev/cdrom ./qnx.iso
+  126  ls
+  127  w3m http://community.qnx.com/sf/wiki/do/viewPage/projects.core_os/wiki/Os_source_guide
+  128  sudo yum install w3m
+  129  w3m http://community.qnx.com/sf/wiki/do/viewPage/projects.core_os/wiki/Os_source_guide
+  130   svn checkout --username Hao Zhang http://community.qnx.com/svn/repos/coreos_pub/trunk
+  131  sudo yum install svn
+  132   svn checkout --username Hao\ Zhang http://community.qnx.com/svn/repos/coreos_pub/trunk
+  133   svn checkout --username Hao Zhang http://community.qnx.com/svn/repos/coreos_pub/trunk
+  134   svn checkout --username Hao\ Zhang http://community.qnx.com/svn/repos/coreos_pub/trunk
+  135   svn checkout  http://community.qnx.com/svn/repos/coreos_pub/trunk
+  136  svnserve -version
+  137  svnserve --version
+  138  sudo yum search fs_fs
+  139  sudo yum install libattr-devel
+  140  svnserve --version
+  141  sudo mkdir -p /opt/svndata/game
+  142  svnadmin create /opt/svndata/game/
+  143  sudo svnadmin create /opt/svndata/game/
+  144  ls /opt/svndata/game/
+  145  import
+  146  vi /opt/svndata/game/conf/svnserve.conf 
+  147  sudo vi /opt/svndata/game/conf/svnserve.conf 
+  148  sudo vi /opt/svndata/game/conf/passwd 
+  149  sudo vi /opt/svndata/game/conf/authz 
+  150  svnserve -d -r /opt/svndata/game/
+  151  netstat -ntlp|grep 3690
+  152   svn checkout --username Hao\ Zhang http://community.qnx.com/svn/repos/coreos_pub/trunk
+  153   svn checkout  http://community.qnx.com/svn/repos/coreos_pub/trunk
+  154  svnserve -d -r /opt/svndata/game/
+  155  sudo svnserve -d -r /opt/svndata/game/
+  156  netstat -ntlp
+  157  kill 4932
+  158  netstat -ntlp
+  159  svnserve -d -r /opt/svndata/game/
+  160   svn checkout  http://community.qnx.com/svn/repos/coreos_pub/trunk
+  161  ls
+  162  cd Downloads/
+  163  ls
+  164  chmod u+x qnxsdp-6.5.0SP1-201206271006-linux.bin 
+  165  ls
+  166  ./qnxsdp-6.5.0SP1-201206271006-linux.bin 
+  167  sudo yum install java
+  168  ./qnxsdp-6.5.0SP1-201206271006-linux.bin 
+  169  which java
+  170  exit
+  171  sudo yum install rar unrar
+  172  cd Downloads/
+  173  ls
+  174  tar zxvf rarlinux-4.2.0.tar.gz 
+  175  ls
+  176  cd rar
+  177  ls
+  178  make
+  179  sudo yum install make
+  180  ls
+  181  make
+  182  sudomake
+  183  sudo make
+  184  cd ..
+  185  ls
+  186  unrar --help
+  187  unrar QNX%E6%95%99%E6%9D%90%E6%B1%87%E6%80%BB1.rar 
+  188  ld
+  189  sudo yum install libld
+  190  sudo yum install ld-linux
+  191  sudo yum install ld-linux-devel
+  192  exit
+  193  cd Downloads/rar
+  194  ls
+  195  cp rar_static /usr/local/bin/rar 
+  196  sudo cp rar_static /usr/local/bin/rar 
+  197  ls
+  198  cd ..
+  199  ls
+  200  rar -x QNX%E6%95%99%E6%9D%90%E6%B1%87%E6%80%BB1.rar 
+  201  rar x QNX%E6%95%99%E6%9D%90%E6%B1%87%E6%80%BB1.rar 
+  202  ls
+  203  cd QNX*1
+  204  ls
+  205  exit
+  206  top
+  207  exit
+  208  cd Downloads/
+  209  ls
+  210  cd QNX教材汇总1/
+  211  ls
+  212  ll
+  213  du -f ./
+  214  ls -al
+  215  ld
+  216  cd
+  217  ls
+  218  cd Downloads/
+  219  ls
+  220  dd if=qnxsdp-6.5.0-201007091524-dvd.iso of=/dev/sdb
+  221  sudo fdisk /dev/sdb
+  222  sudo du -f /dev/sdb
+  223  du --help
+  224  lsusb
+  225  cd /dev
+  226  ls
+  227  cd
+  228  cd /mnt/
+  229  ls
+  230  cd boot/
+  231  ls
+  232  cd
+  233  ls
+  234  cd /
+  235  ls
+  236  cd media/
+  237  ls
+  238  cd 8A28-8BF8/
+  239  ls
+  240  ls -a
+  241  cd ..
+  242  du -f 8A28-8BF8/
+  243  ls /mnt/usb
+  244  cd
+  245  fdisk /dev/sda
+  246  fdisk -l
+  247  sudo fdisk /dev/sda
+  248  ls
+  249  cd Downloads/
+  250  ls
+  251  dd if=qnxsdp-6.5.0-201007091524-dvd.iso of=/dev/sda
+  252  sudo dd if=qnxsdp-6.5.0-201007091524-dvd.iso of=/dev/sda
+  253  cd /media/
+  254  ls
+  255  cd QNXSDP650/
+  256  ls
+  257  sudo ./install2 
+  258  vim install2 
+  259  cd
+  260  rebood
+  261  reboot
+  262  cd /media/
+  263  ls
+  264  cd QNXSDP650/
+  265  ls
+  266  ./autorun 
+  267  sudo ./autorun
+  268  ls
+  269  cd
+  270  linux 刻录光盘
+  271  sudo yum install brasero
+  272  cd Downloads/
+  273  ls
+  274  cdrecord --help
+  275  cdrecord -scanbus
+  276  exit
+  277  sudo fdisk /dev/sda
+  278  cd Defend-the-Diaoyu-Island/
+  279  ls
+  280  vim defisland.c 
+  281  sudo yum install gui
+  282  sudo yum install guile
+  283  ls
+  284  cd Defend-the-Diaoyu-Island/
+  285  ls
+  286  vim libscheme 
+  287  cp libscheme ../lat
+  288  ls
+  289  cd
+  290  ls
+  291  vim lat 
+  292  exit
+  293  gui
+  294  guile -l lat
+  295  gui
+  296  exit
+  297  gui
+  298  sudo yum install gtk
+  299  sudo yum search gtk
+  300  sudo yum search sdl
+  301  sudo yum install sdl
+  302  sudo yum install SDL*
+  303  which SDL
+  304  man SDL
+  305  sudo yum update
+  306  sudo yum search snake
+  307  sudo yum install gcc
+  308  cd Defend-the-Diaoyu-Island/
+  309  ls
+  310  ./first 
+  311  ls
+  312  mv first.c first.cpp
+  313  sudo yum search c++
+  314  sudo yum install gcc-c++
+  315  ls
+  316  chmod u+x first
+  317    libstdc++-devel.x86_64 0:4.4.6-4.el6              ls                            
+  318  ls
+  319  g++ -o hello hello.cpp
+  320  ls
+  321  ./hello
+  322  ./first
+  323  man SDL
+  324  sudo yum install telnet
+  325  ls
+  326  mv tcp_server TcpServer
+  327  ls
+  328  mv picture,c picture.c
+  329  ls
+  330  gcc -o picture picture
+  331  gcc -o picture picture.c
+  332  cd Defend-the-Diaoyu-Island/
+  333  ls
+  334  vim picture.c
+  335  gcc -o picture picture.c
+  336  vim vedio.c
+  337  gedit vedio.c
+  338  ls
+  339  gcc -o vedio vedio.c 
+  340  vim vedio.c 
+  341  gcc -o vedio vedio.c 
+  342  locate SDL.h
+  343  sudo yum search SDL.h
+  344  sudo yum search SDL
+  345  sudo yum install SDL-devel
+  346  sudo yum install SDL-static
+  347  locate SDL
+  348  updatedb 
+  349  sudo updatedb 
+  350  locate SDL
+  351  locate SDL.h
+  352  gcc -o vedio vedio.c 
+  353  cp /usr/include/SDL/SDL.h ./
+  354  ls
+  355  gcc -o vedio vedio.c 
+  356  cd
+  357  ls
+  358  ls -a
+  359  sudo vim /etc/profile
+  360  vim .profile
+  361  exit
+  362  source /etc/profile
+  363  ls
+  364  cd Defend-the-Diaoyu-Island/
+  365  ls
+  366  rm SDL.h 
+  367  gcc -o vedio vedio.c 
+  368  cd Defend-the-Diaoyu-Island/
+  369  gcc -o vedio vedio.c 
+  370  ls
+  371  vim vedio.c 
+  372  gcc -o vedio vedio.c 
+  373  cd
+  374  vim .profile 
+  375  source /etc/profile
+  376  ls
+  377  cd Defend-the-Diaoyu-Island/
+  378  ls
+  379  gcc -o vedio vedio.c 
+  380  pkg-config 
+  381  pkg-config SDL
+  382  gcc -o vedio vedio.c 
+  383  cd
+  384  ls
+  385  vim .profile 
+  386  cd /lib
+  387  ls
+  388  cd
+  389  cd /usr/lib
+  390  ls
+  391  cd gcc/
+  392  ls
+  393  cd x86_64-redhat-linux/
+  394  ls
+  395  cd 4.4.6/
+  396  ls
+  397  cd ..
+  398  ls
+  399  cd ..
+  400  ls
+  401  cd ..
+  402  ls
+  403  cd lib64/
+  404  ls
+  405  cd
+  406  locate SDL
+  407  vim .profile 
+  408  source /etc/profile
+  409  cd Defend-the-Diaoyu-Island/
+  410  ls
+  411  gcc -o vedio vedio.c 
+  412  ls
+  413  cd Defend-the-Diaoyu-Island/
+  414  ls
+  415  gcc -o vedio vedio.c 
+  416  sudo yum search SDL_image
+  417  sudo yum search SDL
+  418  cd ../Downloads/
+  419  ls
+  420  sudo yum install SDL_image-1.2.12-1.x86_64.rpm 
+  421  sudo yum install libc
+  422  sudo yum install libc.so.6
+  423  sudo yum install SDL_image-1.2.12-1.x86_64.rpm 
+  424  cd Defend-the-Diaoyu-Island/
+  425  ls
+  426  gcc -o vedio vedio.c -l /usr/include/SDL -lSDL
+  427  cd /usr/include/SDL/
+  428  ls
+  429  gcc -o vedio vedio.c  -lSDL
+  430  pwd
+  431  cd =
+  432  cd -
+  433  gcc -o vedio vedio.c  -lSDL
+  434  ls
+  435  ./vedio 
+  436  ./first 
+  437  vim vedio.c 
+  438  ./vedio 
+  439  vim vedio.c
+  440  gcc -o vedio vedio.c  -lSDL
+  441  ./vedio 
+  442  vim first
+  443  vim first.cpp
+  444  rm first*
+  445  ls
+  446  ./hello 
+  447  vim hello
+  448  vim hello.cpp 
+  449  rm hello*
+  450  ls
+  451  gcc -o picture picture.c -lSDL
+  452  vim picture.c
+  453  ls
+  454  vim vedio.c
+  455  ls
+  456  vim picture.c
+  457  gcc -o picture picture.c -lSDL
+  458  history >>file
+    1  ls
+    2  sudo yum update
+    3  su
+    4  exit
+    5  sudo yum update
+    6  su
+    7  sudo yum update
+    8  sudo yum update -y
+    9  reboot
+   10  sudo yum ibus
+   11  sudo yum install ibus
+   12  cp /usr/share/locale/zh_CN/LC_MESSAGES/ibus*  /usr/share/locale/en_US/LC_MESSAGES 
+   13  sudo cp /usr/share/locale/zh_CN/LC_MESSAGES/ibus*  /usr/share/locale/en_US/LC_MESSAGES 
+   14  sudo vi /etc/X11/xinit/xinitrc.d/50-xinput.sh 
+   15  sudo yum install ibus-table-wubi
+   16  exit
+   17  sudo yum install emacs
+   18  exit
+   19  vim .emacs
+   20  exit
+   21  sudo yum install git git-core
+   22  https://github.com/Inodelf/Defend-the-Diaoyu-Island.git
+   23  git clone https://github.com/Inodelf/Defend-the-Diaoyu-Island.git
+   24  ls
+   25  cd Defend-the-Diaoyu-Island/
+   26  ls
+   27  cd
+   28  cd Defend-the-Diaoyu-Island/
+   29  ls
+   30  vim README 
+   31  cat README 
+   32  vim README 
+   33  cat README 
+   34  vim README 
+   35  cd
+   36  ls
+   37  vim .emacs
+   38  cd Defend-the-Diaoyu-Island/
+   39  ls
+   40  cat README 
+   41  vim README 
+   42  cat README 
+   43  cat README
+   44  vim README 
+   45  cat README
+   46  vim README 
+   47  >README 
+   48  vim README 
+   49  cat '真好' >README
+   50  cd
+   51  ls
+   52  wget http://support7.qnx.com/download/download/21179/qnxsdp-6.5.0-201007091524-linux.bin
+   53  ls
+   54  cd Downloads/
+   55  ls
+   56  cd
+   57  ls
+   58  cd Downloads/
+   59  ls
+   60  mv qnxsdp-6.5.0-201007091524-linux.bin ../
+   61  cd
+   62  ls
+   63  chmod u+x qnxsdp-6.5.0-201007091524-linux.bin 
+   64  ./qnxsdp-6.5.0-201007091524-linux.bin &
+   65  sudo ./qnxsdp-6.5.0-201007091524-linux.bin 
+   66  ls
+   67  cd
+   68  ls
+   69  slogin 
+   70  slogin
+   71  man qnx
+   72  use qnx
+   73  qconn
+   74  which qconn
+   75  locate qconn
+   76  ls
+   77  ./qnxsdp-6.5.0-201007091524-linux.bin 
+   78  ls
+   79  ps -aux |grep qnx
+   80  ps -aux |grep qnxsdp
+   81  ls
+   82  sudo ./qnxsdp-6.5.0-201007091524-linux.bin 
+   83  lsvim qnxsdp-6.5.0-201007091524-linux.bin 
+   84  vim qnxsdp-6.5.0-201007091524-linux.bin 
+   85  ls
+   86  cd Downloads/
+   87  ls
+   88  vim License_Text_File_Workstation_901_A.txt 
+   89  vim --help
+   90  vim -R License_Text_File_Workstation_901_A.txt 
+   91  wget https://my.vmware.com/group/vmware/details?downloadGroup=WKST-901-LX&productId=293&rPId=3086#
+   92  wget https://download2.vmware.com/software/wkst/VMware-Workstation-Full-9.0.1-894247.x86_64.bundle?HashKey=f713a822962fcbe202d7e699a17636e2&AuthKey=1360330357_120052df72751ffb32c69baf774b9277
+   93  cd
+   94  ls
+   95  vim cd Documents/
+   96  cd Documents/
+   97  ls
+   98  vim vmware_key
+   99  cd
+  100  cd Downloads/
+  101  ls
+  102  rm *bundle
+  103  ls
+  104  vim login 
+  105  rm login 
+  106  ls
+  107  cd
+  108  cd -
+  109  ls
+  110  chmod u+x VMware-Workstation-Full-9.0.1-894247.x86_64.bundle 
+  111  ls
+  112  sudo ./VMware-Workstation-Full-9.0.1-894247.x86_64.bundle 
+  113  sudo yum install libpk-gtk-module libcanberra-gtk-module
+  114  sudo ./VMware-Workstation-Full-9.0.1-894247.x86_64.bundle 
+  115  cd
+  116  ls
+  117  chmod u-x qnxsdp-6.5.0-201007091524-linux.bin 
+  118  ls
+  119  cd Documents/
+  120  ls
+  121  vim vmware_key 
+  122  ls
+  123  cp ./CDROM qnx.iso
+  124  ls
+  125  cp /dev/cdrom ./qnx.iso
+  126  ls
+  127  w3m http://community.qnx.com/sf/wiki/do/viewPage/projects.core_os/wiki/Os_source_guide
+  128  sudo yum install w3m
+  129  w3m http://community.qnx.com/sf/wiki/do/viewPage/projects.core_os/wiki/Os_source_guide
+  130   svn checkout --username Hao Zhang http://community.qnx.com/svn/repos/coreos_pub/trunk
+  131  sudo yum install svn
+  132   svn checkout --username Hao\ Zhang http://community.qnx.com/svn/repos/coreos_pub/trunk
+  133   svn checkout --username Hao Zhang http://community.qnx.com/svn/repos/coreos_pub/trunk
+  134   svn checkout --username Hao\ Zhang http://community.qnx.com/svn/repos/coreos_pub/trunk
+  135   svn checkout  http://community.qnx.com/svn/repos/coreos_pub/trunk
+  136  svnserve -version
+  137  svnserve --version
+  138  sudo yum search fs_fs
+  139  sudo yum install libattr-devel
+  140  svnserve --version
+  141  sudo mkdir -p /opt/svndata/game
+  142  svnadmin create /opt/svndata/game/
+  143  sudo svnadmin create /opt/svndata/game/
+  144  ls /opt/svndata/game/
+  145  import
+  146  vi /opt/svndata/game/conf/svnserve.conf 
+  147  sudo vi /opt/svndata/game/conf/svnserve.conf 
+  148  sudo vi /opt/svndata/game/conf/passwd 
+  149  sudo vi /opt/svndata/game/conf/authz 
+  150  svnserve -d -r /opt/svndata/game/
+  151  netstat -ntlp|grep 3690
+  152   svn checkout --username Hao\ Zhang http://community.qnx.com/svn/repos/coreos_pub/trunk
+  153   svn checkout  http://community.qnx.com/svn/repos/coreos_pub/trunk
+  154  svnserve -d -r /opt/svndata/game/
+  155  sudo svnserve -d -r /opt/svndata/game/
+  156  netstat -ntlp
+  157  kill 4932
+  158  netstat -ntlp
+  159  svnserve -d -r /opt/svndata/game/
+  160   svn checkout  http://community.qnx.com/svn/repos/coreos_pub/trunk
+  161  ls
+  162  cd Downloads/
+  163  ls
+  164  chmod u+x qnxsdp-6.5.0SP1-201206271006-linux.bin 
+  165  ls
+  166  ./qnxsdp-6.5.0SP1-201206271006-linux.bin 
+  167  sudo yum install java
+  168  ./qnxsdp-6.5.0SP1-201206271006-linux.bin 
+  169  which java
+  170  exit
+  171  sudo yum install rar unrar
+  172  cd Downloads/
+  173  ls
+  174  tar zxvf rarlinux-4.2.0.tar.gz 
+  175  ls
+  176  cd rar
+  177  ls
+  178  make
+  179  sudo yum install make
+  180  ls
+  181  make
+  182  sudomake
+  183  sudo make
+  184  cd ..
+  185  ls
+  186  unrar --help
+  187  unrar QNX%E6%95%99%E6%9D%90%E6%B1%87%E6%80%BB1.rar 
+  188  ld
+  189  sudo yum install libld
+  190  sudo yum install ld-linux
+  191  sudo yum install ld-linux-devel
+  192  exit
+  193  cd Downloads/rar
+  194  ls
+  195  cp rar_static /usr/local/bin/rar 
+  196  sudo cp rar_static /usr/local/bin/rar 
+  197  ls
+  198  cd ..
+  199  ls
+  200  rar -x QNX%E6%95%99%E6%9D%90%E6%B1%87%E6%80%BB1.rar 
+  201  rar x QNX%E6%95%99%E6%9D%90%E6%B1%87%E6%80%BB1.rar 
+  202  ls
+  203  cd QNX*1
+  204  ls
+  205  exit
+  206  top
+  207  exit
+  208  cd Downloads/
+  209  ls
+  210  cd QNX教材汇总1/
+  211  ls
+  212  ll
+  213  du -f ./
+  214  ls -al
+  215  ld
+  216  cd
+  217  ls
+  218  cd Downloads/
+  219  ls
+  220  dd if=qnxsdp-6.5.0-201007091524-dvd.iso of=/dev/sdb
+  221  sudo fdisk /dev/sdb
+  222  sudo du -f /dev/sdb
+  223  du --help
+  224  lsusb
+  225  cd /dev
+  226  ls
+  227  cd
+  228  cd /mnt/
+  229  ls
+  230  cd boot/
+  231  ls
+  232  cd
+  233  ls
+  234  cd /
+  235  ls
+  236  cd media/
+  237  ls
+  238  cd 8A28-8BF8/
+  239  ls
+  240  ls -a
+  241  cd ..
+  242  du -f 8A28-8BF8/
+  243  ls /mnt/usb
+  244  cd
+  245  fdisk /dev/sda
+  246  fdisk -l
+  247  sudo fdisk /dev/sda
+  248  ls
+  249  cd Downloads/
+  250  ls
+  251  dd if=qnxsdp-6.5.0-201007091524-dvd.iso of=/dev/sda
+  252  sudo dd if=qnxsdp-6.5.0-201007091524-dvd.iso of=/dev/sda
+  253  cd /media/
+  254  ls
+  255  cd QNXSDP650/
+  256  ls
+  257  sudo ./install2 
+  258  vim install2 
+  259  cd
+  260  rebood
+  261  reboot
+  262  cd /media/
+  263  ls
+  264  cd QNXSDP650/
+  265  ls
+  266  ./autorun 
+  267  sudo ./autorun
+  268  ls
+  269  cd
+  270  linux 刻录光盘
+  271  sudo yum install brasero
+  272  cd Downloads/
+  273  ls
+  274  cdrecord --help
+  275  cdrecord -scanbus
+  276  exit
+  277  sudo fdisk /dev/sda
+  278  cd Defend-the-Diaoyu-Island/
+  279  ls
+  280  vim defisland.c 
+  281  sudo yum install gui
+  282  sudo yum install guile
+  283  ls
+  284  cd Defend-the-Diaoyu-Island/
+  285  ls
+  286  vim libscheme 
+  287  cp libscheme ../lat
+  288  ls
+  289  cd
+  290  ls
+  291  vim lat 
+  292  exit
+  293  gui
+  294  guile -l lat
+  295  gui
+  296  exit
+  297  gui
+  298  sudo yum install gtk
+  299  sudo yum search gtk
+  300  sudo yum search sdl
+  301  sudo yum install sdl
+  302  sudo yum install SDL*
+  303  which SDL
+  304  man SDL
+  305  sudo yum update
+  306  sudo yum search snake
+  307  sudo yum install gcc
+  308  cd Defend-the-Diaoyu-Island/
+  309  ls
+  310  ./first 
+  311  ls
+  312  mv first.c first.cpp
+  313  sudo yum search c++
+  314  sudo yum install gcc-c++
+  315  ls
+  316  chmod u+x first
+  317    libstdc++-devel.x86_64 0:4.4.6-4.el6              ls                            
+  318  ls
+  319  g++ -o hello hello.cpp
+  320  ls
+  321  ./hello
+  322  ./first
+  323  man SDL
+  324  sudo yum install telnet
+  325  ls
+  326  mv tcp_server TcpServer
+  327  ls
+  328  mv picture,c picture.c
+  329  ls
+  330  gcc -o picture picture
+  331  gcc -o picture picture.c
+  332  cd Defend-the-Diaoyu-Island/
+  333  ls
+  334  vim picture.c
+  335  gcc -o picture picture.c
+  336  vim vedio.c
+  337  gedit vedio.c
+  338  ls
+  339  gcc -o vedio vedio.c 
+  340  vim vedio.c 
+  341  gcc -o vedio vedio.c 
+  342  locate SDL.h
+  343  sudo yum search SDL.h
+  344  sudo yum search SDL
+  345  sudo yum install SDL-devel
+  346  sudo yum install SDL-static
+  347  locate SDL
+  348  updatedb 
+  349  sudo updatedb 
+  350  locate SDL
+  351  locate SDL.h
+  352  gcc -o vedio vedio.c 
+  353  cp /usr/include/SDL/SDL.h ./
+  354  ls
+  355  gcc -o vedio vedio.c 
+  356  cd
+  357  ls
+  358  ls -a
+  359  sudo vim /etc/profile
+  360  vim .profile
+  361  exit
+  362  source /etc/profile
+  363  ls
+  364  cd Defend-the-Diaoyu-Island/
+  365  ls
+  366  rm SDL.h 
+  367  gcc -o vedio vedio.c 
+  368  cd Defend-the-Diaoyu-Island/
+  369  gcc -o vedio vedio.c 
+  370  ls
+  371  vim vedio.c 
+  372  gcc -o vedio vedio.c 
+  373  cd
+  374  vim .profile 
+  375  source /etc/profile
+  376  ls
+  377  cd Defend-the-Diaoyu-Island/
+  378  ls
+  379  gcc -o vedio vedio.c 
+  380  pkg-config 
+  381  pkg-config SDL
+  382  gcc -o vedio vedio.c 
+  383  cd
+  384  ls
+  385  vim .profile 
+  386  cd /lib
+  387  ls
+  388  cd
+  389  cd /usr/lib
+  390  ls
+  391  cd gcc/
+  392  ls
+  393  cd x86_64-redhat-linux/
+  394  ls
+  395  cd 4.4.6/
+  396  ls
+  397  cd ..
+  398  ls
+  399  cd ..
+  400  ls
+  401  cd ..
+  402  ls
+  403  cd lib64/
+  404  ls
+  405  cd
+  406  locate SDL
+  407  vim .profile 
+  408  source /etc/profile
+  409  cd Defend-the-Diaoyu-Island/
+  410  ls
+  411  gcc -o vedio vedio.c 
+  412  ls
+  413  cd Defend-the-Diaoyu-Island/
+  414  ls
+  415  gcc -o vedio vedio.c 
+  416  sudo yum search SDL_image
+  417  sudo yum search SDL
+  418  cd ../Downloads/
+  419  ls
+  420  sudo yum install SDL_image-1.2.12-1.x86_64.rpm 
+  421  sudo yum install libc
+  422  sudo yum install libc.so.6
+  423  sudo yum install SDL_image-1.2.12-1.x86_64.rpm 
+  424  cd Defend-the-Diaoyu-Island/
+  425  ls
+  426  gcc -o vedio vedio.c -l /usr/include/SDL -lSDL
+  427  cd /usr/include/SDL/
+  428  ls
+  429  gcc -o vedio vedio.c  -lSDL
+  430  pwd
+  431  cd =
+  432  cd -
+  433  gcc -o vedio vedio.c  -lSDL
+  434  ls
+  435  ./vedio 
+  436  ./first 
+  437  vim vedio.c 
+  438  ./vedio 
+  439  vim vedio.c
+  440  gcc -o vedio vedio.c  -lSDL
+  441  ./vedio 
+  442  vim first
+  443  vim first.cpp
+  444  rm first*
+  445  ls
+  446  ./hello 
+  447  vim hello
+  448  vim hello.cpp 
+  449  rm hello*
+  450  ls
+  451  gcc -o picture picture.c -lSDL
+  452  vim picture.c
+  453  ls
+  454  vim vedio.c
+  455  ls
+  456  vim picture.c
+  457  gcc -o picture picture.c -lSDL
+  458  history >>file
+  459  cat file 
+  460  cat file |wc -l
+  461  cat file |wc -c
+  462  guile
+  463  sudo yum install bc
+  464  bc
+  465  vim vedio.c
+  466  ./vedio 
+  467  vim vedio.c
+  468  gcc -o vedio vedio.c -lSDL
+  469  ls
+  470  ./vedio 
+  471  vim vedio.c
+  472  gcc -o -c picture picture.c -lSDL
+  473  gcc -c -o picture picture.c -lSDL
+  474  ls
+  475  chmod u+x picture
+  476  ./picture 
+  477  ls
+  478  ./picture 
+  479  vim picture.c
+  480  gcc -c -o picture picture.c -lSDL
+  481  vim picture.c
+  482  gcc -c -o picture picture.c -lSDL
+  483  ./picture
+  484  ls
+  485  chmod u+x picture
+  486  ./picture 
+  487  ld ./picture
+  488  ld ./picture -lSDL
+  489  gcc -o picture picture.c -lSDL
+  490  vim picture.c
+  491  vim vedio.c
+  492  vim picture.c
+  493  vim vedio.c
+  494  vim picture.c
+  495  gcc -o picture picture.c -lSDL
+  496  vim picture.c
+  497  gcc -o picture picture.c -lSDL
+  498  vim picture.c
+  499  gcc -o picture picture.c -lSDL
+  500  ls
+  501  ./picture 
+  502  vim picture.c
+  503  ls
+  504  mv hello.bmp background.bmp
+  505  vim picture.c
+  506  ./picture 
+  507  mv background.bmp good.bmp
+  508  vim picture.c
+  509  ./picture 
+  510  vim picture
+  511  vim picture.c
+  512  gcc -o picture picture.c -lSDL
+  513  ./picture 
+  514  ls
+  515  ./picture 
+  516  vim picture.c
+  517  sudo yum install gimp
+  518  ls
+  519  ./picture 
+  520  vim picture.c 
+  521  ls
+  522  mv background.bmp backup.bmp
+  523  mv good.bmp background.bmp
+  524  ./picture 
+  525  vim picture.c
+  526  gcc -o picture picture.c -lSDL
+  527  ./picture 
+  528  gcc -o picture picture.c -lSDL
+  529  vim picture.c
+  530  gcc -o picture picture.c -lSDL
+  531  ./picture 
+  532  ls
+  533  mv background.bmp good.bmp
+  534  mv backup.bmp background.bmp
+  535  ./picture 
+  536  history >>file 

@@ -1,0 +1,12 @@
+class TcpServer
+{
+private:
+	int listenSock;
+	int communicationSock;
+	sockaddr_in servAddr;
+	sockadd_in clntAddr;
+public:
+	TcpServer(int listen_port);
+	bool lsAccept();
+	void handleEcho();
+};

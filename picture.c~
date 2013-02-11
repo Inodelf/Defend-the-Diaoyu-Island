@@ -1,0 +1,7 @@
+/* 
+function name: loadImg
+parameter:cons char* FileName
+parameter Note:FileName is a pointer use to save the name of image file
+return:SDL_Surface* this is a pointer of SDL_Surface
+function:load image to memory
+*/
