@@ -1,0 +1,7 @@
+			Instruction
+	The first time, you should intall some package to compile the source, you should install something like this:
+	SDL	SDL_ttf	SDL_image SDL_mixer	
+	The step of install just like this
+	./configure
+	make
+	sudo makeinstall
