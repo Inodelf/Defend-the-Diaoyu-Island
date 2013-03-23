@@ -1,0 +1,2 @@
+"RemoteAccess"
+"Gnome-RDP" "/usr/share/pixmaps/gnome-rdp.png" exec "gnome-rdp"

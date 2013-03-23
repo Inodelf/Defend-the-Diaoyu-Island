@@ -1,0 +1,39 @@
+# FVWM-Crystal version
+
+# Setup colorsets
+Read $./Colorsets
+
+DestroyDecor recreate WindowDecoration
+AddToDecor WindowDecoration
+
++ TitleStyle InActive Colorset $[cs-window-inactive]
++ TitleStyle Active Colorset $[cs-window-active]
++ TitleStyle LeftJustified
++ TitleStyle -- flat
++ TitleStyle Height 20
+
++ BorderStyle -- HiddenHandles
++ BorderStyle -- Flat
+
++ ButtonStyle 6 Pixmap $./window-close.png
+
++ ButtonStyle 2 Pixmap $./window-maximize.png
+
++ ButtonStyle 4 Pixmap $./window-iconify.png
+
++ ButtonStyle 1 Pixmap $./window-arrows.png
+
++ ButtonStyle All -- UseTitleStyle
++ ButtonStyle All -- flat
+
+Style * HandleWidth 1, BorderWidth 1
+Style * Colorset                $[cs-window-inactive], \
+        BorderColorset          $[cs-window-inactive], \
+        HilightColorset         $[cs-window-active], \
+        HilightBorderColorset   $[cs-window-active]
+
+Style * Font "shadow=1 1 SE:xft:WenQuanYi Bitmap Song:Bold:Size=12:enconding=iso10646-1"
+#Style * Font "shadow=1 1 SE:xft:Vera Sans YuanTi:Medium:Size=12:enconding=iso10646-1"
+
+Style * UseDecor WindowDecoration
+

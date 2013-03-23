@@ -1,0 +1,50 @@
+###############################################################################
+##### Startup Functions
+###############################################################################
+
+DestroyFunc StartFunction
+AddToFunc StartFunction 
++ I Module FvwmBanner
+#+ I Module FvwmAudio
+#+ I Module FvwmBacker
+#+ I Module FvwmButtons
++ I Module FvwmEvent
++ I Module FvwmAuto FvwmAutohide -menter enter_handler
++ I Module FvwmAuto 500 Raise Nop
++ I Module FvwmAnimate
++ I Module FvwmPager 0 1
++ I Module FvwmCommandS
+
+DestroyFunc InitFunction
+AddToFunc InitFunction
++ I Exec exec $[fvwm_root] $[fvwm_wallpaper]
++ I Test (Restart) All (Iconic) Test (f $[FVWM_USERDIR]/icon.tmp.$[w.id].png) WindowStyle IconOverride, Icon $[FVWM_USERDIR]/icon.tmp.$[w.id].png
++ I Exec exec xdaliclock -24 -font builtin1 -transparent -geom -0+0 -bg white -fg black -nosecond
+#+ I Test (Init) Exec root-tail -g 650x100+500-50 -color blue -wordwrap /var/log/messages
+#+ I Exec exec /usr/libexec/gnome-settings-daemon
++ I Exec exec conky
++ I Exec exec numlockx on &
+
+DestroyFunc RestartFunction
+AddToFunc RestartFunction
++ I Exec exec xdaliclock -24 -font builtin1 -transparent -geom -0+0 -bg white -fg black -nosecond
+#+ I Test (Init) Exec root-tail -g 650x100+500-50 -color blue -wordwrap /var/log/messages
++ I Exec exec sync
+
+DestroyFunc ExitFunction
+AddToFunc ExitFunction
++ I All (numlockx) Close
++ I All (conky) Close
++ I All (xdaliclock) Close
++ I Test (!ToRestart) Exec exec rm -f $[HOME]/.fvwm/icon.tmp.*
++ I Exec exec sync
+
+###################################################################
+### FvwmBanner (Splash Screen)
+###################################################################
+
+*FvwmBanner: NoDecor
+*FvwmBanner: Pixmap $[fvwm_splash_path]/splash_dark.png
+*FvwmBanner: Timeout 5
+
+###################################################################

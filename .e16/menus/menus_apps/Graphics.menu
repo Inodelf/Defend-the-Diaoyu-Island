@@ -1,0 +1,7 @@
+"Graphics"
+"GNU 图像处理程序" "/usr/share/icons/hicolor/48x48/apps/gimp.png" exec "gimp-2.8"
+"Inkscape" "/usr/share/icons/hicolor/48x48/apps/inkscape.png" exec "inkscape"
+"Sir" "/usr/share/pixmaps/sir.png" exec "sir"
+"Specimen 字体预览器" "/usr/share/icons/hicolor/48x48/apps/gnome-specimen.png" exec "gnome-specimen"
+"Xlock" "/usr/share/icons/gnome/48x48/actions/gnome-lockscreen.png" exec "xlock"
+"图像查看器" "/usr/share/icons/hicolor/32x32/apps/eog.png" exec "eog"

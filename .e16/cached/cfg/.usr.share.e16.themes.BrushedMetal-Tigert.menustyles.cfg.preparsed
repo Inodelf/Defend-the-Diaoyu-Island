@@ -1,0 +1,45 @@
+1001 1
+12 999
+  100 M1
+  5         "common/images/light_brushed.png"
+  371       3
+  358        2 2 2 2
+1000
+12 999
+  100 M2
+  5         "menustyles/images/mb1.png"
+  357   6 22 1 1
+  353        "menustyles/images/mb1.png"
+  357   6 22 1 1
+  352        "menustyles/images/mb1.png"
+  357   6 22 1 1
+  358        6 22 1 1
+1000
+12 999
+  100 M3
+  5         "menustyles/images/mb3.png"
+  357   6 22 1 1
+  353        "menustyles/images/mb2.png"
+  357   6 22 1 1
+  352        "menustyles/images/mb2.png"
+  357   6 22 1 1
+  358        6 22 1 1
+1000
+1 999
+  100 "MENU"
+  201 0
+  5 "*font-menu"
+  204 0
+  205 0 0 0
+  206 0 0 0
+  353 "*font-menu"
+  204 1
+  205 0 0 0
+  206 255 255 255
+1000
+699 999;  100 "DEFAULT";  3  "MENU";  1  "MENU";  700  "M1";  701  "M2";  702  "M3";  703 0;  705  40;1000
+699 999;  100 "DESK_MENU";  3  "MENU_BORDER_ONLY";  1  "MENU";  700  "M1";  701  "M2";  702  "M3";  703 0;  705  40;1000
+699 999;  100 "ROOT";  3  "MENU";  1  "MENU";  700  "M1";  701  "M2";  702  "M3";  703 0;  705  40;1000
+699 999;  100 "ROOT_IMAGE";  3  "MENU";  1  "MENU";  700  "M1";  701  "M2";  702  "M3";  703 0;  705  20;1000
+699 999;  100 "EMPTY";  3  "MENU_BORDER_ONLY";  1  "MENU";  700  "M1";  701  "M2";  702  "M3";  703 0;  705  40;1000
+699 999;  100 "GROUP_MENU";  3  "MENU_BORDER_ONLY";  1  "MENU";  700  "M1";  701  "M2";  702  "M3";  703 0;  705  40;1000

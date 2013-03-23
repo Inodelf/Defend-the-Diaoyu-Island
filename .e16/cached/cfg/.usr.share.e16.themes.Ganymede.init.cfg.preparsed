@@ -1,0 +1,43 @@
+1001 1
+1001 0
+5 999;  100 "STARTUP_BACKGROUND"
+560 "100 70 40"
+561 "backgrounds/images/French-Products-for-Ganymede.png" 1 1 0 0 0 0
+562 "init/images/ganymede.png" 1 512 256 0 0
+1000
+12 999 
+  100 STARTUP_BAR
+  5 dragbar/images/dragbar_normal.png
+  357 10 2 2 2
+  352 dragbar/images/dragbar_clicked.png
+  357 10 2 2 2
+  353 dragbar/images/dragbar_hilited.png
+  357 10 2 2 2
+  358 4 4 4 4
+1000
+12 999
+  100 PROGRESS_BAR
+  5  "init/images/background_left.png"
+  357 2 2 2 2
+  352 "init/images/background_right.png"
+  357 2 2 2 2
+  354  "init/images/progressbar.png"
+  357 2 2 2 2
+  358 1 1 1 1
+1000
+1 999
+  100 "PROGRESS_TEXT"
+  5 "*font-init"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 0
+1000
+1 999
+  100 "PROGRESS_TEXT_NUMBER"
+  5 "*font-init"
+  204 1
+  205 0 180 255
+  206 0 50 128
+  201 512
+1000

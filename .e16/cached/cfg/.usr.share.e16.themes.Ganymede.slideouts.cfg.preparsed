@@ -1,0 +1,644 @@
+1001 1
+1001 0
+11 999
+  100 ACTION_WINDOW_SLIDEOUT_NORMAL
+  17 "Click on this button to bring up a bar"
+  17 "of more buttons to control the Window with."
+  102 5
+  930 1
+  428 1
+  104 slideout normalslider
+1000
+11 999
+  100 ACTION_WINDOW_SLIDEOUT_ROTATED
+  17 "Click on this button to bring up a bar"
+  17 "of more buttons to control the Window with."
+  102 5
+  930 1
+  428 1
+  104 slideout rotatedslider
+1000
+11 999
+  100 ACTION_WINDOW_SLIDEOUT_ROTATED_BLUE
+  17 "Click on this button to bring up a bar"
+  17 "of more buttons to control the Window with."
+  102 5
+  930 1
+  428 1
+  104 slideout rotatedblueslider
+1000
+11 999
+  100 ACTION_WINDOW_SLIDEOUT_GREEN
+  17 "Click on this button to bring up a bar"
+  17 "of more buttons to control the Window with."
+  102 5
+  930 1
+  428 1
+  104 slideout greenslider
+1000
+11 999
+  100 ACTION_WINDOW_SLIDEOUT_RED
+  17 "Click on this button to bring up a bar"
+  17 "of more buttons to control the Window with."
+  102 5
+  930 1
+  428 1
+  104 slideout redslider
+1000
+11 999
+  100 ACTION_WINDOW_SLIDEOUT_BLUE
+  17 "Click on this button to bring up a bar"
+  17 "of more buttons to control the Window with."
+  102 5
+  930 1
+  428 1
+  104 slideout blueslider
+1000
+12 999 
+  100 SLIDEOUT_STICK
+  5 slideouts/images/stick_u.png
+  357 1 1 1 1
+  353 slideouts/images/stick_f.png
+  357 1 1 1 1
+  352 slideouts/images/stick_c.png
+  357 1 1 1 1
+  354 slideouts/images/stick_s.png
+  357 1 1 1 1
+  356 slideouts/images/stick_f.png
+  357 1 1 1 1
+  355 slideouts/images/stick_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 SLIDEOUT_RAISE
+  5 slideouts/images/raise_u.png
+  357 1 1 1 1
+  353 slideouts/images/raise_f.png
+  357 1 1 1 1
+  352 slideouts/images/raise_c.png
+  357 1 1 1 1
+  354 slideouts/images/raise_s.png
+  357 1 1 1 1
+  356 slideouts/images/raise_f.png
+  357 1 1 1 1
+  355 slideouts/images/raise_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 SLIDEOUT_LOWER
+  5 slideouts/images/lower_u.png
+  357 1 1 1 1
+  353 slideouts/images/lower_f.png
+  357 1 1 1 1
+  352 slideouts/images/lower_c.png
+  357 1 1 1 1
+  354 slideouts/images/lower_s.png
+  357 1 1 1 1
+  356 slideouts/images/lower_f.png
+  357 1 1 1 1
+  355 slideouts/images/lower_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 SLIDEOUT_ICONIFY
+  5 slideouts/images/iconify_u.png
+  357 1 1 1 1
+  353 slideouts/images/iconify_f.png
+  357 1 1 1 1
+  352 slideouts/images/iconify_c.png
+  357 1 1 1 1
+  354 slideouts/images/iconify_s.png
+  357 1 1 1 1
+  356 slideouts/images/iconify_f.png
+  357 1 1 1 1
+  355 slideouts/images/iconify_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 SLIDEOUT_BLUE_STICK
+  5 slideouts/images/BLUE/stick_u.png
+  357 1 1 1 1
+  353 slideouts/images/BLUE/stick_f.png
+  357 1 1 1 1
+  352 slideouts/images/BLUE/stick_c.png
+  357 1 1 1 1
+  354 slideouts/images/BLUE/stick_s.png
+  357 1 1 1 1
+  356 slideouts/images/BLUE/stick_f.png
+  357 1 1 1 1
+  355 slideouts/images/BLUE/stick_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 SLIDEOUT_BLUE_RAISE
+  5 slideouts/images/BLUE/raise_u.png
+  357 1 1 1 1
+  353 slideouts/images/BLUE/raise_f.png
+  357 1 1 1 1
+  352 slideouts/images/BLUE/raise_c.png
+  357 1 1 1 1
+  354 slideouts/images/BLUE/raise_s.png
+  357 1 1 1 1
+  356 slideouts/images/BLUE/raise_f.png
+  357 1 1 1 1
+  355 slideouts/images/BLUE/raise_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 SLIDEOUT_BLUE_LOWER
+  5 slideouts/images/BLUE/lower_u.png
+  357 1 1 1 1
+  353 slideouts/images/BLUE/lower_f.png
+  357 1 1 1 1
+  352 slideouts/images/BLUE/lower_c.png
+  357 1 1 1 1
+  354 slideouts/images/BLUE/lower_s.png
+  357 1 1 1 1
+  356 slideouts/images/BLUE/lower_f.png
+  357 1 1 1 1
+  355 slideouts/images/BLUE/lower_c.png
+  357 1 1 1 1
+1000
+12 999
+  100 SLIDEOUT_BLUE_ICONIFY
+  5 slideouts/images/BLUE/iconify_u.png
+  357 1 1 1 1
+  353 slideouts/images/BLUE/iconify_f.png
+  357 1 1 1 1
+  352 slideouts/images/BLUE/iconify_c.png
+  357 1 1 1 1
+  354 slideouts/images/BLUE/iconify_s.png
+  357 1 1 1 1
+  356 slideouts/images/BLUE/iconify_f.png
+  357 1 1 1 1
+  355 slideouts/images/BLUE/iconify_c.png
+  357 1 1 1 
+1000
+12 999 
+  100 SLIDEOUT_GREEN_STICK
+  5 slideouts/images/GREEN/stick_u.png
+  357 1 1 1 1
+  353 slideouts/images/GREEN/stick_f.png
+  357 1 1 1 1
+  352 slideouts/images/GREEN/stick_c.png
+  357 1 1 1 1
+  354 slideouts/images/GREEN/stick_s.png
+  357 1 1 1 1
+  356 slideouts/images/GREEN/stick_f.png
+  357 1 1 1 1
+  355 slideouts/images/GREEN/stick_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 SLIDEOUT_GREEN_RAISE
+  5 slideouts/images/GREEN/raise_u.png
+  357 1 1 1 1
+  353 slideouts/images/GREEN/raise_f.png
+  357 1 1 1 1
+  352 slideouts/images/GREEN/raise_c.png
+  357 1 1 1 1
+  354 slideouts/images/GREEN/raise_s.png
+  357 1 1 1 1
+  356 slideouts/images/GREEN/raise_f.png
+  357 1 1 1 1
+  355 slideouts/images/GREEN/raise_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 SLIDEOUT_GREEN_LOWER
+  5 slideouts/images/GREEN/lower_u.png
+  357 1 1 1 1
+  353 slideouts/images/GREEN/lower_f.png
+  357 1 1 1 1
+  352 slideouts/images/GREEN/lower_c.png
+  357 1 1 1 1
+  354 slideouts/images/GREEN/lower_s.png
+  357 1 1 1 1
+  356 slideouts/images/GREEN/lower_f.png
+  357 1 1 1 1
+  355 slideouts/images/GREEN/lower_c.png
+  357 1 1 1 1
+1000
+12 999
+  100 SLIDEOUT_GREEN_ICONIFY
+  5 slideouts/images/GREEN/iconify_u.png
+  357 1 1 1 1
+  353 slideouts/images/GREEN/iconify_f.png
+  357 1 1 1 1
+  352 slideouts/images/GREEN/iconify_c.png
+  357 1 1 1 1
+  354 slideouts/images/GREEN/iconify_s.png
+  357 1 1 1 1
+  356 slideouts/images/GREEN/iconify_f.png
+  357 1 1 1 1
+  355 slideouts/images/GREEN/iconify_c.png
+  357 1 1 1 
+1000
+12 999 
+  100 SLIDEOUT_RED_STICK
+  5 slideouts/images/RED/stick_u.png
+  357 1 1 1 1
+  353 slideouts/images/RED/stick_f.png
+  357 1 1 1 1
+  352 slideouts/images/RED/stick_c.png
+  357 1 1 1 1
+  354 slideouts/images/RED/stick_s.png
+  357 1 1 1 1
+  356 slideouts/images/RED/stick_f.png
+  357 1 1 1 1
+  355 slideouts/images/RED/stick_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 SLIDEOUT_RED_RAISE
+  5 slideouts/images/RED/raise_u.png
+  357 1 1 1 1
+  353 slideouts/images/RED/raise_f.png
+  357 1 1 1 1
+  352 slideouts/images/RED/raise_c.png
+  357 1 1 1 1
+  354 slideouts/images/RED/raise_s.png
+  357 1 1 1 1
+  356 slideouts/images/RED/raise_f.png
+  357 1 1 1 1
+  355 slideouts/images/RED/raise_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 SLIDEOUT_RED_LOWER
+  5 slideouts/images/RED/lower_u.png
+  357 1 1 1 1
+  353 slideouts/images/RED/lower_f.png
+  357 1 1 1 1
+  352 slideouts/images/RED/lower_c.png
+  357 1 1 1 1
+  354 slideouts/images/RED/lower_s.png
+  357 1 1 1 1
+  356 slideouts/images/RED/lower_f.png
+  357 1 1 1 1
+  355 slideouts/images/RED/lower_c.png
+  357 1 1 1 1
+1000
+12 999
+  100 SLIDEOUT_RED_ICONIFY
+  5 slideouts/images/RED/iconify_u.png
+  357 1 1 1 1
+  353 slideouts/images/RED/iconify_f.png
+  357 1 1 1 1
+  352 slideouts/images/RED/iconify_c.png
+  357 1 1 1 1
+  354 slideouts/images/RED/iconify_s.png
+  357 1 1 1 1
+  356 slideouts/images/RED/iconify_f.png
+  357 1 1 1 1
+  355 slideouts/images/RED/iconify_c.png
+  357 1 1 1 
+1000
+12 999 
+  100 SLIDEOUT_ROTATED_STICK
+  5 slideouts/images/rotated/stick_u.png
+  357 1 1 1 1
+  353 slideouts/images/rotated/stick_f.png
+  357 1 1 1 1
+  352 slideouts/images/rotated/stick_c.png
+  357 1 1 1 1
+  354 slideouts/images/rotated/stick_s.png
+  357 1 1 1 1
+  356 slideouts/images/rotated/stick_f.png
+  357 1 1 1 1
+  355 slideouts/images/rotated/stick_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 SLIDEOUT_ROTATED_RAISE
+  5 slideouts/images/rotated/raise_u.png
+  357 1 1 1 1
+  353 slideouts/images/rotated/raise_f.png
+  357 1 1 1 1
+  352 slideouts/images/rotated/raise_c.png
+  357 1 1 1 1
+  354 slideouts/images/rotated/raise_s.png
+  357 1 1 1 1
+  356 slideouts/images/rotated/raise_f.png
+  357 1 1 1 1
+  355 slideouts/images/rotated/raise_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 SLIDEOUT_ROTATED_LOWER
+  5 slideouts/images/rotated/lower_u.png
+  357 1 1 1 1
+  353 slideouts/images/rotated/lower_f.png
+  357 1 1 1 1
+  352 slideouts/images/rotated/lower_c.png
+  357 1 1 1 1
+  354 slideouts/images/rotated/lower_s.png
+  357 1 1 1 1
+  356 slideouts/images/rotated/lower_f.png
+  357 1 1 1 1
+  355 slideouts/images/rotated/lower_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 SLIDEOUT_ROTATED_ICONIFY
+  5 slideouts/images/rotated/iconify_u.png
+  357 1 1 1 1
+  353 slideouts/images/rotated/iconify_f.png
+  357 1 1 1 1
+  352 slideouts/images/rotated/iconify_c.png
+  357 1 1 1 1
+  354 slideouts/images/rotated/iconify_s.png
+  357 1 1 1 1
+  356 slideouts/images/rotated/iconify_f.png
+  357 1 1 1 1
+  355 slideouts/images/rotated/iconify_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 SLIDEOUT_BLUE_ROTATED_STICK
+  5 slideouts/images/rotated/BLUE/stick_u.png
+  357 1 1 1 1
+  353 slideouts/images/rotated/BLUE/stick_f.png
+  357 1 1 1 1
+  352 slideouts/images/rotated/BLUE/stick_c.png
+  357 1 1 1 1
+  354 slideouts/images/rotated/BLUE/stick_s.png
+  357 1 1 1 1
+  356 slideouts/images/rotated/BLUE/stick_f.png
+  357 1 1 1 1
+  355 slideouts/images/rotated/BLUE/stick_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 SLIDEOUT_BLUE_ROTATED_RAISE
+  5 slideouts/images/rotated/BLUE/raise_u.png
+  357 1 1 1 1
+  353 slideouts/images/rotated/BLUE/raise_f.png
+  357 1 1 1 1
+  352 slideouts/images/rotated/BLUE/raise_c.png
+  357 1 1 1 1
+  354 slideouts/images/rotated/BLUE/raise_s.png
+  357 1 1 1 1
+  356 slideouts/images/rotated/BLUE/raise_f.png
+  357 1 1 1 1
+  355 slideouts/images/rotated/BLUE/raise_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 SLIDEOUT_BLUE_ROTATED_LOWER
+  5 slideouts/images/rotated/BLUE/lower_u.png
+  357 1 1 1 1
+  353 slideouts/images/rotated/BLUE/lower_f.png
+  357 1 1 1 1
+  352 slideouts/images/rotated/BLUE/lower_c.png
+  357 1 1 1 1
+  354 slideouts/images/rotated/BLUE/lower_s.png
+  357 1 1 1 1
+  356 slideouts/images/rotated/BLUE/lower_f.png
+  357 1 1 1 1
+  355 slideouts/images/rotated/BLUE/lower_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 SLIDEOUT_BLUE_ROTATED_ICONIFY
+  5 slideouts/images/rotated/BLUE/iconify_u.png
+  357 1 1 1 1
+  353 slideouts/images/rotated/BLUE/iconify_f.png
+  357 1 1 1 1
+  352 slideouts/images/rotated/BLUE/iconify_c.png
+  357 1 1 1 1
+  354 slideouts/images/rotated/BLUE/iconify_s.png
+  357 1 1 1 1
+  356 slideouts/images/rotated/BLUE/iconify_f.png
+  357 1 1 1 1
+  355 slideouts/images/rotated/BLUE/iconify_c.png
+  357 1 1 1 1
+1000
+4 999
+  100 SL_STICK
+  12 SLIDEOUT_STICK
+  11 ACTION_STICK
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_ICONIFY
+  12 SLIDEOUT_ICONIFY
+  11 ACTION_ICONIFY
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_LOWER
+  12 SLIDEOUT_LOWER
+  11 ACTION_LOWER
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_RAISE
+  12 SLIDEOUT_RAISE
+  11 ACTION_RAISE
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_ROTATED_STICK
+  12 SLIDEOUT_ROTATED_STICK
+  11 ACTION_STICK
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_ROTATED_ICONIFY
+  12 SLIDEOUT_ROTATED_ICONIFY
+  11 ACTION_ICONIFY
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_ROTATED_LOWER
+  12 SLIDEOUT_ROTATED_LOWER
+  11 ACTION_LOWER
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_ROTATED_RAISE
+  12 SLIDEOUT_ROTATED_RAISE
+  11 ACTION_RAISE
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_RED_STICK
+  12 SLIDEOUT_RED_STICK
+  11 ACTION_STICK
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_RED_ICONIFY
+  12 SLIDEOUT_RED_ICONIFY
+  11 ACTION_ICONIFY
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_RED_LOWER
+  12 SLIDEOUT_RED_LOWER
+  11 ACTION_LOWER
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_RED_RAISE
+  12 SLIDEOUT_RED_RAISE
+  11 ACTION_RAISE
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_GREEN_STICK
+  12 SLIDEOUT_GREEN_STICK
+  11 ACTION_STICK
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_GREEN_ICONIFY
+  12 SLIDEOUT_GREEN_ICONIFY
+  11 ACTION_ICONIFY
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_GREEN_LOWER
+  12 SLIDEOUT_GREEN_LOWER
+  11 ACTION_LOWER
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_GREEN_RAISE
+  12 SLIDEOUT_GREEN_RAISE
+  11 ACTION_RAISE
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_BLUE_STICK
+  12 SLIDEOUT_BLUE_STICK
+  11 ACTION_STICK
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_BLUE_ICONIFY
+  12 SLIDEOUT_BLUE_ICONIFY
+  11 ACTION_ICONIFY
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_BLUE_LOWER
+  12 SLIDEOUT_BLUE_LOWER
+  11 ACTION_LOWER
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_BLUE_RAISE
+  12 SLIDEOUT_BLUE_RAISE
+  11 ACTION_RAISE
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_BLUE_ROTATED_STICK
+  12 SLIDEOUT_BLUE_ROTATED_STICK
+  11 ACTION_STICK
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_BLUE_ROTATED_ICONIFY
+  12 SLIDEOUT_BLUE_ROTATED_ICONIFY
+  11 ACTION_ICONIFY
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_BLUE_ROTATED_LOWER
+  12 SLIDEOUT_BLUE_ROTATED_LOWER
+  11 ACTION_LOWER
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SL_BLUE_ROTATED_RAISE
+  12 SLIDEOUT_BLUE_ROTATED_RAISE
+  11 ACTION_RAISE
+  541 1
+  542 0
+  538 1
+1000
+16 999;  100 "normalslider";  620  0
+4 "SL_STICK"
+4 "SL_LOWER"
+4 "SL_RAISE"
+4 "SL_ICONIFY"
+1000
+16 999;  100 "redslider";  620  0
+4 "SL_RED_STICK"
+4 "SL_RED_LOWER"
+4 "SL_RED_RAISE"
+4 "SL_RED_ICONIFY"
+1000
+16 999;  100 "greenslider";  620  0
+4 "SL_GREEN_STICK"
+4 "SL_GREEN_LOWER"
+4 "SL_GREEN_RAISE"
+4 "SL_GREEN_ICONIFY"
+1000
+16 999;  100 "blueslider";  620  0
+4 "SL_BLUE_STICK"
+4 "SL_BLUE_LOWER"
+4 "SL_BLUE_RAISE"
+4 "SL_BLUE_ICONIFY"
+1000
+16 999;  100 "rotatedblueslider";  620  2
+4 "SL_BLUE_ROTATED_STICK"
+4 "SL_BLUE_ROTATED_LOWER"
+4 "SL_BLUE_ROTATED_RAISE"
+4 "SL_BLUE_ROTATED_ICONIFY"
+1000
+16 999;  100 "rotatedslider";  620  2
+4 "SL_ROTATED_STICK"
+4 "SL_ROTATED_LOWER"
+4 "SL_ROTATED_RAISE"
+4 "SL_ROTATED_ICONIFY"
+1000

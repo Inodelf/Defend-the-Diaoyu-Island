@@ -1,0 +1,74 @@
+1001 1
+1001 0
+800 999
+  100 DEFAULT
+  802 255 255 255
+  801 100 100 150
+  803 cursors/bw_images/cursor.xbm
+1000
+800 999
+  100 MOVE
+  802 255 255 255
+  801 100 100 150
+  803 cursors/bw_images/move.xbm
+1000
+800 999
+  100 RESIZE
+  802 255 255 255
+  801 100 100 150
+  803 cursors/bw_images/resize.xbm
+1000
+800 999
+  100 RESIZE_H
+  802 255 255 255
+  801 100 100 150
+  803 cursors/bw_images/resize_h.xbm
+1000
+800 999
+  100 RESIZE_V
+  802 255 255 255
+  801 100 100 150
+  803 cursors/bw_images/resize_v.xbm
+1000
+800 999
+  100 RESIZE_BR
+  802 255 255 255
+  801 100 100 150
+  803 cursors/bw_images/resize_br.xbm
+1000
+800 999
+  100 RESIZE_TR
+  802 255 255 255
+  801 100 100 150
+  803 cursors/bw_images/resize_tr.xbm
+1000
+800 999
+  100 KILL
+  802 255 255 255
+  801 100 100 150
+  803 cursors/bw_images/kill.xbm
+1000
+800 999
+  100 ICONIFY
+  802 255 255 255
+  801 100 100 150
+  803 cursors/bw_images/iconify.xbm
+1000
+800 999
+  100 STICKY
+  802 255 255 255
+  801 100 100 150
+  803 cursors/bw_images/sticky.xbm
+1000
+800 999
+  100 SLIDEOUT
+  802 255 255 255
+  801 100 100 150
+  803 cursors/bw_images/slideout.xbm
+1000
+800 999
+  100 SLIDEOUT_ROTATED
+  802 255 255 255
+  801 100 100 150
+  803 cursors/bw_images/slideout_rotated.xbm
+1000

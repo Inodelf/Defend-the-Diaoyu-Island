@@ -1,0 +1,4 @@
+"Core"
+"主文件夹" "/usr/share/icons/gnome/48x48/places/user-home.png" exec "caja --no-desktop"
+"网络" "/usr/share/icons/gnome/48x48/places/network-workgroup.png" exec "caja --no-desktop network:"
+"计算机" "/usr/share/icons/gnome/48x48/devices/computer.png" exec "caja --no-desktop computer:"

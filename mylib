@@ -1,0 +1,12 @@
+//The attribute of the screen
+const int SCREEN_WIDTH = 1024;
+const int SCREEN_HEIGHT = 640;
+const int SCREEN_BPP = 32;
+extern bool init();
+extern bool load_files();
+extern void clean_up();
+SDL_Surface *screen = NULL;
+SDL_Event event;
+SDL_Surface *boat = NULL;
+
+

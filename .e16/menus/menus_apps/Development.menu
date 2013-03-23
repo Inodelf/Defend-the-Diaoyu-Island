@@ -1,0 +1,7 @@
+"Development"
+"Meld" "/usr/share/icons/hicolor/48x48/apps/meld.png" exec "meld"
+"Qt Creator" "/usr/share/icons/hicolor/48x48/apps/qtcreator.png" exec "qtcreator"
+"Qt4 Assistant" "/usr/share/icons/hicolor/32x32/apps/assistant.png" exec "assistant-qt4"
+"Qt4 Demo" "/usr/share/icons/hicolor/48x48/apps/qt4-logo.png" exec "qtdemo-qt4"
+"Qt4 Designer" "designer" exec "designer-qt4"
+"Qt4 Linguist" "/usr/share/icons/hicolor/48x48/apps/linguist.png" exec "linguist-qt4"

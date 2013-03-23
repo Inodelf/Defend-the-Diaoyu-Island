@@ -1,0 +1,2375 @@
+1001 1
+12 999
+  100 B0-
+  5 "borders/common/images/b0.png"
+  357 4 4 4 4
+1000
+12 999
+  100 B1-
+  5 "borders/common/images/b1.png"
+1000
+12 999
+  100 B2-
+  5 "borders/common/images/b2.png"
+1000
+12 999
+  100 B3-
+  5 "borders/common/images/b3.png"
+1000
+12 999
+  100 B4-
+  5 "borders/common/images/b4.png"
+1000
+12 999
+  100 B5-
+  5 "borders/common/images/b5.png"
+1000
+12 999
+  100 B6-
+  5 "borders/common/images/b6.png"
+1000
+12 999
+  100 B7-
+  5 "borders/common/images/b7.png"
+1000
+12 999
+  100 B8-
+  5 "borders/common/images/b8.png"
+1000
+12 999
+  100 B0-
+  5 "borders/common/images/b0.png"
+  357 4 4 4 4
+1000
+12 999
+  100 BB4-
+  5 "borders/common/images/bb4.png"
+  357 0 0 17 0
+1000
+12 999
+  100 BB5-
+  5 "borders/common/images/bb5.png"
+1000
+12 999
+  100 BB6-
+  5 "borders/common/images/bb6.png"
+1000
+12 999
+  100 BB8-
+  5 "borders/common/images/bb8.png"
+  357 0 0 17 0
+1000
+12 999
+  100 T1-
+  5 "borders/common/images/t1.png"
+  352 "borders/common/images/t1b.png"
+  354 "borders/common/images/t1.png"
+  355 "borders/common/images/t1b.png"
+1000
+12 999
+  100 T2-
+  5 "borders/common/images/t2.png"
+  357 6 6 1 2
+  358 6 6 1 2
+1000
+12 999
+  100 T3-
+  5 "borders/common/images/t3.png"
+  352 "borders/common/images/t3b.png"
+  354 "borders/common/images/t3.png"
+  355 "borders/common/images/t3b.png"
+1000
+12 999
+  100 T4-
+  5 "borders/common/images/t4.png"
+  352 "borders/common/images/t4b.png"
+  354 "borders/common/images/t4.png"
+  355 "borders/common/images/t4b.png"
+1000
+12 999
+  100 T5-
+  5 "borders/common/images/t5.png"
+  352 "borders/common/images/t5b.png"
+  354 "borders/common/images/t5.png"
+  355 "borders/common/images/t5b.png"
+1000
+12 999
+  100 TT1-
+  5 "borders/common/images/tt1.png"
+  352 "borders/common/images/tt1b.png"
+  354 "borders/common/images/tt1.png"
+  355 "borders/common/images/tt1b.png"
+1000
+12 999
+  100 TT2-
+  5 "borders/common/images/tt2.png"
+  357 6 6 1 2
+  358 6 6 1 2
+1000
+12 999
+  100 TT3-
+  5 "borders/common/images/tt3.png"
+  352 "borders/common/images/tt3b.png"
+  354 "borders/common/images/tt3.png"
+  355 "borders/common/images/tt3b.png"
+1000
+12 999
+  100 TT4-
+  5 "borders/common/images/tt4.png"
+  352 "borders/common/images/tt4b.png"
+  354 "borders/common/images/tt4.png"
+  355 "borders/common/images/tt4b.png"
+1000
+12 999
+  100 TT5-
+  5 "borders/common/images/tt5.png"
+  352 "borders/common/images/tt5b.png"
+  354 "borders/common/images/tt5.png"
+  355 "borders/common/images/tt5b.png"
+1000
+12 999
+  100 B0
+  5 "borders/common/images/b0-.png"
+  357 4 4 4 4
+  354 "borders/common/images/b0.png"
+  357 4 4 4 4
+  359 "borders/common/images/b0-.png"
+  357 4 4 4 4
+  362 "borders/common/images/b0.png"
+  357 4 4 4 4
+1000
+12 999
+  100 BLACK
+  5 "borders/common/images/black.png"
+1000
+12 999
+  100 B1
+  5 "borders/common/images/b1-.png"
+  354 "borders/common/images/b1.png"
+  359 "borders/common/images/b1-.png"
+  362 "borders/common/images/b1.png"
+1000
+12 999
+  100 B2
+  5 "borders/common/images/b2-.png"
+  354 "borders/common/images/b2.png"
+  359 "borders/common/images/b2-.png"
+  362 "borders/common/images/b2.png"
+1000
+12 999
+  100 B3
+  5 "borders/common/images/b3-.png"
+  354 "borders/common/images/b3.png"
+  359 "borders/common/images/b3-.png"
+  362 "borders/common/images/b3.png"
+1000
+12 999
+  100 B4
+  5 "borders/common/images/b4-.png"
+  354 "borders/common/images/b4.png"
+  359 "borders/common/images/b4-.png"
+  362 "borders/common/images/b4.png"
+1000
+12 999
+  100 B5
+  5 "borders/common/images/b5-.png"
+  354 "borders/common/images/b5.png"
+  359 "borders/common/images/b5-.png"
+  362 "borders/common/images/b5.png"
+1000
+12 999
+  100 B6
+  5 "borders/common/images/b6-.png"
+  354 "borders/common/images/b6.png"
+  359 "borders/common/images/b6-.png"
+  362 "borders/common/images/b6.png"
+1000
+12 999
+  100 B7
+  5 "borders/common/images/b7-.png"
+  354 "borders/common/images/b7.png"
+  359 "borders/common/images/b7-.png"
+  362 "borders/common/images/b7.png"
+1000
+12 999
+  100 B8
+  5 "borders/common/images/b8-.png"
+  354 "borders/common/images/b8.png"
+  359 "borders/common/images/b8-.png"
+  362 "borders/common/images/b8.png"
+1000
+12 999
+  100 BB4
+  5 "borders/common/images/bb4-.png"
+  357 0 0 17 0
+  354 "borders/common/images/bb4.png"
+  357 0 0 17 0
+  359 "borders/common/images/bb4-.png"
+  357 0 0 17 0
+  362 "borders/common/images/bb4.png"
+  357 0 0 17 0
+1000
+12 999
+  100 BB5
+  5 "borders/common/images/bb5-.png"
+  354 "borders/common/images/bb5.png"
+  359 "borders/common/images/bb5-.png"
+  362 "borders/common/images/bb5.png"
+1000
+12 999
+  100 BB6
+  5 "borders/common/images/bb6-.png"
+  354 "borders/common/images/bb6.png"
+  359 "borders/common/images/bb6-.png"
+  362 "borders/common/images/bb6.png"
+1000
+12 999
+  100 BB8
+  5 "borders/common/images/bb8-.png"
+  357 0 0 17 0
+  354 "borders/common/images/bb8.png"
+  357 0 0 17 0
+  359 "borders/common/images/bb8-.png"
+  357 0 0 17 0
+  362 "borders/common/images/bb8.png"
+  357 0 0 17 0
+1000
+12 999
+  100 T1
+  5 "borders/common/images/t1-.png"
+  352 "borders/common/images/t1-b.png"
+  354 "borders/common/images/t1.png"
+  355 "borders/common/images/t1b.png"
+  359 "borders/common/images/t1-.png"
+  360 "borders/common/images/t1-b.png"
+  362 "borders/common/images/t1.png"
+  363 "borders/common/images/t1b.png"
+1000
+12 999
+  100 T2
+  5 "borders/common/images/t2-.png"
+  357 6 6 1 2
+  354 "borders/common/images/t2.png"
+  357 6 6 1 2
+  359 "borders/common/images/t2s-.png"
+  357 6 6 1 2
+  362 "borders/common/images/t2s.png"
+  357 6 6 1 2
+  358 6 6 1 2
+1000
+12 999
+  100 T3
+  5 "borders/common/images/t3-.png"
+  352 "borders/common/images/t3-b.png"
+  354 "borders/common/images/t3.png"
+  355 "borders/common/images/t3b.png"
+  359 "borders/common/images/t3-.png"
+  360 "borders/common/images/t3-b.png"
+  362 "borders/common/images/t3.png"
+  363 "borders/common/images/t3b.png"
+1000
+12 999
+  100 T4
+  5 "borders/common/images/t4-.png"
+  352 "borders/common/images/t4-b.png"
+  354 "borders/common/images/t4.png"
+  355 "borders/common/images/t4b.png"
+  359 "borders/common/images/t4-.png"
+  360 "borders/common/images/t4-b.png"
+  362 "borders/common/images/t4.png"
+  363 "borders/common/images/t4b.png"
+1000
+12 999
+  100 T5
+  5 "borders/common/images/t5-.png"
+  352 "borders/common/images/t5-b.png"
+  354 "borders/common/images/t5.png"
+  355 "borders/common/images/t5b.png"
+  359 "borders/common/images/t5-.png"
+  360 "borders/common/images/t5-b.png"
+  362 "borders/common/images/t5.png"
+  363 "borders/common/images/t5b.png"
+1000
+12 999
+  100 TT1
+  5 "borders/common/images/tt1-.png"
+  352 "borders/common/images/tt1-b.png"
+  354 "borders/common/images/tt1.png"
+  355 "borders/common/images/tt1b.png"
+  359 "borders/common/images/tt1-.png"
+  360 "borders/common/images/tt1-b.png"
+  362 "borders/common/images/tt1.png"
+  363 "borders/common/images/tt1b.png"
+1000
+12 999
+  100 TT2
+  5 "borders/common/images/tt2-.png"
+  357 6 6 1 2
+  354 "borders/common/images/tt2.png"
+  357 6 6 1 2
+  359 "borders/common/images/tt2s-.png"
+  357 6 6 1 2
+  362 "borders/common/images/tt2s.png"
+  357 6 6 1 2
+  358 6 6 1 2
+1000
+12 999
+  100 TT3
+  5 "borders/common/images/tt3-.png"
+  352 "borders/common/images/tt3-b.png"
+  354 "borders/common/images/tt3.png"
+  355 "borders/common/images/tt3b.png"
+  359 "borders/common/images/tt3-.png"
+  360 "borders/common/images/tt3-b.png"
+  362 "borders/common/images/tt3.png"
+  363 "borders/common/images/tt3b.png"
+1000
+12 999
+  100 TT4
+  5 "borders/common/images/tt4-.png"
+  352 "borders/common/images/tt4-b.png"
+  354 "borders/common/images/tt4.png"
+  355 "borders/common/images/tt4b.png"
+  359 "borders/common/images/tt4-.png"
+  360 "borders/common/images/tt4-b.png"
+  362 "borders/common/images/tt4.png"
+  363 "borders/common/images/tt4b.png"
+1000
+12 999
+  100 TT5
+  5 "borders/common/images/tt5-.png"
+  352 "borders/common/images/tt5-b.png"
+  354 "borders/common/images/tt5.png"
+  355 "borders/common/images/tt5b.png"
+  359 "borders/common/images/tt5-.png"
+  360 "borders/common/images/tt5-b.png"
+  362 "borders/common/images/tt5.png"
+  363 "borders/common/images/tt5b.png"
+1000
+1 999
+  100 "TEXT1"
+  201 0
+  5 "*font-border"
+  204 1
+  205 0 0 0
+  206 180 180 180
+  354 "*font-border"
+  204 1
+  205 0 0 0
+  206 255 255 255
+  359 "*font-border"
+  204 1
+  205 0 0 0
+  206 180 180 180
+  362 "*font-border"
+  204 1
+  205 0 0 0
+  206 255 255 255
+1000
+3 999
+  100 BORDERLESS
+  501 0
+  502 0
+  503 0
+  504 0
+1000
+3 999
+  100 BORDER_ONLY
+  501 4
+  502 4
+  503 4
+  504 4
+  506 2
+  507 0
+  505 999
+    12 B1
+    11 ACTION_RESIZE
+    800 RESIZE_BR
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  0
+    464  3
+    465  0
+    466  3
+    470 1
+  1000
+  505 999
+    12 B2
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 0
+    457 99999
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  4
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -5
+    465  0
+    466  3
+    470 1
+  1000
+  505 999
+    12 B3
+    11 ACTION_RESIZE
+    800 RESIZE_TR
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458 1024
+    459  -4
+    460 0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  3
+    470 1
+  1000
+  505 999
+    12 B4
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 4
+    457 4
+    468 0
+    469 99999
+    467 -1
+    458  1024
+    459  -4
+    460  0
+    461  4
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -5
+    470 1
+  1000
+  505 999
+    12 B5
+    11 ACTION_RESIZE
+    800 RESIZE_BR
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458  1024
+    459  -4
+    460  1024
+    461  -4
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 B6
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 0
+    457 99999
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  4
+    460  1024
+    461  -4
+    462 -1
+    463  1024
+    464  -5
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 B7
+    11 ACTION_RESIZE
+    800 RESIZE_TR
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -4
+    462 -1
+    463  0
+    464  3
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 B8
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 4
+    457 4
+    468 0
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  4
+    462 -1
+    463  0
+    464  3
+    465  1024
+    466  -5
+    470 1
+  1000
+1000
+3 999
+  100 DEFAULT
+  501 4
+  502 4
+  503 19
+  504 4
+  506 2
+  507 0
+  505 999
+    12 B0
+    11 ACTION_MOVE
+    800 MOVE
+    456 0
+    457 99999
+    468 23
+    469 23
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  22
+    470 1
+    453 0
+  1000
+  505 999
+    12 T1
+    11 ACTION_MENU
+    456 21
+    457 21
+    468 15
+    469 15
+    467 -1
+    458  0
+    459  4
+    460  0
+    461  4
+    462 -1
+    464  25
+    466  18
+    470 1
+  1000
+  505 999
+    12 T5
+    11 ACTION_KILL
+    456 15
+    457 15
+    468 15
+    469 15
+    467 -1
+    458  1024
+    459  -19
+    460  0
+    461  4
+    462 -1
+    463  1024
+    464  -5
+    465  0
+    466  18
+    470 1
+  1000
+  505 999
+    12 T4
+    11 ACTION_MAX
+    456 14
+    457 14
+    468 15
+    469 15
+    467 2
+    458  0
+    459  -14
+    460  0
+    461  0
+    462 2
+    463  0
+    464  -1
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 T3
+    11 ACTION_ICONIFY
+    456 17
+    457 17
+    468 15
+    469 15
+    467 3
+    458  0
+    459  -17
+    460  0
+    461  0
+    462 3
+    463  0
+    464  -1
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 T2
+    11 ACTION_MOVE
+    1 TEXT1
+    800 MOVE
+    454 1
+    456 0
+    457 99999
+    468 15
+    469 15
+    467 1
+    458  1024
+    459  0
+    460  0
+    461  0
+    462 4
+    463  0
+    464  -1
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 TT1
+    11 ACTION_MENU
+    456 21
+    457 21
+    468 15
+    469 15
+    467 -1
+    458  0
+    459  4
+    460  0
+    461  4
+    462 -1
+    464  25
+    466  18
+    470 0
+  1000
+  505 999
+    12 TT5
+    11 ACTION_KILL
+    456 15
+    457 15
+    468 15
+    469 15
+    467 -1
+    458  1024
+    459  -19
+    460  0
+    461  4
+    462 -1
+    463  1024
+    464  -5
+    465  0
+    466  18
+    470 0
+  1000
+  505 999
+    12 TT4
+    11 ACTION_MAX
+    456 14
+    457 14
+    468 15
+    469 15
+    467 2
+    458  0
+    459  -14
+    460  0
+    461  0
+    462 2
+    463  0
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 TT3
+    11 ACTION_ICONIFY
+    456 17
+    457 17
+    468 15
+    469 15
+    467 3
+    458  0
+    459  -17
+    460  0
+    461  0
+    462 3
+    463  0
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 TT2
+    11 ACTION_MOVE
+    1 TEXT1
+    800 MOVE
+    454 1
+    456 0
+    457 99999
+    468 15
+    469 15
+    467 1
+    458  1024
+    459  0
+    460  0
+    461  0
+    462 4
+    463  0
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 B1
+    11 ACTION_RESIZE
+    800 RESIZE_BR
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  0
+    464  3
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 B2
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 0
+    457 99999
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  4
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -5
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 B3
+    11 ACTION_RESIZE
+    800 RESIZE_TR
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458 1024
+    459  -4
+    460 0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 BB4
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 4
+    457 4
+    468 0
+    469 99999
+    467 -1
+    458  1024
+    459  -4
+    460  0
+    461  4
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -5
+    470 0
+  1000
+  505 999
+    12 BB5
+    11 ACTION_RESIZE
+    800 RESIZE_BR
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458  1024
+    459  -4
+    460  1024
+    461  -4
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BB6
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 0
+    457 99999
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  4
+    460  1024
+    461  -4
+    462 -1
+    463  1024
+    464  -5
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 B7
+    11 ACTION_RESIZE
+    800 RESIZE_TR
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -4
+    462 -1
+    463  0
+    464  3
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BB8
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 4
+    457 4
+    468 0
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  4
+    462 -1
+    463  0
+    464  3
+    465  1024
+    466  -5
+    470 0
+  1000
+1000
+3 999
+  100 FIXED_SIZE
+  501 1
+  502 1
+  503 23
+  504 1
+  506 2
+  507 0
+  505 999
+    12 B0
+    11 ACTION_MOVE
+    800 MOVE
+    456 0
+    457 99999
+    468 23
+    469 23
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  22
+    470 1
+    453 0
+  1000
+  505 999
+    12 T1
+    11 ACTION_MENU
+    456 21
+    457 21
+    468 15
+    469 15
+    467 -1
+    458  0
+    459  4
+    460  0
+    461  4
+    462 -1
+    464  25
+    466  18
+    470 1
+  1000
+  505 999
+    12 T5
+    11 ACTION_KILL
+    456 15
+    457 15
+    468 15
+    469 15
+    467 -1
+    458  1024
+    459  -19
+    460  0
+    461  4
+    462 -1
+    463  1024
+    464  -5
+    465  0
+    466  18
+    470 1
+  1000
+  505 999
+    12 T4
+    11 ACTION_MAX
+    456 14
+    457 14
+    468 15
+    469 15
+    467 2
+    458  0
+    459  -14
+    460  0
+    461  0
+    462 2
+    463  0
+    464  -1
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 T3
+    11 ACTION_ICONIFY
+    456 17
+    457 17
+    468 15
+    469 15
+    467 3
+    458  0
+    459  -17
+    460  0
+    461  0
+    462 3
+    463  0
+    464  -1
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 T2
+    11 ACTION_MOVE
+    1 TEXT1
+    800 MOVE
+    454 1
+    456 0
+    457 99999
+    468 15
+    469 15
+    467 1
+    458  1024
+    459  0
+    460  0
+    461  0
+    462 4
+    463  0
+    464  -1
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 BLACK
+    11 ACTION_MOVE
+    800 MOVE
+    456 0
+    457 99999
+    468 1
+    469 1
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461 -1
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BLACK
+    11 ACTION_MOVE
+    800 MOVE
+    456 1
+    457 1
+    468 0
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461 23
+    462 -1
+    463  0
+    464  0
+    465  1024
+    466  23
+    470 0
+  1000
+  505 999
+    12 BLACK
+    11 ACTION_MOVE
+    800 MOVE
+    456 1
+    457 1
+    468 0
+    469 99999
+    467 -1
+    458  1024
+    459  -1
+    460  0
+    461 23
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+1000
+3 999
+  100 ICONBOX
+  501 0
+  502 0
+  503 0
+  504 0
+1000
+3 999
+  100 MENU
+  501 4
+  502 4
+  503 19
+  504 4
+  506 2
+  507 0
+  505 999
+    12 B0-
+    11 ACTION_MOVE
+    800 MOVE
+    456 0
+    457 99999
+    468 23
+    469 23
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  22
+    470 1
+    453 0
+  1000
+  505 999
+    12 T5-
+    11 ACTION_KILL
+    456 15
+    457 15
+    468 15
+    469 15
+    467 -1
+    458  1024
+    459  -19
+    460  0
+    461  4
+    462 -1
+    463  1024
+    464  -5
+    465  0
+    466  18
+    470 1
+  1000
+  505 999
+    12 T2-
+    11 ACTION_MOVE
+    1 TEXT1
+    800 MOVE
+    454 1
+    456 0
+    457 99999
+    468 15
+    469 15
+    467 -1
+    458  0
+    459  4
+    460  0
+    461  4
+    462 1
+    463  0
+    464  -1
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 B1-
+    11 ACTION_MOVE
+    800 MOVE
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  0
+    464  3
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 B2-
+    11 ACTION_MOVE
+    800 MOVE
+    456 0
+    457 99999
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  4
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -5
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 B3-
+    11 ACTION_MOVE
+    800 MOVE
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458 1024
+    459  -4
+    460 0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 B4-
+    11 ACTION_MOVE
+    800 MOVE
+    456 4
+    457 4
+    468 0
+    469 99999
+    467 -1
+    458  1024
+    459  -4
+    460  0
+    461  4
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -5
+    470 0
+  1000
+  505 999
+    12 B5-
+    11 ACTION_MOVE
+    800 MOVE
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458  1024
+    459  -4
+    460  1024
+    461  -4
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 B6-
+    11 ACTION_MOVE
+    800 MOVE
+    456 0
+    457 99999
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  4
+    460  1024
+    461  -4
+    462 -1
+    463  1024
+    464  -5
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 B7-
+    11 ACTION_MOVE
+    800 MOVE
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -4
+    462 -1
+    463  0
+    464  3
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 B8-
+    11 ACTION_MOVE
+    800 MOVE
+    456 4
+    457 4
+    468 0
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  4
+    462 -1
+    463  0
+    464  3
+    465  1024
+    466  -5
+    470 0
+  1000
+1000
+3 999
+  100 MENU_BORDER_ONLY
+  501 4
+  502 4
+  503 4
+  504 4
+  506 2
+  507 0
+  505 999
+    12 B1-
+    11 ACTION_MOVE
+    800 MOVE
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  0
+    464  3
+    465  0
+    466  3
+    470 1
+  1000
+  505 999
+    12 B2-
+    11 ACTION_MOVE
+    800 MOVE
+    456 0
+    457 99999
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  4
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -5
+    465  0
+    466  3
+    470 1
+  1000
+  505 999
+    12 B3-
+    11 ACTION_MOVE
+    800 MOVE
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458 1024
+    459  -4
+    460 0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  3
+    470 1
+  1000
+  505 999
+    12 B4-
+    11 ACTION_MOVE
+    800 MOVE
+    456 4
+    457 4
+    468 0
+    469 99999
+    467 -1
+    458  1024
+    459  -4
+    460  0
+    461  4
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -5
+    470 1
+  1000
+  505 999
+    12 B5-
+    11 ACTION_MOVE
+    800 MOVE
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458  1024
+    459  -4
+    460  1024
+    461  -4
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 B6-
+    11 ACTION_MOVE
+    800 MOVE
+    456 0
+    457 99999
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  4
+    460  1024
+    461  -4
+    462 -1
+    463  1024
+    464  -5
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 B7-
+    11 ACTION_MOVE
+    800 MOVE
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -4
+    462 -1
+    463  0
+    464  3
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 B8-
+    11 ACTION_MOVE
+    800 MOVE
+    456 4
+    457 4
+    468 0
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  4
+    462 -1
+    463  0
+    464  3
+    465  1024
+    466  -5
+    470 1
+  1000
+1000
+12 999
+  100 PB1
+  5 "borders/PAGER/images/pb1.png"
+1000
+12 999
+  100 PB2
+  5 "borders/PAGER/images/pb2.png"
+  357 2 2 0 0
+1000
+12 999
+  100 PB3
+  5 "borders/PAGER/images/pb3.png"
+1000
+12 999
+  100 PB4
+  5 "borders/PAGER/images/pb4.png"
+  357 3 4 6 7
+1000
+12 999
+  100 PB5
+  5 "borders/PAGER/images/pb5.png"
+  357 2 2 0 0
+1000
+12 999
+  100 PB6
+  5 "borders/PAGER/images/pb6.png"
+1000
+12 999
+  100 PB7
+  5 "borders/PAGER/images/pb8.png"
+  357 0 0 2 2
+1000
+12 999
+  100 PB8
+  5 "borders/PAGER/images/pb9.png"
+1000
+3 999
+  100 PAGER
+  508 PAGER_GROUP
+  501 3
+  502 12
+  503 3
+  504 3
+  506 0
+  507 0
+  505 999
+    12 PB1
+    11 ACTION_RESIZE
+    800 RESIZE_BR
+    456 3
+    457 3
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  0
+    464  2
+    465  0
+    466  2
+    470 1
+    453 0
+  1000
+  505 999
+    12 PB2
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 0
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  3
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -13
+    465  0
+    466  2
+    470 0
+    453 0
+  1000
+  505 999
+    12 PB3
+    11 ACTION_MOVE
+    800 MOVE
+    456 12
+    457 12
+    468 21
+    469 21
+    467 -1
+    458  1024
+    459  -12
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  20
+    470 1
+    453 0
+  1000
+  505 999
+    12 PB4
+    11 ACTION_SHADE
+    456 12
+    457 12
+    468 13
+    469 99999
+    467 -1
+    458  1024
+    459  -12
+    460  0
+    461  21
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 1
+    453 0
+  1000
+  505 999
+    12 PB5
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 0
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  3
+    460  1024
+    461  -3
+    462 -1
+    463  1024
+    464  -13
+    465  1024
+    466  -1
+    470 0
+    453 0
+  1000
+  505 999
+    12 PB6
+    11 ACTION_RESIZE
+    800 RESIZE_TR
+    456 3
+    457 3
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -3
+    462 -1
+    463  0
+    464  2
+    465  1024
+    466  -1
+    470 1
+    453 0
+  1000
+  505 999
+    12 PB7
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 3
+    457 3
+    468 0
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  3
+    462 -1
+    463  0
+    464  2
+    465  1024
+    466  -3
+    470 1
+    453 0
+  1000
+  505 999
+    12 PB8
+    11 ACTION_SHADE
+    456 6
+    457 6
+    468 10
+    469 10
+    467 3
+    458  0
+    459  3
+    460  512
+    461  -4
+    462 3
+    463  0
+    464  8
+    465  512
+    466  5
+    470 1
+    453 1
+  1000
+1000
+12 999
+  100 RPB1
+  5 "borders/RIGHT_PAGER/images/pb1.png"
+1000
+12 999
+  100 RPB2
+  5 "borders/RIGHT_PAGER/images/pb2.png"
+  357 2 2 0 0
+1000
+12 999
+  100 RPB3
+  5 "borders/RIGHT_PAGER/images/pb3.png"
+1000
+12 999
+  100 RPB4
+  5 "borders/RIGHT_PAGER/images/pb4.png"
+  357 3 4 6 7
+1000
+12 999
+  100 RPB5
+  5 "borders/RIGHT_PAGER/images/pb5.png"
+  357 2 2 0 0
+1000
+12 999
+  100 RPB6
+  5 "borders/RIGHT_PAGER/images/pb6.png"
+1000
+12 999
+  100 RPB7
+  5 "borders/RIGHT_PAGER/images/pb8.png"
+  357 0 0 2 2
+1000
+12 999
+  100 RPB8
+  5 "borders/RIGHT_PAGER/images/pb9.png"
+1000
+3 999
+  100 RIGHT_PAGER
+  508 RIGHT_PAGER_GROUP
+  501 12
+  502 3
+  503 3
+  504 3
+  506 1
+  507 0
+  505 999
+    12 RPB1
+    11 ACTION_RESIZE
+    800 RESIZE_TR
+    456 3
+    457 3
+    468 3
+    469 3
+    467 -1
+    458  1024
+    459  -3
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  0
+    465  0
+    466  3
+    470 1
+    453 0
+  1000
+  505 999
+    12 RPB2
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 0
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  12
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -3
+    465  0
+    466  2
+    470 0
+    453 0
+  1000
+  505 999
+    12 RPB3
+    11 ACTION_MOVE
+    800 MOVE
+    456 12
+    457 12
+    468 21
+    469 21
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  0
+    464  11
+    465  0
+    466  20
+    470 1
+    453 0
+  1000
+  505 999
+    12 RPB4
+    11 ACTION_SHADE
+    456 12
+    457 12
+    468 13
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  21
+    462 -1
+    463  0
+    464  13
+    465  1024
+    466  -1
+    470 1
+    453 0
+  1000
+  505 999
+    12 RPB5
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 0
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  12
+    460  1024
+    461  -3
+    462 -1
+    463  1024
+    464  -3
+    465  1024
+    466  0
+    470 0
+    453 0
+  1000
+  505 999
+    12 RPB6
+    11 ACTION_RESIZE
+    800 RESIZE_BR
+    456 3
+    457 3
+    468 3
+    469 3
+    467 -1
+    458  1024
+    459  -3
+    460  1024
+    461  -3
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466 0 
+    470 1
+    453 0
+  1000
+  505 999
+    12 RPB7
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 3
+    457 3
+    468 0
+    469 99999
+    467 -1
+    458  1024
+    459  -3
+    460  0
+    461  3
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  -3
+    470 1
+    453 0
+  1000
+  505 999
+    12 RPB8
+    11 ACTION_SHADE
+    456 6
+    457 6
+    468 10
+    469 10
+    467 3
+    458  0
+    459  2
+    460  512
+    461  -4
+    462 3
+    463  0
+    464  7
+    465  512
+    466  5
+    470 1
+    453 1
+  1000
+1000
+3 999
+  100 SHAPED
+  501 0
+  502 0
+  503 19
+  504 0
+  506 2
+  507 0
+  505 999
+    12 B0
+    11 ACTION_MOVE
+    800 MOVE
+    456 0
+    457 99999
+    468 23
+    469 23
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  22
+    470 1
+    453 0
+  1000
+  505 999
+    12 T1
+    11 ACTION_MENU
+    456 21
+    457 21
+    468 15
+    469 15
+    467 -1
+    458  0
+    459  4
+    460  0
+    461  4
+    462 -1
+    464  25
+    466  18
+    470 1
+  1000
+  505 999
+    12 T5
+    11 ACTION_KILL
+    456 15
+    457 15
+    468 15
+    469 15
+    467 -1
+    458  1024
+    459  -19
+    460  0
+    461  4
+    462 -1
+    463  1024
+    464  -5
+    465  0
+    466  18
+    470 1
+  1000
+  505 999
+    12 T4
+    11 ACTION_MAX
+    456 14
+    457 14
+    468 15
+    469 15
+    467 2
+    458  0
+    459  -14
+    460  0
+    461  0
+    462 2
+    463  0
+    464  -1
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 T3
+    11 ACTION_ICONIFY
+    456 17
+    457 17
+    468 15
+    469 15
+    467 3
+    458  0
+    459  -17
+    460  0
+    461  0
+    462 3
+    463  0
+    464  -1
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 T2
+    11 ACTION_MOVE
+    1 TEXT1
+    800 MOVE
+    454 1
+    456 0
+    457 99999
+    468 15
+    469 15
+    467 1
+    458  1024
+    459  0
+    460  0
+    461  0
+    462 4
+    463  0
+    464  -1
+    465  1024
+    466  -1
+    470 1
+  1000
+1000
+3 999
+  100 TRANSIENT
+  501 4
+  502 4
+  503 19
+  504 4
+  506 2
+  507 0
+  505 999
+    12 B0
+    11 ACTION_MOVE
+    800 MOVE
+    456 0
+    457 99999
+    468 23
+    469 23
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  22
+    470 1
+    453 0
+  1000
+  505 999
+    12 T1
+    11 ACTION_MENU
+    456 21
+    457 21
+    468 15
+    469 15
+    467 -1
+    458  0
+    459  4
+    460  0
+    461  4
+    462 -1
+    464  25
+    466  18
+    470 1
+  1000
+  505 999
+    12 T5
+    11 ACTION_KILL
+    456 15
+    457 15
+    468 15
+    469 15
+    467 -1
+    458  1024
+    459  -19
+    460  0
+    461  4
+    462 -1
+    463  1024
+    464  -5
+    465  0
+    466  18
+    470 1
+  1000
+  505 999
+    12 T2
+    11 ACTION_MOVE
+    1 TEXT1
+    800 MOVE
+    454 1
+    456 0
+    457 99999
+    468 15
+    469 15
+    467 1
+    458  1024
+    459  0
+    460  0
+    461  0
+    462 2
+    463  0
+    464  -1
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 TT1
+    11 ACTION_MENU
+    456 21
+    457 21
+    468 15
+    469 15
+    467 -1
+    458  0
+    459  4
+    460  0
+    461  4
+    462 -1
+    464  25
+    466  18
+    470 0
+  1000
+  505 999
+    12 TT5
+    11 ACTION_KILL
+    456 15
+    457 15
+    468 15
+    469 15
+    467 -1
+    458  1024
+    459  -19
+    460  0
+    461  4
+    462 -1
+    463  1024
+    464  -5
+    465  0
+    466  18
+    470 0
+  1000
+  505 999
+    12 TT2
+    11 ACTION_MOVE
+    1 TEXT1
+    800 MOVE
+    454 1
+    456 0
+    457 99999
+    468 15
+    469 15
+    467 1
+    458  1024
+    459  0
+    460  0
+    461  0
+    462 2
+    463  0
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 B1
+    11 ACTION_RESIZE
+    800 RESIZE_BR
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  0
+    464  3
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 B2
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 0
+    457 99999
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  4
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -5
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 B3
+    11 ACTION_RESIZE
+    800 RESIZE_TR
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458 1024
+    459  -4
+    460 0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 BB4
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 4
+    457 4
+    468 0
+    469 99999
+    467 -1
+    458  1024
+    459  -4
+    460  0
+    461  4
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -5
+    470 0
+  1000
+  505 999
+    12 BB5
+    11 ACTION_RESIZE
+    800 RESIZE_BR
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458  1024
+    459  -4
+    460  1024
+    461  -4
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BB6
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 0
+    457 99999
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  4
+    460  1024
+    461  -4
+    462 -1
+    463  1024
+    464  -5
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 B7
+    11 ACTION_RESIZE
+    800 RESIZE_TR
+    456 4
+    457 4
+    468 4
+    469 4
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -4
+    462 -1
+    463  0
+    464  3
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BB8
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 4
+    457 4
+    468 0
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  4
+    462 -1
+    463  0
+    464  3
+    465  1024
+    466  -5
+    470 0
+  1000
+1000

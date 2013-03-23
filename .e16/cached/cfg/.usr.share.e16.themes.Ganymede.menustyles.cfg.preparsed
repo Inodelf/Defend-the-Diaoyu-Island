@@ -1,0 +1,115 @@
+1001 1
+1001 0
+1 999
+  100 "GANYMEDE_MENU"
+  5 "*font-menu"
+  204 1
+  205 210 210 255
+  206 0 0 0
+  201 512
+  353 "*font-menu"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+1000
+12 999
+  100 DEFAULT_MENU_SUB
+  5 "menustyles/images/normal_more.png"
+  357 3 15 15 0
+  353 "menustyles/images/focused_more.png"
+  357 3 15 15 0
+  352 "menustyles/images/clicked_more.png"
+  357 3 15 15 0
+  358 3 15 1 1
+1000
+12 999
+  100 MENUBACK
+  5 "menustyles/images/back.png"
+  357 0 0 0 0 
+  353 "menustyles/images/back.png"
+  357 0 0 0 0
+  352 "menustyles/images/back.png"
+  357 0 0 0 0
+  358 1 1 1 1 
+1000
+12 999
+  100 MENU_FOCUS
+  5 "ABOUT/background.png"
+  357 0 0 0 0 
+  353 "ABOUT/background.png"
+  357 0 0 0 0
+  352 "ABOUT/background.png"
+  357 0 0 0 0
+  358 1 1 1 1 
+1000
+12 999
+  100 __FM.EDITOR
+  5  "menustyles/images/editor.png"
+1000
+12 999
+  100 __FM.GRAPHIC
+  5 "menustyles/images/painting.png"
+1000
+12 999
+  100 __FM.GIMP
+  5 "menustyles/images/gimp.png"
+1000
+12 999
+  100 __FM.EE
+  5 "menustyles/images/ee.png"
+1000
+12 999
+  100 __FM.MAILER
+  5 "menustyles/images/mail.png"
+1000
+12 999
+  100 __FM.NET
+  5 "menustyles/images/net.png"
+1000
+12 999
+  100 __FM.TERMINAL
+  5 "menustyles/images/terminal.png"
+1000
+12 999
+  100 __FM.TOOL
+  5 "menustyles/images/tool.png"
+1000
+699 999;  100 "DEFAULT";  3     "MENU_BORDER";  1          "GANYMEDE_MENU";  700  "MENU_FOCUS";  701    "MENUBACK";  702      "DEFAULT_MENU_SUB";  703 0;  705  40;1000
+699 999;  100 "ROOT";  3        "MENU_BORDER";  1          "GANYMEDE_MENU";  700  "MENU_FOCUS";  701    "MENUBACK";  702      "DEFAULT_MENU_SUB";  703 0;  705  20;1000
+699 999;  100 "ROOT_IMAGE";  3  "MENU_BORDER";  1          "GANYMEDE_MENU";  700  "MENU_FOCUS";  701    "MENUBACK";  702      "DEFAULT_MENU_SUB";  703 0;  705  10;1000
+699 999;  100 "EMPTY";  3       "MENU_NOTITLE";  1  	"GANYMEDE_MENU";  700  "MENU_FOCUS";  701    "MENUBACK";  702      "DEFAULT_MENU_SUB";  703 0;  705  25;1000
+699 999;  100 "CONFIG";  3      "MENU_NOTITLE";  1  	"GANYMEDE_MENU";  700  "MENU_FOCUS";  701    "MENUBACK";  702      "DEFAULT_MENU_SUB";  703 0;  705  4;1000
+699 999;  100 "TASK_MENU";  3   "MENU_NOTITLE";  1  	"GANYMEDE_MENU";  700  "MENU_FOCUS";  701    "MENUBACK";  702      "DEFAULT_MENU_SUB";  703 0;  705  40;1000
+699 999;  100 "DESK_MENU";  3   "MENU_NOTITLE";  1  	"GANYMEDE_MENU";  700  "MENU_FOCUS";  701    "MENUBACK";  702      "DEFAULT_MENU_SUB";  703 0;  705  40;1000
+2 999;  100 "GANYMEDE_CONFIG_MENU";  706  "CONFIG"
+711 "E Config"
+707 CONFIG_AUDIO_TOGGLE;  709       __A_SOUND_SET  "" 
+707 CONFIG_FOCUS_TOGGLE;  709       __A_FOCUSMODE_SET  "" 
+707 CONFIG_MOVE_TOGGLE;  709        __A_MOVEMODE_SET  "" 
+707 CONFIG_RESIZE_TOGGLE;  709      __A_RESIZEMODE_SET  "" 
+707 CONFIG_MAPSLIDE_TOGGLE;  709    __A_MAPSLIDE_SET  "" 
+707 CONFIG_CLEANSLIDE_TOGGLE;  709  __A_CLEANUPSLIDE_SET  "" 
+707 CONFIG_SLIDEMODE_TOGGLE;  709   __A_SLIDEMODE_SET  ""  
+707 CONFIG_DRAGDIR_TOGGLE;  709     __A_DRAGDIR_SET  "" 
+707 CONFIG_DRAGORDER_TOGGLE;  709   __A_DRAGBAR_ORDER_SET  "" 
+707 CONFIG_DESKSLIDE_TOGGLE;  709   __A_DESKSLIDE_SET  "" 
+707 CONFIG_AUTOSAVE_TOGGLE;  709    __A_AUTOSAVE_SET  "" 
+707 DO_DESKRAY_BUTTON;  709         __A_DESKRAY  "" 
+707 DO_CLEANUP_BUTTON;  709         desk arrange  size 
+707 DO_HELP_BUTTON;  709            exec   /usr/bin/dox   /usr/share/e16/E-docs
+707 DO_RESTART_BUTTON;  709         exit  restart 
+707 DO_EXIT_BUTTON;  709            exit  "" 
+1000
+2 999;  710 "GANYMEDE_TERMINALS"  "EMPTY" "file"  HOME_DIR"/.e16/menus/ganymede.terminals.menu"
+1000
+2 999;  710 "GANYMEDE_MAILERS"  "EMPTY" "file"  HOME_DIR"/.e16/menus/ganymede.mailers.menu"
+1000
+2 999;  710 "GANYMEDE_EDITORS"  "EMPTY" "file"  HOME_DIR"/.e16/menus/ganymede.editors.menu"
+1000
+2 999;  710 "GANYMEDE_NET"  "EMPTY" "file"  HOME_DIR"/.e16/menus/ganymede.net.menu"
+1000
+2 999;  710 "GANYMEDE_GRAPHICS"  "EMPTY" "file"  HOME_DIR"/.e16/menus/ganymede.graphics.menu"
+1000
+2 999;  710 "GANYMEDE_OTHER"  "EMPTY" "file"  HOME_DIR"/.e16/menus/ganymede.other.menu"
+1000

@@ -1,0 +1,2 @@
+"Audio"
+"Banshee" "/usr/share/icons/hicolor/48x48/apps/media-player-banshee.png" exec "banshee --redirect-log --play-enqueued"

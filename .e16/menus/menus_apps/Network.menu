@@ -1,0 +1,6 @@
+"Network"
+"Firefox" "/usr/share/icons/hicolor/48x48/apps/firefox.png" exec "firefox"
+"Thunderbird" "/usr/share/icons/hicolor/48x48/apps/thunderbird.png" exec "thunderbird"
+"TigerVNC Viewer" "/usr/share/icons/hicolor/48x48/apps/tigervnc.png" exec "/usr/bin/vncviewer"
+"Web" "/usr/share/icons/gnome/48x48/apps/web-browser.png" exec "epiphany"
+"远程桌面查看器" "/usr/share/icons/gnome/48x48/apps/preferences-desktop-remote-desktop.png" exec "vinagre"

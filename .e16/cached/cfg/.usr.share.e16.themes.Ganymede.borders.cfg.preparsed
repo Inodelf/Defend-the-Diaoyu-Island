@@ -1,0 +1,6212 @@
+1001 1
+11 999
+  100 ACTION_GANYMEDE_ALL_RESIZES
+  17 "Resize options"
+  102 5
+  107 "Toggle available height,"
+  428 0
+  4 1
+  104 wop * th "available"
+  105
+  107 "Toggle available size,"
+  4 2
+  104 wop * ts "available"
+  105
+  107 "Toggle available width,"
+  4 3
+  104 wop * tw "available"
+  105
+  107 "Force maximum height,"
+  4 1
+  101 902
+  104 wop * th
+  105
+  107 "Force maximum size,"
+  4 2
+  101 902
+  104 wop * ts
+  105
+  107 "Force maximum width."
+  4 3
+  101 902
+  104 wop * tw
+1000
+11 999
+  100 ACTION_GANYMEDE_KILL
+  17 "Closing/Killing options"
+  102 5
+  107 "Close window,"
+  428 1
+  103 1
+  4 1
+  104 wop * close
+  105
+  107 "Forcibly kill window,"
+  4 2
+  104 wop * kill
+  105
+  107 "Iconify window."
+  4 3
+  104 wop * ic
+1000
+3 999
+  100 BORDERLESS
+  501 0
+  502 0
+  503 0
+  504 0
+1000
+1 999
+  100 "GANYMEDE"
+  5 "*font-border"
+  204 1
+  205 200 200 200
+  206 0 0 0
+  201 450
+  354 "*font-border"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 450
+  362 "*font-border"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 450
+1000
+12 999 
+  100 BORDER_TITLE
+  370 DEFAULT
+  5  borders/DEFAULT/images/top_u.png
+  357 6 64 1 1
+  353 borders/DEFAULT/images/top_f.png
+  357 6 64 1 1
+  352 borders/DEFAULT/images/top_c.png
+  357 6 64 1 1
+  354  borders/DEFAULT/images/top_s.png
+  357 6 64 1 1
+  356 borders/DEFAULT/images/top_f.png
+  357 6 64 1 1
+  355 borders/DEFAULT/images/top_c.png
+  357 6 64 1 1
+  359  borders/DEFAULT/images/sticky_top_u.png
+  357 6 64 1 1
+  361 borders/DEFAULT/images/sticky_top_f.png
+  357 6 64 1 1
+  360 borders/DEFAULT/images/sticky_top_c.png
+  357 6 64 1 1
+  362 borders/DEFAULT/images/sticky_top_s.png
+  357 6 64 1 1
+  364 borders/DEFAULT/images/sticky_top_f.png
+  357 6 64 1 1
+  363 borders/DEFAULT/images/sticky_top_c.png
+  357 6 64 1 1
+  358 2 2 2 2
+1000
+12 999 
+  100 BORDER_TOPLEFT
+  370 DEFAULT
+  5 borders/DEFAULT/images/topleft_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT/images/topleft_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT/images/topleft_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT/images/topleft_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT/images/topleft_f.png
+  357 1 1 1 1
+  355 borders/DEFAULT/images/topleft_c.png
+  357 1 1 1 1
+  359 borders/DEFAULT/images/sticky_topleft_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT/images/sticky_topleft_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT/images/sticky_topleft_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT/images/sticky_topleft_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT/images/sticky_topleft_f.png
+  357 1 1 1 1
+  363 borders/DEFAULT/images/sticky_topleft_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BORDER_TOPRIGHT_LEFT
+  370 DEFAULT
+  5 borders/DEFAULT/images/topright_left_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT/images/topright_left_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT/images/topright_left_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT/images/topright_left_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT/images/topright_left_f.png
+  357 1 1 1 1
+  355 borders/DEFAULT/images/topright_left_c.png
+  357 1 1 1 1
+  359 borders/DEFAULT/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT/images/sticky_topright_left_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT/images/sticky_topright_left_f.png
+  357 1 1 1 1
+  363 borders/DEFAULT/images/sticky_topright_left_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BORDER_MIDDLE
+  370 DEFAULT
+  5 borders/DEFAULT/images/slideout_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT/images/slideout_f.png
+  357 1 1 1 1
+  352 borders/DEFAULT/images/slideout_c.png
+  357 1 1 1 1
+  354 borders/DEFAULT/images/slideout_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT/images/slideout_f.png
+  357 1 1 1 1
+  355 borders/DEFAULT/images/slideout_c.png
+  357 1 1 1 1
+  359 borders/DEFAULT/images/sticky_slideout_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT/images/sticky_slideout_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT/images/sticky_slideout_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT/images/sticky_slideout_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT/images/sticky_slideout_f.png
+  357 1 1 1 1
+  363 borders/DEFAULT/images/sticky_slideout_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BORDER_TOPRIGHT
+  370 DEFAULT
+  5 borders/DEFAULT/images/topright_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT/images/topright_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT/images/topright_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT/images/topright_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT/images/topright_f.png
+  357 1 1 1 1
+  355 borders/DEFAULT/images/topright_c.png
+  357 1 1 1 1
+  359 borders/DEFAULT/images/sticky_topright_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT/images/sticky_topright_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT/images/sticky_topright_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT/images/sticky_topright_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT/images/sticky_topright_f.png
+  357 1 1 1 1
+  363 borders/DEFAULT/images/sticky_topright_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BORDER_TOPRIGHT_BAR
+  370 DEFAULT
+  5 borders/DEFAULT/images/topright_bar_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT/images/topright_bar_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT/images/topright_bar_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT/images/topright_bar_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT/images/topright_bar_s.png
+  357 1 1 1 1
+  355 borders/DEFAULT/images/topright_bar_s.png
+  357 1 1 1 1
+  359 borders/DEFAULT/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+  363 borders/DEFAULT/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BORDER_BOTTRIGHT
+  370 DEFAULT
+  5 borders/DEFAULT/images/bottright_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT/images/bottright_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT/images/bottright_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT/images/bottright_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT/images/bottright_f.png
+  357 1 1 1 1
+  355 borders/DEFAULT/images/bottright_c.png
+  357 1 1 1 1
+  359 borders/DEFAULT/images/sticky_bottright_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT/images/sticky_bottright_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT/images/sticky_bottright_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT/images/sticky_bottright_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT/images/sticky_bottright_f.png
+  357 1 1 1 1
+  363 borders/DEFAULT/images/sticky_bottright_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BORDER_BOTTLEFT
+  370 DEFAULT
+  5 borders/DEFAULT/images/bottleft_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT/images/bottleft_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT/images/bottleft_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT/images/bottleft_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT/images/bottleft_s.png
+  357 1 1 1 1
+  355 borders/DEFAULT/images/bottleft_s.png
+  357 1 1 1 1
+  359 borders/DEFAULT/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT/images/sticky_bottleft_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT/images/sticky_bottleft_s.png
+  357 1 1 1 1
+  363 borders/DEFAULT/images/sticky_bottleft_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BORDER_RIGHT
+  370 DEFAULT
+  5 borders/DEFAULT/images/right_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT/images/right_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT/images/right_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT/images/right_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT/images/right_s.png
+  357 1 1 1 1
+  355 borders/DEFAULT/images/right_s.png
+  357 1 1 1 1
+  359 borders/DEFAULT/images/sticky_right_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT/images/sticky_right_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT/images/sticky_right_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT/images/sticky_right_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT/images/sticky_right_s.png
+  357 1 1 1 1
+  363 borders/DEFAULT/images/sticky_right_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BORDER_BOTTOM
+  370 DEFAULT
+  5 borders/DEFAULT/images/bottom_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT/images/bottom_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT/images/bottom_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT/images/bottom_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT/images/bottom_s.png
+  357 1 1 1 1
+  355 borders/DEFAULT/images/bottom_s.png
+  357 1 1 1 1
+  359 borders/DEFAULT/images/sticky_bottom_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT/images/sticky_bottom_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT/images/sticky_bottom_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT/images/sticky_bottom_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT/images/sticky_bottom_s.png
+  357 1 1 1 1
+  363 borders/DEFAULT/images/sticky_bottom_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BORDER_LEFT
+  370 DEFAULT
+  5 borders/DEFAULT/images/left_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT/images/left_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT/images/left_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT/images/left_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT/images/left_s.png
+  357 1 1 1 1
+  355 borders/DEFAULT/images/left_s.png
+  357 1 1 1 1
+  359 borders/DEFAULT/images/sticky_left_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT/images/sticky_left_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT/images/sticky_left_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT/images/sticky_left_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT/images/sticky_left_s.png
+  357 1 1 1 1
+  363 borders/DEFAULT/images/sticky_left_s.png
+  357 1 1 1 1
+1000
+3 999
+  100 DEFAULT
+  501 5
+  502 5
+  503 23
+  504 5 
+  506 2
+  508 DEFAULT_BLUE
+  505 999 
+    12 BORDER_TOPLEFT 
+    11 ACTION_GANYMEDE_KILL 
+    800 KILL 
+    456 22 
+    468 23 
+    457 22 
+    469 23 
+    467 -1 
+    458  0 
+    459  0 
+    460  0 
+    461  0 
+    462 -1 
+    463 0 
+    464  22 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BORDER_TITLE 
+    11 ACTION_MOVE 
+    1 GANYMEDE 
+    800 MOVE 
+    454 1 
+    456 10 
+    468 23 
+    457 99999 
+    469 23 
+    467 -1 
+    458  0 
+    459  22 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -12 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BORDER_TOPRIGHT_LEFT 
+    11 ACTION_GANYMEDE_ALL_RESIZES 
+    800 RESIZE 
+    456 20 
+    468 23 
+    457 20 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -75 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -55 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BORDER_MIDDLE 
+    11 ACTION_WINDOW_SLIDEOUT_NORMAL 
+    800 SLIDEOUT 
+    456 19 
+    468 23 
+    457 19 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -55 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -37 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BORDER_TOPRIGHT 
+    11 ACTION_RESIZE 
+    800 RESIZE_TR 
+    456 21 
+    457 21 
+    468 23 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -36 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -16 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BORDER_TOPRIGHT_BAR 
+    11 ACTION_RESIZE
+    800 RESIZE_TR 
+    456 15 
+    457 15 
+    468 23 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -15 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -1 
+    465  0 
+    466  23 
+    470 0 
+  1000 
+  505 999 
+    12 BORDER_RIGHT 
+    11 ACTION_RESIZE_H 
+    800 RESIZE_H 
+    456 5 
+    468 5 
+    457 5 
+    469 99999 
+    467 -1 
+    458  1024 
+    459  -5 
+    460  0 
+    461  23 
+    462 -1 
+    463  1024 
+    464  -1 
+    465  1024 
+    466  -24 
+    470 0 
+  1000 
+  505 999 
+    12 BORDER_BOTTRIGHT 
+    11 ACTION_RESIZE 
+    800 RESIZE_BR 
+    456 22 
+    468 23 
+    457 22 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -22 
+    460  1024 
+    461  -23 
+    462 -1 
+    463  1024 
+    464  -1 
+    465  1024 
+    466  -1 
+    470 0 
+  1000 
+  505 999 
+    12 BORDER_BOTTOM 
+    11 ACTION_RESIZE_V 
+    800 RESIZE_V 
+    456 10 
+    468 5 
+    457 99999 
+    469 5 
+    467 -1 
+    458  0 
+    459  5 
+    460  1024 
+    461  -5 
+    462 -1 
+    463  1024 
+    464  -23 
+    465  1024 
+    466  -1 
+    470 0
+  1000 
+  505 999 
+    12 BORDER_BOTTLEFT 
+    11 ACTION_RESIZE 
+    800 DEFAULT 
+    456 5 
+    468 5 
+    457 5 
+    469 5 
+    467 -1 
+    458  0 
+    459  0 
+    460  1024 
+    461  -5 
+    462 -1 
+    463  0 
+    464  5 
+    465  1024 
+    466  0 
+    470 0
+  1000 
+  505 999 
+    12 BORDER_LEFT 
+    11 ACTION_RESIZE_H 
+    800 RESIZE_H 
+    456 5 
+    468 5 
+    457 5 
+    469 99999 
+    467 -1 
+    458  0 
+    459  0 
+    460  0 
+    461  23 
+    462 -1 
+    463  0 
+    464  0 
+    465  1024 
+    466  -5 
+    470 0 
+  1000 
+1000
+12 999 
+  100 BLUE__BORDER_TITLE
+  370 BLUE
+  5  borders/DEFAULT_BLUE/images/top_u.png
+  357 6 64 1 1
+  353 borders/DEFAULT_BLUE/images/top_f.png
+  357 6 64 1 1
+  352 borders/DEFAULT_BLUE/images/top_c.png
+  357 6 64 1 1
+  354  borders/DEFAULT_BLUE/images/top_s.png
+  357 6 64 1 1
+  356 borders/DEFAULT_BLUE/images/top_f.png
+  357 6 64 1 1
+  355 borders/DEFAULT_BLUE/images/top_c.png
+  357 6 64 1 1
+  359  borders/DEFAULT_BLUE/images/sticky_top_u.png
+  357 6 64 1 1
+  361 borders/DEFAULT_BLUE/images/sticky_top_f.png
+  357 6 64 1 1
+  360 borders/DEFAULT_BLUE/images/sticky_top_c.png
+  357 6 64 1 1
+  362 borders/DEFAULT_BLUE/images/sticky_top_s.png
+  357 6 64 1 1
+  364 borders/DEFAULT_BLUE/images/sticky_top_f.png
+  357 6 64 1 1
+  363 borders/DEFAULT_BLUE/images/sticky_top_c.png
+  357 6 64 1 1
+  358 2 2 2 2
+1000
+12 999 
+  100 BLUE__BORDER_TOPLEFT
+  370 BLUE
+  5 borders/DEFAULT_BLUE/images/topleft_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT_BLUE/images/topleft_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT_BLUE/images/topleft_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT_BLUE/images/topleft_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT_BLUE/images/topleft_f.png
+  357 1 1 1 1
+  355 borders/DEFAULT_BLUE/images/topleft_c.png
+  357 1 1 1 1
+  359 borders/DEFAULT_BLUE/images/sticky_topleft_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT_BLUE/images/sticky_topleft_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT_BLUE/images/sticky_topleft_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT_BLUE/images/sticky_topleft_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT_BLUE/images/sticky_topleft_f.png
+  357 1 1 1 1
+  363 borders/DEFAULT_BLUE/images/sticky_topleft_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__BORDER_TOPRIGHT_LEFT
+  370 BLUE
+  5 borders/DEFAULT_BLUE/images/topright_left_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT_BLUE/images/topright_left_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT_BLUE/images/topright_left_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT_BLUE/images/topright_left_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT_BLUE/images/topright_left_f.png
+  357 1 1 1 1
+  355 borders/DEFAULT_BLUE/images/topright_left_c.png
+  357 1 1 1 1
+  359 borders/DEFAULT_BLUE/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT_BLUE/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT_BLUE/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT_BLUE/images/sticky_topright_left_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT_BLUE/images/sticky_topright_left_f.png
+  357 1 1 1 1
+  363 borders/DEFAULT_BLUE/images/sticky_topright_left_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__BORDER_MIDDLE
+  370 BLUE
+  5 borders/DEFAULT_BLUE/images/slideout_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT_BLUE/images/slideout_f.png
+  357 1 1 1 1
+  352 borders/DEFAULT_BLUE/images/slideout_c.png
+  357 1 1 1 1
+  354 borders/DEFAULT_BLUE/images/slideout_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT_BLUE/images/slideout_f.png
+  357 1 1 1 1
+  355 borders/DEFAULT_BLUE/images/slideout_c.png
+  357 1 1 1 1
+  359 borders/DEFAULT_BLUE/images/sticky_slideout_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT_BLUE/images/sticky_slideout_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT_BLUE/images/sticky_slideout_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT_BLUE/images/sticky_slideout_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT_BLUE/images/sticky_slideout_f.png
+  357 1 1 1 1
+  363 borders/DEFAULT_BLUE/images/sticky_slideout_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__BORDER_TOPRIGHT
+  370 BLUE
+  5 borders/DEFAULT_BLUE/images/topright_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT_BLUE/images/topright_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT_BLUE/images/topright_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT_BLUE/images/topright_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT_BLUE/images/topright_f.png
+  357 1 1 1 1
+  355 borders/DEFAULT_BLUE/images/topright_c.png
+  357 1 1 1 1
+  359 borders/DEFAULT_BLUE/images/sticky_topright_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT_BLUE/images/sticky_topright_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT_BLUE/images/sticky_topright_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT_BLUE/images/sticky_topright_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT_BLUE/images/sticky_topright_f.png
+  357 1 1 1 1
+  363 borders/DEFAULT_BLUE/images/sticky_topright_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__BORDER_TOPRIGHT_BAR
+  370 BLUE
+  5 borders/DEFAULT_BLUE/images/topright_bar_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT_BLUE/images/topright_bar_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT_BLUE/images/topright_bar_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT_BLUE/images/topright_bar_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT_BLUE/images/topright_bar_s.png
+  357 1 1 1 1
+  355 borders/DEFAULT_BLUE/images/topright_bar_s.png
+  357 1 1 1 1
+  359 borders/DEFAULT_BLUE/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT_BLUE/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT_BLUE/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT_BLUE/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT_BLUE/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+  363 borders/DEFAULT_BLUE/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__BORDER_BOTTRIGHT
+  370 BLUE
+  5 borders/DEFAULT_BLUE/images/bottright_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT_BLUE/images/bottright_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT_BLUE/images/bottright_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT_BLUE/images/bottright_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT_BLUE/images/bottright_f.png
+  357 1 1 1 1
+  355 borders/DEFAULT_BLUE/images/bottright_c.png
+  357 1 1 1 1
+  359 borders/DEFAULT_BLUE/images/sticky_bottright_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT_BLUE/images/sticky_bottright_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT_BLUE/images/sticky_bottright_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT_BLUE/images/sticky_bottright_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT_BLUE/images/sticky_bottright_f.png
+  357 1 1 1 1
+  363 borders/DEFAULT_BLUE/images/sticky_bottright_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__BORDER_BOTTLEFT
+  370 BLUE
+  5 borders/DEFAULT_BLUE/images/bottleft_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT_BLUE/images/bottleft_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT_BLUE/images/bottleft_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT_BLUE/images/bottleft_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT_BLUE/images/bottleft_s.png
+  357 1 1 1 1
+  355 borders/DEFAULT_BLUE/images/bottleft_s.png
+  357 1 1 1 1
+  359 borders/DEFAULT_BLUE/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT_BLUE/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT_BLUE/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT_BLUE/images/sticky_bottleft_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT_BLUE/images/sticky_bottleft_s.png
+  357 1 1 1 1
+  363 borders/DEFAULT_BLUE/images/sticky_bottleft_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__BORDER_RIGHT
+  370 BLUE
+  5 borders/DEFAULT_BLUE/images/right_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT_BLUE/images/right_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT_BLUE/images/right_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT_BLUE/images/right_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT_BLUE/images/right_s.png
+  357 1 1 1 1
+  355 borders/DEFAULT_BLUE/images/right_s.png
+  357 1 1 1 1
+  359 borders/DEFAULT_BLUE/images/sticky_right_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT_BLUE/images/sticky_right_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT_BLUE/images/sticky_right_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT_BLUE/images/sticky_right_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT_BLUE/images/sticky_right_s.png
+  357 1 1 1 1
+  363 borders/DEFAULT_BLUE/images/sticky_right_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__BORDER_BOTTOM
+  370 BLUE
+  5 borders/DEFAULT_BLUE/images/bottom_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT_BLUE/images/bottom_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT_BLUE/images/bottom_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT_BLUE/images/bottom_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT_BLUE/images/bottom_s.png
+  357 1 1 1 1
+  355 borders/DEFAULT_BLUE/images/bottom_s.png
+  357 1 1 1 1
+  359 borders/DEFAULT_BLUE/images/sticky_bottom_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT_BLUE/images/sticky_bottom_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT_BLUE/images/sticky_bottom_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT_BLUE/images/sticky_bottom_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT_BLUE/images/sticky_bottom_s.png
+  357 1 1 1 1
+  363 borders/DEFAULT_BLUE/images/sticky_bottom_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__BORDER_LEFT
+  370 BLUE
+  5 borders/DEFAULT_BLUE/images/left_u.png
+  357 1 1 1 1
+  353 borders/DEFAULT_BLUE/images/left_u.png
+  357 1 1 1 1
+  352 borders/DEFAULT_BLUE/images/left_u.png
+  357 1 1 1 1
+  354 borders/DEFAULT_BLUE/images/left_s.png
+  357 1 1 1 1
+  356 borders/DEFAULT_BLUE/images/left_s.png
+  357 1 1 1 1
+  355 borders/DEFAULT_BLUE/images/left_s.png
+  357 1 1 1 1
+  359 borders/DEFAULT_BLUE/images/sticky_left_u.png
+  357 1 1 1 1
+  361 borders/DEFAULT_BLUE/images/sticky_left_u.png
+  357 1 1 1 1
+  360  borders/DEFAULT_BLUE/images/sticky_left_u.png
+  357 1 1 1 1
+  362 borders/DEFAULT_BLUE/images/sticky_left_s.png
+  357 1 1 1 1
+  364 borders/DEFAULT_BLUE/images/sticky_left_s.png
+  357 1 1 1 1
+  363 borders/DEFAULT_BLUE/images/sticky_left_s.png
+  357 1 1 1 1
+1000
+3 999
+  100 DEFAULT_BLUE
+  501 5
+  502 5
+  503 23
+  504 5 
+  506 2
+  505 999 
+    12 BLUE__BORDER_TOPLEFT
+    11 ACTION_GANYMEDE_KILL 
+    800 KILL 
+    456 22 
+    468 23 
+    457 22 
+    469 23 
+    467 -1 
+    458  0 
+    459  0 
+    460  0 
+    461  0 
+    462 -1 
+    463 0 
+    464  22 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BLUE__BORDER_TITLE
+    11 ACTION_MOVE
+    1 GANYMEDE 
+    800 MOVE 
+    454 1 
+    456 10 
+    468 23 
+    457 99999 
+    469 23 
+    467 -1 
+    458  0 
+    459  22 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -12 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BLUE__BORDER_TOPRIGHT_LEFT 
+    11 ACTION_GANYMEDE_ALL_RESIZES 
+    800 RESIZE 
+    456 20 
+    468 23 
+    457 20 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -75 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -55 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BLUE__BORDER_MIDDLE
+    11 ACTION_WINDOW_SLIDEOUT_BLUE 
+    800 SLIDEOUT 
+    456 19 
+    468 23 
+    457 19 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -55 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -37 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BLUE__BORDER_TOPRIGHT 
+    11 ACTION_RESIZE 
+    800 RESIZE_TR 
+    456 21 
+    457 21 
+    468 23 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -36 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -16 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BLUE__BORDER_TOPRIGHT_BAR 
+    11 ACTION_RESIZE
+    800 RESIZE_TR 
+    456 15 
+    457 15 
+    468 23 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -15 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -1 
+    465  0 
+    466  23 
+    470 0 
+  1000 
+  505 999 
+    12 BLUE__BORDER_RIGHT 
+    11 ACTION_RESIZE_H 
+    800 RESIZE_H 
+    456 5 
+    468 5 
+    457 5 
+    469 99999 
+    467 -1 
+    458  1024 
+    459  -5 
+    460  0 
+    461  23 
+    462 -1 
+    463  1024 
+    464  -1 
+    465  1024 
+    466  -24 
+    470 0 
+  1000 
+  505 999 
+    12 BLUE__BORDER_BOTTRIGHT 
+    11 ACTION_RESIZE 
+    800 RESIZE_BR 
+    456 22 
+    468 23 
+    457 22 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -22 
+    460  1024 
+    461  -23 
+    462 -1 
+    463  1024 
+    464  -1 
+    465  1024 
+    466  -1 
+    470 0 
+  1000 
+  505 999 
+    12 BLUE__BORDER_BOTTOM 
+    11 ACTION_RESIZE_V 
+    800 RESIZE_V 
+    456 10 
+    468 5 
+    457 99999 
+    469 5 
+    467 -1 
+    458  0 
+    459  5 
+    460  1024 
+    461  -5 
+    462 -1 
+    463  1024 
+    464  -23 
+    465  1024 
+    466  -1 
+    470 0
+  1000 
+  505 999 
+    12 BLUE__BORDER_BOTTLEFT 
+    11 ACTION_RESIZE 
+    800 DEFAULT 
+    456 5 
+    468 5 
+    457 5 
+    469 5 
+    467 -1 
+    458  0 
+    459  0 
+    460  1024 
+    461  -5 
+    462 -1 
+    463  0 
+    464  5 
+    465  1024 
+    466  0 
+    470 0
+  1000 
+  505 999 
+    12 BLUE__BORDER_LEFT 
+    11 ACTION_RESIZE_H 
+    800 RESIZE_H 
+    456 5 
+    468 5 
+    457 5 
+    469 99999 
+    467 -1 
+    458  0 
+    459  0 
+    460  0 
+    461  23 
+    462 -1 
+    463  0 
+    464  0 
+    465  1024 
+    466  -5 
+    470 0 
+  1000 
+1000
+3 999
+  100 DEFAULT_SHADE_DOWNWARD
+  501 5
+  502 5
+  503 23
+  504 5 
+  508 DEFAULT_SHADE_DOWNWARD_BLUE
+  506 3
+  505 999 
+    12 BORDER_TOPLEFT 
+    11 ACTION_GANYMEDE_KILL 
+    800 KILL 
+    456 22 
+    468 23 
+    457 22 
+    469 23 
+    467 -1 
+    458  0 
+    459  0 
+    460  0 
+    461  0 
+    462 -1 
+    463 0 
+    464  22 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BORDER_TITLE 
+    11 ACTION_MOVE 
+    1 GANYMEDE 
+    800 MOVE 
+    454 1 
+    456 10 
+    468 23 
+    457 99999 
+    469 23 
+    467 -1 
+    458  0 
+    459  22 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -12 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BORDER_TOPRIGHT_LEFT 
+    11 ACTION_GANYMEDE_ALL_RESIZES 
+    800 RESIZE 
+    456 20 
+    468 23 
+    457 20 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -75 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -55 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BORDER_MIDDLE 
+    11 ACTION_WINDOW_SLIDEOUT_NORMAL 
+    800 SLIDEOUT 
+    456 19 
+    468 23 
+    457 19 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -55 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -37 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BORDER_TOPRIGHT 
+    11 ACTION_RESIZE 
+    800 RESIZE_TR 
+    456 21 
+    457 21 
+    468 23 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -36 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -16 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BORDER_TOPRIGHT_BAR 
+    11 ACTION_RESIZE
+    800 RESIZE_TR 
+    456 15 
+    457 15 
+    468 23 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -15 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -1 
+    465  0 
+    466  23 
+    470 0 
+  1000 
+  505 999 
+    12 BORDER_RIGHT 
+    11 ACTION_RESIZE_H 
+    800 RESIZE_H 
+    456 5 
+    468 5 
+    457 5 
+    469 99999 
+    467 -1 
+    458  1024 
+    459  -5 
+    460  0 
+    461  23 
+    462 -1 
+    463  1024 
+    464  -1 
+    465  1024 
+    466  -24 
+    470 0 
+  1000 
+  505 999 
+    12 BORDER_BOTTRIGHT 
+    11 ACTION_RESIZE 
+    800 RESIZE_BR 
+    456 22 
+    468 23 
+    457 22 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -22 
+    460  1024 
+    461  -23 
+    462 -1 
+    463  1024 
+    464  -1 
+    465  1024 
+    466  -1 
+    470 0 
+  1000 
+  505 999 
+    12 BORDER_BOTTOM 
+    11 ACTION_RESIZE_V 
+    800 RESIZE_V 
+    456 10 
+    468 5 
+    457 99999 
+    469 5 
+    467 -1 
+    458  0 
+    459  5 
+    460  1024 
+    461  -5 
+    462 -1 
+    463  1024 
+    464  -23 
+    465  1024 
+    466  -1 
+    470 0 
+  1000 
+  505 999 
+    12 BORDER_BOTTLEFT 
+    11 ACTION_RESIZE 
+    800 DEFAULT 
+    456 5 
+    468 5 
+    457 5 
+    469 5 
+    467 -1 
+    458  0 
+    459  0 
+    460  1024 
+    461  -5 
+    462 -1 
+    463  0 
+    464  5 
+    465  1024 
+    466  0 
+    470 0 
+  1000 
+  505 999 
+    12 BORDER_LEFT 
+    11 ACTION_RESIZE_H 
+    800 RESIZE_H 
+    456 5 
+    468 5 
+    457 5 
+    469 99999 
+    467 -1 
+    458  0 
+    459  0 
+    460  0 
+    461  23 
+    462 -1 
+    463  0 
+    464  0 
+    465  1024 
+    466  -5 
+    470 0 
+  1000 
+1000
+3 999
+  100 DEFAULT_SHADE_DOWNWARD_BLUE
+  501 5
+  502 5
+  503 23
+  504 5 
+  506 3
+  505 999 
+    12 BLUE__BORDER_TOPLEFT 
+    11 ACTION_GANYMEDE_KILL 
+    800 KILL 
+    456 22 
+    468 23 
+    457 22 
+    469 23 
+    467 -1 
+    458  0 
+    459  0 
+    460  0 
+    461  0 
+    462 -1 
+    463 0 
+    464  22 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BLUE__BORDER_TITLE 
+    11 ACTION_MOVE 
+    1 GANYMEDE 
+    800 MOVE 
+    454 1 
+    456 10 
+    468 23 
+    457 99999 
+    469 23 
+    467 -1 
+    458  0 
+    459  22 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -12 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BLUE__BORDER_TOPRIGHT_LEFT 
+    11 ACTION_GANYMEDE_ALL_RESIZES 
+    800 RESIZE 
+    456 20 
+    468 23 
+    457 20 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -75 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -55 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BLUE__BORDER_MIDDLE 
+    11 ACTION_WINDOW_SLIDEOUT_BLUE 
+    800 SLIDEOUT 
+    456 19 
+    468 23 
+    457 19 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -55 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -37 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BLUE__BORDER_TOPRIGHT 
+    11 ACTION_RESIZE 
+    800 RESIZE_TR 
+    456 21 
+    457 21 
+    468 23 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -36 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -16 
+    465  0 
+    466  23 
+    470 1 
+  1000 
+  505 999 
+    12 BLUE__BORDER_TOPRIGHT_BAR 
+    11 ACTION_RESIZE
+    800 RESIZE_TR 
+    456 15 
+    457 15 
+    468 23 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -15 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -1 
+    465  0 
+    466  23 
+    470 0 
+  1000 
+  505 999 
+    12 BLUE__BORDER_RIGHT 
+    11 ACTION_RESIZE_H 
+    800 RESIZE_H 
+    456 5 
+    468 5 
+    457 5 
+    469 99999 
+    467 -1 
+    458  1024 
+    459  -5 
+    460  0 
+    461  23 
+    462 -1 
+    463  1024 
+    464  -1 
+    465  1024 
+    466  -24 
+    470 0 
+  1000 
+  505 999 
+    12 BLUE__BORDER_BOTTRIGHT 
+    11 ACTION_RESIZE 
+    800 RESIZE_BR 
+    456 22 
+    468 23 
+    457 22 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -22 
+    460  1024 
+    461  -23 
+    462 -1 
+    463  1024 
+    464  -1 
+    465  1024 
+    466  -1 
+    470 0 
+  1000 
+  505 999 
+    12 BLUE__BORDER_BOTTOM 
+    11 ACTION_RESIZE_V 
+    800 RESIZE_V 
+    456 10 
+    468 5 
+    457 99999 
+    469 5 
+    467 -1 
+    458  0 
+    459  5 
+    460  1024 
+    461  -5 
+    462 -1 
+    463  1024 
+    464  -23 
+    465  1024 
+    466  -1 
+    470 0 
+  1000 
+  505 999 
+    12 BLUE__BORDER_BOTTLEFT 
+    11 ACTION_RESIZE 
+    800 DEFAULT 
+    456 5 
+    468 5 
+    457 5 
+    469 5 
+    467 -1 
+    458  0 
+    459  0 
+    460  1024 
+    461  -5 
+    462 -1 
+    463  0 
+    464  5 
+    465  1024 
+    466  0 
+    470 0 
+  1000 
+  505 999 
+    12 BLUE__BORDER_LEFT 
+    11 ACTION_RESIZE_H 
+    800 RESIZE_H 
+    456 5 
+    468 5 
+    457 5 
+    469 99999 
+    467 -1 
+    458  0 
+    459  0 
+    460  0 
+    461  23 
+    462 -1 
+    463  0 
+    464  0 
+    465  1024 
+    466  -5 
+    470 0 
+  1000 
+1000
+1 999
+  100 "GANYMEDE_SMALL_ITALIC"
+  5 "*font-border"
+  204 1
+  205 210 210 255
+  206 0 0 0
+  201 512
+  354 "*font-border"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+1000
+12 999 
+  100 MENU_TITLE
+  370 DEFAULT
+  5 borders/MENU_BORDER/images/top_u.png
+  357 30 30 1 1
+  353 borders/MENU_BORDER/images/top_u.png
+  357 30 30 1 1
+  352 borders/MENU_BORDER/images/top_u.png
+  357 30 30 1 1
+  354 borders/MENU_BORDER/images/top_s.png
+  357 30 30 1 1
+  356 borders/MENU_BORDER/images/top_s.png
+  357 30 30 1 1
+  355 borders/MENU_BORDER/images/top_s.png
+  357 30 30 1 1
+  358 20 20 2 0
+1000
+12 999 
+  100 MENU_TITLE_NOTEXT
+  370 DEFAULT
+  5 borders/MENU_BORDER/images/top_flat_u.png
+  357 1 1 1 1
+  353 borders/MENU_BORDER/images/top_flat_u.png
+  357 1 1 1 1
+  352 borders/MENU_BORDER/images/top_flat_u.png
+  357 1 1 1 1
+  354 borders/MENU_BORDER/images/top_flat_s.png
+  357 1 1 1 1
+  356 borders/MENU_BORDER/images/top_flat_s.png
+  357 1 1 1 1
+  355 borders/MENU_BORDER/images/top_flat_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 MENU_LEFT
+  370 DEFAULT
+  5 borders/MENU_BORDER/images/left_u.png
+  357 1 1 1 3
+  353 borders/MENU_BORDER/images/left_u.png
+  357 1 1 1 3
+  352 borders/MENU_BORDER/images/left_u.png
+  357 1 1 1 3
+  354 borders/MENU_BORDER/images/left_s.png
+  357 1 1 1 3
+  356 borders/MENU_BORDER/images/left_s.png
+  357 1 1 1 3
+  355 borders/MENU_BORDER/images/left_s.png
+  357 1 1 1 3
+1000
+12 999 
+  100 MENU_RIGHT
+  370 DEFAULT
+  5 borders/MENU_BORDER/images/right_u.png
+  357 1 1 1 3
+  353 borders/MENU_BORDER/images/right_u.png
+  357 1 1 1 3
+  352 borders/MENU_BORDER/images/right_u.png
+  357 1 1 1 3
+  354 borders/MENU_BORDER/images/right_s.png
+  357 1 1 1 3
+  356 borders/MENU_BORDER/images/right_s.png
+  357 1 1 1 3
+  355 borders/MENU_BORDER/images/right_s.png
+  357 1 1 1 3
+1000
+12 999 
+  100 MENU_BOTTOM
+  370 DEFAULT
+  5 borders/MENU_BORDER/images/bottom_u.png
+  357 1 1 1 1
+  353 borders/MENU_BORDER/images/bottom_u.png
+  357 1 1 1 1
+  352 borders/MENU_BORDER/images/bottom_u.png
+  357 1 1 1 1
+  354 borders/MENU_BORDER/images/bottom_s.png
+  357 1 1 1 1
+  356 borders/MENU_BORDER/images/bottom_s.png
+  357 1 1 1 1
+  355 borders/MENU_BORDER/images/bottom_s.png
+  357 1 1 1 1
+1000
+3 999
+  100 MENU_BORDER
+  501 2
+  502 2
+  503 22
+  504 3
+  506 2
+  505 999
+    12 MENU_TITLE
+    1 GANYMEDE_SMALL_ITALIC
+    454 1
+    11 ACTION_MOVE
+    456 10
+    468 22
+    469 22
+    457 99999
+    467 -1
+    458  0
+    459 0
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  22
+    470 1
+  1000
+  505 999
+    12 MENU_RIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  1024
+    459  -2
+    460  0
+    461  22
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  0
+    470 1
+  1000
+  505 999
+    12 MENU_BOTTOM
+    11 ACTION_MOVE
+    456 10
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  2
+    460  1024
+    461  -3
+    462 -1
+    463  1024
+    464  -2
+    465  1024
+    466  0
+    470 1
+  1000
+  505 999
+    12 MENU_LEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  22
+    462 -1
+    463  0
+    464  2
+    465  1024
+    466  0
+    470 1
+  1000
+1000
+3 999
+  100 MENU_NOTITLE
+  501 2
+  502 2
+  503 2
+  504 3
+  506 2
+  505 999
+    12 MENU_TITLE_NOTEXT
+    11 ACTION_MOVE
+    456 10
+    457 99999
+    468 2
+    469 2
+    467 -1
+    458  0
+    459 0
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  2
+    470 1
+  1000
+  505 999
+    12 MENU_RIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  1024
+    459  -2
+    460  0
+    461  2
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  0
+    470 1
+  1000
+  505 999
+    12 MENU_BOTTOM
+    11 ACTION_MOVE
+    456 10
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  2
+    460  1024
+    461  -3
+    462 -1
+    463  1024
+    464  -2
+    465  1024
+    466  0
+    470 1
+  1000
+  505 999
+    12 MENU_LEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  2
+    462 -1
+    463  0
+    464  2
+    465  1024
+    466  0
+    470 1
+  1000
+1000
+12 999 
+  100 DIALOG_TOPLEFT
+  370 DEFAULT
+  5 borders/TRANSIENT/images/dialog_topleft_u.png
+  357 1 1 1 1
+  353 borders/TRANSIENT/images/dialog_topleft_u.png
+  357 1 1 1 1
+  352 borders/TRANSIENT/images/dialog_topleft_u.png
+  357 1 1 1 1
+  354 borders/TRANSIENT/images/dialog_topleft_s.png
+  357 1 1 1 1
+  356 borders/TRANSIENT/images/dialog_topleft_s.png
+  357 1 1 1 1
+  355 borders/TRANSIENT/images/dialog_topleft_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 DIALOG_TOP
+  370 DEFAULT
+  5 borders/TRANSIENT/images/dialog_top_u.png
+  357 1 1 1 1
+  353 borders/TRANSIENT/images/dialog_top_u.png
+  357 1 1 1 1
+  352 borders/TRANSIENT/images/dialog_top_u.png
+  357 1 1 1 1
+  354 borders/TRANSIENT/images/dialog_top_s.png
+  357 1 1 1 1
+  356 borders/TRANSIENT/images/dialog_top_s.png
+  357 1 1 1 1
+  355 borders/TRANSIENT/images/dialog_top_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 DIALOG_TOPRIGHT
+  370 DEFAULT
+  5 borders/TRANSIENT/images/dialog_topright_u.png
+  357 1 1 1 1
+  353 borders/TRANSIENT/images/dialog_topright_u.png
+  357 1 1 1 1
+  352 borders/TRANSIENT/images/dialog_topright_u.png
+  357 1 1 1 1
+  354 borders/TRANSIENT/images/dialog_topright_s.png
+  357 1 1 1 1
+  356 borders/TRANSIENT/images/dialog_topright_s.png
+  357 1 1 1 1
+  355 borders/TRANSIENT/images/dialog_topright_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 DIALOG_LEFT
+  370 DEFAULT
+  5 borders/TRANSIENT/images/dialog_left_u.png
+  357 1 1 1 1
+  353 borders/TRANSIENT/images/dialog_left_u.png
+  357 1 1 1 1
+  352 borders/TRANSIENT/images/dialog_left_u.png
+  357 1 1 1 1
+  354 borders/TRANSIENT/images/dialog_left_s.png
+  357 1 1 1 1
+  356 borders/TRANSIENT/images/dialog_left_s.png
+  357 1 1 1 1
+  355 borders/TRANSIENT/images/dialog_left_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 DIALOG_RIGHT
+  370 DEFAULT
+  5 borders/TRANSIENT/images/dialog_right_u.png
+  357 1 1 1 1
+  353 borders/TRANSIENT/images/dialog_right_u.png
+  357 1 1 1 1
+  352 borders/TRANSIENT/images/dialog_right_u.png
+  357 1 1 1 1
+  354 borders/TRANSIENT/images/dialog_right_s.png
+  357 1 1 1 1
+  356 borders/TRANSIENT/images/dialog_right_s.png
+  357 1 1 1 1
+  355 borders/TRANSIENT/images/dialog_right_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 DIALOG_BOTTOMLEFT
+  370 DEFAULT
+  5 borders/TRANSIENT/images/dialog_bottleft_u.png
+  357 1 1 1 1
+  353 borders/TRANSIENT/images/dialog_bottleft_u.png
+  357 1 1 1 1
+  352 borders/TRANSIENT/images/dialog_bottleft_u.png
+  357 1 1 1 1
+  354 borders/TRANSIENT/images/dialog_bottleft_s.png
+  357 1 1 1 1
+  356 borders/TRANSIENT/images/dialog_bottleft_s.png
+  357 1 1 1 1
+  355 borders/TRANSIENT/images/dialog_bottleft_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 DIALOG_BOTTOM
+  370 DEFAULT
+  5 borders/TRANSIENT/images/dialog_bottom_u.png
+  357 1 1 1 1
+  353 borders/TRANSIENT/images/dialog_bottom_u.png
+  357 1 1 1 1
+  352 borders/TRANSIENT/images/dialog_bottom_u.png
+  357 1 1 1 1
+  354 borders/TRANSIENT/images/dialog_bottom_s.png
+  357 1 1 1 1
+  356 borders/TRANSIENT/images/dialog_bottom_s.png
+  357 1 1 1 1
+  355 borders/TRANSIENT/images/dialog_bottom_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 DIALOG_BOTTOMRIGHT
+  370 DEFAULT
+  5 borders/TRANSIENT/images/dialog_bottright_u.png
+  357 1 1 1 1
+  353 borders/TRANSIENT/images/dialog_bottright_u.png
+  357 1 1 1 1
+  352 borders/TRANSIENT/images/dialog_bottright_u.png
+  357 1 1 1 1
+  354 borders/TRANSIENT/images/dialog_bottright_s.png
+  357 1 1 1 1
+  356 borders/TRANSIENT/images/dialog_bottright_s.png
+  357 1 1 1 1
+  355 borders/TRANSIENT/images/dialog_bottright_c.png
+  357 2 2 2 
+1000
+3 999
+  100 TRANSIENT
+  501 5
+  502 5
+  503 5
+  504 5
+  505 999
+    12 DIALOG_TOPLEFT
+    11 ACTION_MOVE
+    456 5
+    468 5
+    457 5
+    469 5
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  0
+    464  5
+    465  0
+    466  5
+    470 1
+  1000
+  505 999
+    12 DIALOG_TOP
+    11 ACTION_MOVE
+    456 10
+    468 5
+    457 99999
+    469 5
+    467 -1
+    458  0
+    459  5
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -5
+    465  0
+    466  5
+    470 1
+  1000
+  505 999
+    12 DIALOG_TOPRIGHT
+    11 ACTION_MOVE
+    456 5
+    468 5
+    457 5
+    469 5
+    467 -1
+    458  1024
+    459  -5
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  6
+    470 1
+  1000	
+  505 999
+    12 DIALOG_RIGHT
+    11 ACTION_MOVE
+    456 5
+    468 5
+    457 5
+    469 99999
+    467 -1
+    458  1024
+    459  -5
+    460  0
+    461  5
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -23
+    470 1
+  1000
+  505 999
+    12 DIALOG_BOTTOMRIGHT
+    11 ACTION_RESIZE
+    800 RESIZE_BR
+    456 22
+    468 23
+    457 22
+    469 23
+    467 -1
+    458  1024
+    459  -22
+    460  1024
+    461  -23
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 DIALOG_BOTTOM
+    11 ACTION_MOVE
+    456 10
+    468 5
+    457 99999
+    469 5
+    467 -1
+    458  0
+    459  4
+    460  1024
+    461  -5
+    462 -1
+    463  1024
+    464  -23
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 DIALOG_BOTTOMLEFT
+    11 ACTION_MOVE
+    456 5
+    468 5
+    457 5
+    469 5
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -5
+    462 -1
+    463  0
+    464  5
+    465  1024
+    466  0
+    470 1
+  1000
+  505 999
+    12 DIALOG_LEFT
+    11 ACTION_MOVE
+    456 5
+    468 5
+    457 5
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  5
+    462 -1
+    463  5
+    464  0
+    465  1024
+    466  -5
+    470 1
+  1000
+1000
+1 999
+  100 "GANYMEDE_CENTERED_SMALL"
+  5 "*font-border-small"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+1000	
+12 999 
+  100 PAGER_FAT_TOP
+  370 DEFAULT
+  5 borders/PAGER/images/pager_t_top_u.png
+  357 2 2 2 2
+  353 borders/PAGER/images/pager_t_top_u.png
+  357 2 2 2 2
+  352 borders/PAGER/images/pager_t_top_u.png
+  357 2 2 2 2
+  354 borders/PAGER/images/pager_t_top_s.png
+  357 2 2 2 2
+  356 borders/PAGER/images/pager_t_top_s.png
+  357 2 2 2 2
+  355 borders/PAGER/images/pager_t_top_c.png
+  357 2 2 2 2
+  359 borders/PAGER/images/pager_t_top_u.png
+  357 2 2 2 2
+  361 borders/PAGER/images/pager_t_top_u.png
+  357 2 2 2 2
+  360 borders/PAGER/images/pager_t_top_u.png
+  357 2 2 2 2
+  362 borders/PAGER/images/pager_t_top_s.png
+  357 2 2 2 2
+  364 borders/PAGER/images/pager_t_top_s.png
+  357 2 2 2 2
+  363 borders/PAGER/images/pager_t_top_c.png
+  357 2 2 2 2
+  358 0 0 0 0
+1000
+12 999 
+  100 PAGER_FAT_RIGHT
+  370 DEFAULT
+  5 borders/PAGER/images/pager_r_right_u.png
+  357 2 2 2 2
+  353 borders/PAGER/images/pager_r_right_u.png
+  357 2 2 2 2
+  352 borders/PAGER/images/pager_r_right_u.png
+  357 2 2 2 2
+  354 borders/PAGER/images/pager_r_right_s.png
+  357 2 2 2 2
+  356 borders/PAGER/images/pager_r_right_s.png
+  357 2 2 2 2
+  355 borders/PAGER/images/pager_r_right_c.png
+  357 2 2 2 2
+  359 borders/PAGER/images/pager_r_right_u.png
+  357 2 2 2 2
+  361 borders/PAGER/images/pager_r_right_u.png
+  357 2 2 2 2
+  360 borders/PAGER/images/pager_r_right_u.png
+  357 2 2 2 2
+  362 borders/PAGER/images/pager_r_right_s.png
+  357 2 2 2 2
+  364 borders/PAGER/images/pager_r_right_s.png
+  357 2 2 2 2
+  363 borders/PAGER/images/pager_r_right_c.png
+  357 2 2 2 2
+  358 0 0 0 0
+1000
+12 999 
+  100 PAGER_FAT_LEFT
+  370 DEFAULT
+  5 borders/PAGER/images/pager_l_left_u.png
+  357 2 2 2 2
+  353 borders/PAGER/images/pager_l_left_u.png
+  357 2 2 2 2
+  352 borders/PAGER/images/pager_l_left_u.png
+  357 2 2 2 2
+  354 borders/PAGER/images/pager_l_left_s.png
+  357 2 2 2 2
+  356 borders/PAGER/images/pager_l_left_s.png
+  357 2 2 2 2
+  355 borders/PAGER/images/pager_l_left_c.png
+  357 2 2 2 2
+  359 borders/PAGER/images/pager_l_left_u.png
+  357 2 2 2 2
+  361 borders/PAGER/images/pager_l_left_u.png
+  357 2 2 2 2
+  360 borders/PAGER/images/pager_l_left_u.png
+  357 2 2 2 2
+  362 borders/PAGER/images/pager_l_left_s.png
+  357 2 2 2 2
+  364 borders/PAGER/images/pager_l_left_s.png
+  357 2 2 2 2
+  363 borders/PAGER/images/pager_l_left_c.png
+  357 2 2 2 2
+  358 0 0 0 0
+1000
+12 999 
+  100 PAGER_FAT_BOTTOM
+  370 DEFAULT
+  5 borders/PAGER/images/pager_b_bottom_u.png
+  357 2 2 2 2
+  353 borders/PAGER/images/pager_b_bottom_u.png
+  357 2 2 2 2
+  352 borders/PAGER/images/pager_b_bottom_u.png
+  357 2 2 2 2
+  354 borders/PAGER/images/pager_b_bottom_s.png
+  357 2 2 2 2
+  356 borders/PAGER/images/pager_b_bottom_s.png
+  357 2 2 2 2
+  355 borders/PAGER/images/pager_b_bottom_c.png
+  357 2 2 2 2
+  359 borders/PAGER/images/pager_b_bottom_u.png
+  357 2 2 2 2
+  361 borders/PAGER/images/pager_b_bottom_u.png
+  357 2 2 2 2
+  360 borders/PAGER/images/pager_b_bottom_u.png
+  357 2 2 2 2
+  362 borders/PAGER/images/pager_b_bottom_s.png
+  357 2 2 2 2
+  364 borders/PAGER/images/pager_b_bottom_s.png
+  357 2 2 2 2
+  363 borders/PAGER/images/pager_b_bottom_c.png
+  357 2 2 2 2
+  358 0 0 0 0
+1000
+12 999 
+  100 PAGER_TOP
+  370 DEFAULT
+  5 borders/PAGER/images/pager_top_u.png
+  357 2 2 2 2
+  353 borders/PAGER/images/pager_top_u.png
+  357 2 2 2 2
+  352 borders/PAGER/images/pager_top_u.png
+  357 2 2 2 2
+  354 borders/PAGER/images/pager_top_s.png
+  357 2 2 2 2
+  356 borders/PAGER/images/pager_top_s.png
+  357 2 2 2 2
+  355 borders/PAGER/images/pager_top_s.png
+  357 2 2 2 2
+  359 borders/PAGER/images/pager_top_u.png
+  357 2 2 2 2
+  361 borders/PAGER/images/pager_top_u.png
+  357 2 2 2 2
+  360 borders/PAGER/images/pager_top_u.png
+  357 2 2 2 2
+  362 borders/PAGER/images/pager_top_s.png
+  357 2 2 2 2
+  364 borders/PAGER/images/pager_top_s.png
+  357 2 2 2 2
+  363 borders/PAGER/images/pager_top_s.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999 
+  100 PAGER_TOPLEFT
+  370 DEFAULT
+  5 borders/PAGER/images/pager_topleft_u.png
+  357 2 2 2 2
+  353 borders/PAGER/images/pager_topleft_u.png
+  357 2 2 2 2
+  352 borders/PAGER/images/pager_topleft_u.png
+  357 2 2 2 2
+  354 borders/PAGER/images/pager_topleft_s.png
+  357 2 2 2 2
+  356 borders/PAGER/images/pager_topleft_s.png
+  357 2 2 2 2
+  355 borders/PAGER/images/pager_topleft_s.png
+  357 2 2 2 2
+  359 borders/PAGER/images/pager_topleft_u.png
+  357 2 2 2 2
+  361 borders/PAGER/images/pager_topleft_u.png
+  357 2 2 2 2
+  360 borders/PAGER/images/pager_topleft_u.png
+  357 2 2 2 2
+  362 borders/PAGER/images/pager_topleft_s.png
+  357 2 2 2 2
+  364 borders/PAGER/images/pager_topleft_s.png
+  357 2 2 2 2
+  363 borders/PAGER/images/pager_topleft_s.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999 
+  100 PAGER_LEFT
+  370 DEFAULT
+  5 borders/PAGER/images/pager_left_u.png
+  357 2 2 2 2
+  353 borders/PAGER/images/pager_left_u.png
+  357 2 2 2 2
+  352 borders/PAGER/images/pager_left_u.png
+  357 2 2 2 2
+  354 borders/PAGER/images/pager_left_s.png
+  357 2 2 2 2
+  356 borders/PAGER/images/pager_left_s.png
+  357 2 2 2 2
+  355 borders/PAGER/images/pager_left_s.png
+  357 2 2 2 2
+  359 borders/PAGER/images/pager_left_u.png
+  357 2 2 2 2
+  361 borders/PAGER/images/pager_left_u.png
+  357 2 2 2 2
+  360 borders/PAGER/images/pager_left_u.png
+  357 2 2 2 2
+  362 borders/PAGER/images/pager_left_s.png
+  357 2 2 2 2
+  364 borders/PAGER/images/pager_left_s.png
+  357 2 2 2 2
+  363 borders/PAGER/images/pager_left_s.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999 
+  100 PAGER_BOTTLEFT
+  370 DEFAULT
+  5 borders/PAGER/images/pager_bottleft_u.png
+  357 2 2 2 2
+  353 borders/PAGER/images/pager_bottleft_s.png
+  357 2 2 2 2
+  352 borders/PAGER/images/pager_bottleft_s.png
+  357 2 2 2 2
+  354 borders/PAGER/images/pager_bottleft_u.png
+  357 2 2 2 2
+  356 borders/PAGER/images/pager_bottleft_s.png
+  357 2 2 2 2
+  355 borders/PAGER/images/pager_bottleft_s.png
+  357 2 2 2 2
+  359 borders/PAGER/images/pager_bottleft_u.png
+  357 2 2 2 2
+  361 borders/PAGER/images/pager_bottleft_s.png
+  357 2 2 2 2
+  360 borders/PAGER/images/pager_bottleft_s.png
+  357 2 2 2 2
+  362 borders/PAGER/images/pager_bottleft_u.png
+  357 2 2 2 2
+  364 borders/PAGER/images/pager_bottleft_s.png
+  357 2 2 2 2
+  363 borders/PAGER/images/pager_bottleft_s.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999 
+  100 PAGER_BOTTOM
+  370 DEFAULT
+  5 borders/PAGER/images/pager_bottom_u.png
+  357 2 2 2 2
+  353 borders/PAGER/images/pager_bottom_u.png
+  357 2 2 2 2
+  352 borders/PAGER/images/pager_bottom_u.png
+  357 2 2 2 2
+  354 borders/PAGER/images/pager_bottom_s.png
+  357 2 2 2 2
+  356 borders/PAGER/images/pager_bottom_s.png
+  357 2 2 2 2
+  355 borders/PAGER/images/pager_bottom_s.png
+  357 2 2 2 2
+  359 borders/PAGER/images/pager_bottom_u.png
+  357 2 2 2 2
+  361 borders/PAGER/images/pager_bottom_u.png
+  357 2 2 2 2
+  360 borders/PAGER/images/pager_bottom_u.png
+  357 2 2 2 2
+  362 borders/PAGER/images/pager_bottom_s.png
+  357 2 2 2 2
+  364 borders/PAGER/images/pager_bottom_s.png
+  357 2 2 2 2
+  363 borders/PAGER/images/pager_bottom_s.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999 
+  100 PAGER_BOTTRIGHT
+  370 DEFAULT
+  5 borders/PAGER/images/pager_bottright_u.png
+  357 2 2 2 2
+  353 borders/PAGER/images/pager_bottright_u.png
+  357 2 2 2 2
+  352 borders/PAGER/images/pager_bottright_u.png
+  357 2 2 2 2
+  354 borders/PAGER/images/pager_bottright_s.png
+  357 2 2 2 2
+  356 borders/PAGER/images/pager_bottright_s.png
+  357 2 2 2 2
+  355 borders/PAGER/images/pager_bottright_s.png
+  357 2 2 2 2
+  359 borders/PAGER/images/pager_bottright_u.png
+  357 2 2 2 2
+  361 borders/PAGER/images/pager_bottright_u.png
+  357 2 2 2 2
+  360 borders/PAGER/images/pager_bottright_u.png
+  357 2 2 2 2
+  362 borders/PAGER/images/pager_bottright_s.png
+  357 2 2 2 2
+  364 borders/PAGER/images/pager_bottright_s.png
+  357 2 2 2 2
+  363 borders/PAGER/images/pager_bottright_s.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999 
+  100 PAGER_RIGHT
+  370 DEFAULT
+  5 borders/PAGER/images/pager_right_u.png
+  357 2 2 2 2
+  353 borders/PAGER/images/pager_right_u.png
+  357 2 2 2 2
+  352 borders/PAGER/images/pager_right_u.png
+  357 2 2 2 2
+  354 borders/PAGER/images/pager_right_s.png
+  357 2 2 2 2
+  356 borders/PAGER/images/pager_right_s.png
+  357 2 2 2 2
+  355 borders/PAGER/images/pager_right_s.png
+  357 2 2 2 2
+  359 borders/PAGER/images/pager_right_u.png
+  357 2 2 2 2
+  361 borders/PAGER/images/pager_right_u.png
+  357 2 2 2 2
+  360 borders/PAGER/images/pager_right_u.png
+  357 2 2 2 2
+  362 borders/PAGER/images/pager_right_s.png
+  357 2 2 2 2
+  364 borders/PAGER/images/pager_right_s.png
+  357 2 2 2 2
+  363 borders/PAGER/images/pager_right_s.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999 
+  100 PAGER_TOPRIGHT
+  370 DEFAULT
+  5 borders/PAGER/images/pager_topright_u.png
+  357 2 2 2 2
+  353 borders/PAGER/images/pager_topright_u.png
+  357 2 2 2 2
+  352 borders/PAGER/images/pager_topright_u.png
+  357 2 2 2 2
+  354 borders/PAGER/images/pager_topright_s.png
+  357 2 2 2 2
+  356 borders/PAGER/images/pager_topright_s.png
+  357 2 2 2 2
+  355 borders/PAGER/images/pager_topright_s.png
+  357 2 2 2 2
+  359 borders/PAGER/images/pager_topright_u.png
+  357 2 2 2 2
+  361 borders/PAGER/images/pager_topright_u.png
+  357 2 2 2 2
+  360 borders/PAGER/images/pager_topright_u.png
+  357 2 2 2 2
+  362 borders/PAGER/images/pager_topright_s.png
+  357 2 2 2 2
+  364 borders/PAGER/images/pager_topright_s.png
+  357 2 2 2 2
+  363 borders/PAGER/images/pager_topright_s.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+3 999
+  100 PAGER
+  501 2
+  502 2
+  503 9
+  504 3
+  508 PAGER_BLUE
+  506 3
+  505 999
+    12 PAGER_FAT_TOP
+    11 ACTION_MOVE
+    1 GANYMEDE_CENTERED_SMALL
+    454 1
+    456 10
+    457 99999
+    468 9
+    469 9
+    467 -1
+    458  0
+    459 0
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  9
+    470 1
+  1000
+  505 999
+    12 PAGER_RIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  1024
+    459  -2
+    460  0
+    461  9
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  -3
+    470 0
+  1000
+  505 999
+    12 PAGER_BOTTRIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  1024
+    459  -2
+    460  1024
+    461  -3
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 PAGER_BOTTOM
+    11 ACTION_MOVE
+    456 10
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  2
+    460  1024
+    461  -3
+    462 -1
+    463  1024
+    464  -2
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 PAGER_BOTTLEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -3
+    462 -1
+    463  0
+    464  2
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 PAGER_LEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  9
+    462 -1
+    463  0
+    464  2
+    465  1024
+    466  -3
+    470 0
+  1000
+1000
+1 999
+  100 "GANYMEDE_CENTERED_SMALL_DOWN"
+  5 "*font-border-small"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+  200 1
+1000	
+3 999
+  100 PAGER_RIGHT
+  501 2
+  502 9
+  503 3
+  504 3
+  508 PAGER_RIGHT_BLUE
+  506 0
+  505 999
+    12 PAGER_TOP
+    11 ACTION_MOVE
+    456 10
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459 2
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -9
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 PAGER_FAT_RIGHT
+    11 ACTION_MOVE
+    1 GANYMEDE_CENTERED_SMALL_DOWN
+    454 1
+    456 9
+    457 9
+    468 10
+    469 99999
+    467 -1
+    458  1024
+    459  -9
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 PAGER_BOTTOM
+    11 ACTION_MOVE
+    456 10
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  2
+    460  1024
+    461  -3
+    462 -1
+    463  1024
+    464  -9
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 PAGER_BOTTLEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -3
+    462 -1
+    463  0
+    464  2
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 PAGER_LEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  3
+    462 -1
+    463  0
+    464  2
+    465  1024
+    466  -3
+    470 0
+  1000
+  505 999
+    12 PAGER_TOPLEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  0
+    464  2
+    465  0
+    466  3
+    470 0
+  1000
+1000
+1 999
+  100 "GANYMEDE_CENTERED_SMALL_UP"
+  5 "*font-border-small"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+  200 2
+1000	
+3 999
+  100 PAGER_LEFT
+  501 9
+  502 2
+  503 3
+  504 3
+  508 PAGER_LEFT_BLUE
+  506 1
+  505 999
+    12 PAGER_TOP
+    11 ACTION_MOVE
+    456 10
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459 9
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -2
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 PAGER_TOPRIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  1024
+    459  -2
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  0
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 PAGER_RIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  1024
+    459  -2
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -2
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 PAGER_BOTTRIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  1024
+    459  -2
+    460  1024
+    461  -3
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 PAGER_BOTTOM
+    11 ACTION_MOVE
+    456 10
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  9
+    460  1024
+    461  -3
+    462 -1
+    463  1024
+    464  -2
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 PAGER_FAT_LEFT
+    11 ACTION_MOVE
+    1 GANYMEDE_CENTERED_SMALL_UP
+    454 1
+    456 9
+    457 9
+    468 10
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  0
+    464  9
+    465  1024
+    466  0
+    470 1
+  1000
+1000
+3 999
+  100 PAGER_BOTTOM
+  501 2
+  502 2
+  503 3
+  504 9
+  508 PAGER_BOTTOM_BLUE
+  506 2
+  505 999
+    12 PAGER_TOP
+    11 ACTION_MOVE
+    456 10
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459 2
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -2
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 PAGER_TOPRIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  1024
+    459  -2
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  0
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 PAGER_RIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  1024
+    459  -2
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -2
+    465  1024
+    466  -9
+    470 0
+  1000
+  505 999
+    12 PAGER_FAT_BOTTOM
+    11 ACTION_MOVE
+    1 GANYMEDE_CENTERED_SMALL
+    454 1
+    456 10
+    457 99999
+    468 9
+    469 9
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -9
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  0
+    470 1
+  1000
+  505 999
+    12 PAGER_LEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  3
+    462 -1
+    463  0
+    464  3
+    465  1024
+    466  -9
+    470 0
+  1000
+  505 999
+    12 PAGER_TOPLEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  0
+    464  2
+    465  0
+    466  3
+    470 0
+  1000
+1000
+12 999 
+  100 BLUE__PAGER_FAT_TOP
+  370 BLUE
+  5 borders/PAGER_BLUE/images/pager_t_top_u.png
+  357 2 2 2 2
+  353 borders/PAGER_BLUE/images/pager_t_top_u.png
+  357 2 2 2 2
+  352 borders/PAGER_BLUE/images/pager_t_top_u.png
+  357 2 2 2 2
+  354 borders/PAGER_BLUE/images/pager_t_top_s.png
+  357 2 2 2 2
+  356 borders/PAGER_BLUE/images/pager_t_top_s.png
+  357 2 2 2 2
+  355 borders/PAGER_BLUE/images/pager_t_top_c.png
+  357 2 2 2 2
+  359 borders/PAGER_BLUE/images/pager_t_top_u.png
+  357 2 2 2 2
+  361 borders/PAGER_BLUE/images/pager_t_top_u.png
+  357 2 2 2 2
+  360 borders/PAGER_BLUE/images/pager_t_top_u.png
+  357 2 2 2 2
+  362 borders/PAGER_BLUE/images/pager_t_top_s.png
+  357 2 2 2 2
+  364 borders/PAGER_BLUE/images/pager_t_top_s.png
+  357 2 2 2 2
+  363 borders/PAGER_BLUE/images/pager_t_top_c.png
+  357 2 2 2 2
+  358 0 0 0 0
+1000
+12 999 
+  100 BLUE__PAGER_FAT_RIGHT
+  370 BLUE
+  5 borders/PAGER_BLUE/images/pager_r_right_u.png
+  357 2 2 2 2
+  353 borders/PAGER_BLUE/images/pager_r_right_u.png
+  357 2 2 2 2
+  352 borders/PAGER_BLUE/images/pager_r_right_u.png
+  357 2 2 2 2
+  354 borders/PAGER_BLUE/images/pager_r_right_s.png
+  357 2 2 2 2
+  356 borders/PAGER_BLUE/images/pager_r_right_s.png
+  357 2 2 2 2
+  355 borders/PAGER_BLUE/images/pager_r_right_c.png
+  357 2 2 2 2
+  359 borders/PAGER_BLUE/images/pager_r_right_u.png
+  357 2 2 2 2
+  361 borders/PAGER_BLUE/images/pager_r_right_u.png
+  357 2 2 2 2
+  360 borders/PAGER_BLUE/images/pager_r_right_u.png
+  357 2 2 2 2
+  362 borders/PAGER_BLUE/images/pager_r_right_s.png
+  357 2 2 2 2
+  364 borders/PAGER_BLUE/images/pager_r_right_s.png
+  357 2 2 2 2
+  363 borders/PAGER_BLUE/images/pager_r_right_c.png
+  357 2 2 2 2
+  358 0 0 0 0
+1000
+12 999 
+  100 BLUE__PAGER_FAT_LEFT
+  370 BLUE
+  5 borders/PAGER_BLUE/images/pager_l_left_u.png
+  357 2 2 2 2
+  353 borders/PAGER_BLUE/images/pager_l_left_u.png
+  357 2 2 2 2
+  352 borders/PAGER_BLUE/images/pager_l_left_u.png
+  357 2 2 2 2
+  354 borders/PAGER_BLUE/images/pager_l_left_s.png
+  357 2 2 2 2
+  356 borders/PAGER_BLUE/images/pager_l_left_s.png
+  357 2 2 2 2
+  355 borders/PAGER_BLUE/images/pager_l_left_c.png
+  357 2 2 2 2
+  359 borders/PAGER_BLUE/images/pager_l_left_u.png
+  357 2 2 2 2
+  361 borders/PAGER_BLUE/images/pager_l_left_u.png
+  357 2 2 2 2
+  360 borders/PAGER_BLUE/images/pager_l_left_u.png
+  357 2 2 2 2
+  362 borders/PAGER_BLUE/images/pager_l_left_s.png
+  357 2 2 2 2
+  364 borders/PAGER_BLUE/images/pager_l_left_s.png
+  357 2 2 2 2
+  363 borders/PAGER_BLUE/images/pager_l_left_c.png
+  357 2 2 2 2
+  358 0 0 0 0
+1000
+12 999 
+  100 BLUE__PAGER_FAT_BOTTOM
+  370 BLUE
+  5 borders/PAGER_BLUE/images/pager_b_bottom_u.png
+  357 2 2 2 2
+  353 borders/PAGER_BLUE/images/pager_b_bottom_u.png
+  357 2 2 2 2
+  352 borders/PAGER_BLUE/images/pager_b_bottom_u.png
+  357 2 2 2 2
+  354 borders/PAGER_BLUE/images/pager_b_bottom_s.png
+  357 2 2 2 2
+  356 borders/PAGER_BLUE/images/pager_b_bottom_s.png
+  357 2 2 2 2
+  355 borders/PAGER_BLUE/images/pager_b_bottom_c.png
+  357 2 2 2 2
+  359 borders/PAGER_BLUE/images/pager_b_bottom_u.png
+  357 2 2 2 2
+  361 borders/PAGER_BLUE/images/pager_b_bottom_u.png
+  357 2 2 2 2
+  360 borders/PAGER_BLUE/images/pager_b_bottom_u.png
+  357 2 2 2 2
+  362 borders/PAGER_BLUE/images/pager_b_bottom_s.png
+  357 2 2 2 2
+  364 borders/PAGER_BLUE/images/pager_b_bottom_s.png
+  357 2 2 2 2
+  363 borders/PAGER_BLUE/images/pager_b_bottom_c.png
+  357 2 2 2 2
+  358 0 0 0 0
+1000
+12 999 
+  100 BLUE__PAGER_TOP
+  370 BLUE
+  5 borders/PAGER_BLUE/images/pager_top_u.png
+  357 2 2 2 2
+  353 borders/PAGER_BLUE/images/pager_top_u.png
+  357 2 2 2 2
+  352 borders/PAGER_BLUE/images/pager_top_u.png
+  357 2 2 2 2
+  354 borders/PAGER_BLUE/images/pager_top_s.png
+  357 2 2 2 2
+  356 borders/PAGER_BLUE/images/pager_top_s.png
+  357 2 2 2 2
+  355 borders/PAGER_BLUE/images/pager_top_s.png
+  357 2 2 2 2
+  359 borders/PAGER_BLUE/images/pager_top_u.png
+  357 2 2 2 2
+  361 borders/PAGER_BLUE/images/pager_top_u.png
+  357 2 2 2 2
+  360 borders/PAGER_BLUE/images/pager_top_u.png
+  357 2 2 2 2
+  362 borders/PAGER_BLUE/images/pager_top_s.png
+  357 2 2 2 2
+  364 borders/PAGER_BLUE/images/pager_top_s.png
+  357 2 2 2 2
+  363 borders/PAGER_BLUE/images/pager_top_s.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999 
+  100 BLUE__PAGER_TOPLEFT
+  370 BLUE
+  5 borders/PAGER_BLUE/images/pager_topleft_u.png
+  357 2 2 2 2
+  353 borders/PAGER_BLUE/images/pager_topleft_u.png
+  357 2 2 2 2
+  352 borders/PAGER_BLUE/images/pager_topleft_u.png
+  357 2 2 2 2
+  354 borders/PAGER_BLUE/images/pager_topleft_s.png
+  357 2 2 2 2
+  356 borders/PAGER_BLUE/images/pager_topleft_s.png
+  357 2 2 2 2
+  355 borders/PAGER_BLUE/images/pager_topleft_s.png
+  357 2 2 2 2
+  359 borders/PAGER_BLUE/images/pager_topleft_u.png
+  357 2 2 2 2
+  361 borders/PAGER_BLUE/images/pager_topleft_u.png
+  357 2 2 2 2
+  360 borders/PAGER_BLUE/images/pager_topleft_u.png
+  357 2 2 2 2
+  362 borders/PAGER_BLUE/images/pager_topleft_s.png
+  357 2 2 2 2
+  364 borders/PAGER_BLUE/images/pager_topleft_s.png
+  357 2 2 2 2
+  363 borders/PAGER_BLUE/images/pager_topleft_s.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999 
+  100 BLUE__PAGER_LEFT
+  370 BLUE
+  5 borders/PAGER_BLUE/images/pager_left_u.png
+  357 2 2 2 2
+  353 borders/PAGER_BLUE/images/pager_left_u.png
+  357 2 2 2 2
+  352 borders/PAGER_BLUE/images/pager_left_u.png
+  357 2 2 2 2
+  354 borders/PAGER_BLUE/images/pager_left_s.png
+  357 2 2 2 2
+  356 borders/PAGER_BLUE/images/pager_left_s.png
+  357 2 2 2 2
+  355 borders/PAGER_BLUE/images/pager_left_s.png
+  357 2 2 2 2
+  359 borders/PAGER_BLUE/images/pager_left_u.png
+  357 2 2 2 2
+  361 borders/PAGER_BLUE/images/pager_left_u.png
+  357 2 2 2 2
+  360 borders/PAGER_BLUE/images/pager_left_u.png
+  357 2 2 2 2
+  362 borders/PAGER_BLUE/images/pager_left_s.png
+  357 2 2 2 2
+  364 borders/PAGER_BLUE/images/pager_left_s.png
+  357 2 2 2 2
+  363 borders/PAGER_BLUE/images/pager_left_s.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999 
+  100 BLUE__PAGER_BOTTLEFT
+  370 BLUE
+  5 borders/PAGER_BLUE/images/pager_bottleft_u.png
+  357 2 2 2 2
+  353 borders/PAGER_BLUE/images/pager_bottleft_s.png
+  357 2 2 2 2
+  352 borders/PAGER_BLUE/images/pager_bottleft_s.png
+  357 2 2 2 2
+  354 borders/PAGER_BLUE/images/pager_bottleft_u.png
+  357 2 2 2 2
+  356 borders/PAGER_BLUE/images/pager_bottleft_s.png
+  357 2 2 2 2
+  355 borders/PAGER_BLUE/images/pager_bottleft_s.png
+  357 2 2 2 2
+  359 borders/PAGER_BLUE/images/pager_bottleft_u.png
+  357 2 2 2 2
+  361 borders/PAGER_BLUE/images/pager_bottleft_s.png
+  357 2 2 2 2
+  360 borders/PAGER_BLUE/images/pager_bottleft_s.png
+  357 2 2 2 2
+  362 borders/PAGER_BLUE/images/pager_bottleft_u.png
+  357 2 2 2 2
+  364 borders/PAGER_BLUE/images/pager_bottleft_s.png
+  357 2 2 2 2
+  363 borders/PAGER_BLUE/images/pager_bottleft_s.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999 
+  100 BLUE__PAGER_BOTTOM
+  370 BLUE
+  5 borders/PAGER_BLUE/images/pager_bottom_u.png
+  357 2 2 2 2
+  353 borders/PAGER_BLUE/images/pager_bottom_u.png
+  357 2 2 2 2
+  352 borders/PAGER_BLUE/images/pager_bottom_u.png
+  357 2 2 2 2
+  354 borders/PAGER_BLUE/images/pager_bottom_s.png
+  357 2 2 2 2
+  356 borders/PAGER_BLUE/images/pager_bottom_s.png
+  357 2 2 2 2
+  355 borders/PAGER_BLUE/images/pager_bottom_s.png
+  357 2 2 2 2
+  359 borders/PAGER_BLUE/images/pager_bottom_u.png
+  357 2 2 2 2
+  361 borders/PAGER_BLUE/images/pager_bottom_u.png
+  357 2 2 2 2
+  360 borders/PAGER_BLUE/images/pager_bottom_u.png
+  357 2 2 2 2
+  362 borders/PAGER_BLUE/images/pager_bottom_s.png
+  357 2 2 2 2
+  364 borders/PAGER_BLUE/images/pager_bottom_s.png
+  357 2 2 2 2
+  363 borders/PAGER_BLUE/images/pager_bottom_s.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999 
+  100 BLUE__PAGER_BOTTRIGHT
+  370 BLUE
+  5 borders/PAGER_BLUE/images/pager_bottright_u.png
+  357 2 2 2 2
+  353 borders/PAGER_BLUE/images/pager_bottright_u.png
+  357 2 2 2 2
+  352 borders/PAGER_BLUE/images/pager_bottright_u.png
+  357 2 2 2 2
+  354 borders/PAGER_BLUE/images/pager_bottright_s.png
+  357 2 2 2 2
+  356 borders/PAGER_BLUE/images/pager_bottright_s.png
+  357 2 2 2 2
+  355 borders/PAGER_BLUE/images/pager_bottright_s.png
+  357 2 2 2 2
+  359 borders/PAGER_BLUE/images/pager_bottright_u.png
+  357 2 2 2 2
+  361 borders/PAGER_BLUE/images/pager_bottright_u.png
+  357 2 2 2 2
+  360 borders/PAGER_BLUE/images/pager_bottright_u.png
+  357 2 2 2 2
+  362 borders/PAGER_BLUE/images/pager_bottright_s.png
+  357 2 2 2 2
+  364 borders/PAGER_BLUE/images/pager_bottright_s.png
+  357 2 2 2 2
+  363 borders/PAGER_BLUE/images/pager_bottright_s.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999 
+  100 BLUE__PAGER_RIGHT
+  370 BLUE
+  5 borders/PAGER_BLUE/images/pager_right_u.png
+  357 2 2 2 2
+  353 borders/PAGER_BLUE/images/pager_right_u.png
+  357 2 2 2 2
+  352 borders/PAGER_BLUE/images/pager_right_u.png
+  357 2 2 2 2
+  354 borders/PAGER_BLUE/images/pager_right_s.png
+  357 2 2 2 2
+  356 borders/PAGER_BLUE/images/pager_right_s.png
+  357 2 2 2 2
+  355 borders/PAGER_BLUE/images/pager_right_s.png
+  357 2 2 2 2
+  359 borders/PAGER_BLUE/images/pager_right_u.png
+  357 2 2 2 2
+  361 borders/PAGER_BLUE/images/pager_right_u.png
+  357 2 2 2 2
+  360 borders/PAGER_BLUE/images/pager_right_u.png
+  357 2 2 2 2
+  362 borders/PAGER_BLUE/images/pager_right_s.png
+  357 2 2 2 2
+  364 borders/PAGER_BLUE/images/pager_right_s.png
+  357 2 2 2 2
+  363 borders/PAGER_BLUE/images/pager_right_s.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999 
+  100 BLUE__PAGER_TOPRIGHT
+  370 BLUE
+  5 borders/PAGER_BLUE/images/pager_topright_u.png
+  357 2 2 2 2
+  353 borders/PAGER_BLUE/images/pager_topright_u.png
+  357 2 2 2 2
+  352 borders/PAGER_BLUE/images/pager_topright_u.png
+  357 2 2 2 2
+  354 borders/PAGER_BLUE/images/pager_topright_s.png
+  357 2 2 2 2
+  356 borders/PAGER_BLUE/images/pager_topright_s.png
+  357 2 2 2 2
+  355 borders/PAGER_BLUE/images/pager_topright_s.png
+  357 2 2 2 2
+  359 borders/PAGER_BLUE/images/pager_topright_u.png
+  357 2 2 2 2
+  361 borders/PAGER_BLUE/images/pager_topright_u.png
+  357 2 2 2 2
+  360 borders/PAGER_BLUE/images/pager_topright_u.png
+  357 2 2 2 2
+  362 borders/PAGER_BLUE/images/pager_topright_s.png
+  357 2 2 2 2
+  364 borders/PAGER_BLUE/images/pager_topright_s.png
+  357 2 2 2 2
+  363 borders/PAGER_BLUE/images/pager_topright_s.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+3 999
+  100 PAGER_BLUE
+  501 2
+  502 2
+  503 9
+  504 3
+  506 3
+  505 999
+    12 BLUE__PAGER_FAT_TOP
+    11 ACTION_MOVE
+    1 GANYMEDE_CENTERED_SMALL
+    454 1
+    456 10
+    457 99999
+    468 9
+    469 9
+    467 -1
+    458  0
+    459 0
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  9
+    470 1
+  1000
+  505 999
+    12 BLUE__PAGER_RIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  1024
+    459  -2
+    460  0
+    461  9
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  -3
+    470 0
+  1000
+  505 999
+    12 BLUE__PAGER_BOTTRIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  1024
+    459  -2
+    460  1024
+    461  -3
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 BLUE__PAGER_BOTTOM
+    11 ACTION_MOVE
+    456 10
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  2
+    460  1024
+    461  -3
+    462 -1
+    463  1024
+    464  -2
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 BLUE__PAGER_BOTTLEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -3
+    462 -1
+    463  0
+    464  2
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 BLUE__PAGER_LEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  9
+    462 -1
+    463  0
+    464  2
+    465  1024
+    466  -3
+    470 0
+  1000
+1000
+3 999
+  100 PAGER_RIGHT_BLUE
+  501 2
+  502 9
+  503 3
+  504 3
+  506 0
+  505 999
+    12 BLUE__PAGER_TOP
+    11 ACTION_MOVE
+    456 10
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459 2
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -9
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 BLUE__PAGER_FAT_RIGHT
+    11 ACTION_MOVE
+    1 GANYMEDE_CENTERED_SMALL_DOWN
+    454 1
+    456 9
+    457 9
+    468 10
+    469 99999
+    467 -1
+    458  1024
+    459  -9
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 BLUE__PAGER_BOTTOM
+    11 ACTION_MOVE
+    456 10
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  2
+    460  1024
+    461  -3
+    462 -1
+    463  1024
+    464  -9
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 BLUE__PAGER_BOTTLEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -3
+    462 -1
+    463  0
+    464  2
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 BLUE__PAGER_LEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  3
+    462 -1
+    463  0
+    464  2
+    465  1024
+    466  -3
+    470 0
+  1000
+  505 999
+    12 BLUE__PAGER_TOPLEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  0
+    464  2
+    465  0
+    466  3
+    470 0
+  1000
+1000
+3 999
+  100 PAGER_LEFT_BLUE
+  501 9
+  502 2
+  503 3
+  504 3
+  506 1
+  505 999
+    12 BLUE__PAGER_TOP
+    11 ACTION_MOVE
+    456 10
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459 9
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -2
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 BLUE__PAGER_TOPRIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  1024
+    459  -2
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  0
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 BLUE__PAGER_RIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  1024
+    459  -2
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -2
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BLUE__PAGER_BOTTRIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  1024
+    459  -2
+    460  1024
+    461  -3
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 BLUE__PAGER_BOTTOM
+    11 ACTION_MOVE
+    456 10
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  9
+    460  1024
+    461  -3
+    462 -1
+    463  1024
+    464  -2
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 BLUE__PAGER_FAT_LEFT
+    11 ACTION_MOVE
+    1 GANYMEDE_CENTERED_SMALL_UP
+    454 1
+    456 9
+    457 9
+    468 10
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  0
+    464  9
+    465  1024
+    466  0
+    470 1
+  1000
+1000
+3 999
+  100 PAGER_BOTTOM_BLUE
+  501 2
+  502 2
+  503 3
+  504 9
+  506 2
+  505 999
+    12 BLUE__PAGER_TOP
+    11 ACTION_MOVE
+    456 10
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459 2
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -2
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 BLUE__PAGER_TOPRIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  1024
+    459  -2
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  0
+    465  0
+    466  3
+    470 0
+  1000
+  505 999
+    12 BLUE__PAGER_RIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  1024
+    459  -2
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -2
+    465  1024
+    466  -9
+    470 0
+  1000
+  505 999
+    12 BLUE__PAGER_FAT_BOTTOM
+    11 ACTION_MOVE
+    1 GANYMEDE_CENTERED_SMALL
+    454 1
+    456 10
+    457 99999
+    468 9
+    469 9
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -9
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  0
+    470 1
+  1000
+  505 999
+    12 BLUE__PAGER_LEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  3
+    462 -1
+    463  0
+    464  3
+    465  1024
+    466  -9
+    470 0
+  1000
+  505 999
+    12 BLUE__PAGER_TOPLEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  0
+    464  2
+    465  0
+    466  3
+    470 0
+  1000
+1000
+3 999
+  100 ICONBOX
+  501 2
+  502 2
+  503 9
+  504 3
+  506 3
+  505 999
+    12 PAGER_FAT_TOP
+    11 ACTION_MOVE
+    1 GANYMEDE_CENTERED_SMALL
+    454 1
+    456 10
+    457 99999
+    468 9
+    469 9
+    467 -1
+    458  0
+    459 0
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  9
+    470 1
+  1000
+  505 999
+    12 PAGER_RIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  1024
+    459  -2
+    460  0
+    461  9
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  -3
+    470 0
+  1000
+  505 999
+    12 PAGER_BOTTRIGHT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  1024
+    459  -2
+    460  1024
+    461  -3
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 PAGER_BOTTOM
+    11 ACTION_MOVE
+    456 10
+    457 99999
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  2
+    460  1024
+    461  -3
+    462 -1
+    463  1024
+    464  -2
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 PAGER_BOTTLEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 3
+    469 3
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -3
+    462 -1
+    463  0
+    464  2
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 PAGER_LEFT
+    11 ACTION_MOVE
+    456 2
+    457 2
+    468 10
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  9
+    462 -1
+    463  0
+    464  2
+    465  1024
+    466  -3
+    470 0
+  1000
+1000
+1 999
+  100 "GANYMEDE_RED"
+  5 "*font-border"
+  204 1
+  205 255 200 200
+  206 0 0 0
+  201 450
+  354 "*font-border"
+  204 1
+  205 255 255 200
+  206 0 0 0
+  201 450
+  362 "*font-border"
+  204 1
+  205 255 255 0
+  206 0 0 0
+  201 450
+1000
+12 999 
+  100 RED__BORDER_TITLE
+  370 RED
+  5  borders/RED/images/top_u.png
+  357 6 64 1 1
+  353 borders/RED/images/top_u.png
+  357 6 64 1 1
+  352 borders/RED/images/top_u.png
+  357 6 64 1 1
+  354  borders/RED/images/top_s.png
+  357 6 64 1 1
+  356 borders/RED/images/top_f.png
+  357 6 64 1 1
+  355 borders/RED/images/top_c.png
+  357 6 64 1 1
+  359  borders/RED/images/sticky_top_u.png
+  357 6 64 1 1
+  361 borders/RED/images/sticky_top_u.png
+  357 6 64 1 1
+  360  borders/RED/images/sticky_top_u.png
+  357 6 64 1 1
+  362  borders/RED/images/sticky_top_s.png
+  357 6 64 1 1
+  364 borders/RED/images/sticky_top_f.png
+  357 6 64 1 1
+  363 borders/RED/images/sticky_top_c.png
+  357 6 64 1 1
+  358 0 0 2 0
+1000
+12 999 
+  100 RED__BORDER_TOPLEFT
+  370 RED
+  5 borders/RED/images/topleft_u.png
+  357 1 1 1 1
+  353 borders/RED/images/topleft_u.png
+  357 1 1 1 1
+  352 borders/RED/images/topleft_u.png
+  357 1 1 1 1
+  354 borders/RED/images/topleft_s.png
+  357 1 1 1 1
+  356 borders/RED/images/topleft_f.png
+  357 1 1 1 1
+  355 borders/RED/images/topleft_c.png
+  357 1 1 1 1
+  359 borders/RED/images/sticky_topleft_u.png
+  357 1 1 1 1
+  361 borders/RED/images/sticky_topleft_u.png
+  357 1 1 1 1
+  360  borders/RED/images/sticky_topleft_u.png
+  357 1 1 1 1
+  362 borders/RED/images/sticky_topleft_s.png
+  357 1 1 1 1
+  364 borders/RED/images/sticky_topleft_f.png
+  357 1 1 1 1
+  363 borders/RED/images/sticky_topleft_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 RED__BORDER_TOPRIGHT_LEFT
+  370 RED
+  5 borders/RED/images/topright_left_u.png
+  357 1 1 1 1
+  353 borders/RED/images/topright_left_u.png
+  357 1 1 1 1
+  352 borders/RED/images/topright_left_u.png
+  357 1 1 1 1
+  354 borders/RED/images/topright_left_s.png
+  357 1 1 1 1
+  356 borders/RED/images/topright_left_f.png
+  357 1 1 1 1
+  355 borders/RED/images/topright_left_c.png
+  357 1 1 1 1
+  359 borders/RED/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  361 borders/RED/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  360  borders/RED/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  362 borders/RED/images/sticky_topright_left_s.png
+  357 1 1 1 1
+  364 borders/RED/images/sticky_topright_left_f.png
+  357 1 1 1 1
+  363 borders/RED/images/sticky_topright_left_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 RED__BORDER_MIDDLE
+  370 RED
+  5 borders/RED/images/slideout_u.png
+  357 1 1 1 1
+  353 borders/RED/images/slideout_u.png
+  357 1 1 1 1
+  352 borders/RED/images/slideout_u.png
+  357 1 1 1 1
+  354 borders/RED/images/slideout_s.png
+  357 1 1 1 1
+  356 borders/RED/images/slideout_f.png
+  357 1 1 1 1
+  355 borders/RED/images/slideout_c.png
+  357 1 1 1 1
+  359 borders/RED/images/sticky_slideout_u.png
+  357 1 1 1 1
+  361 borders/RED/images/sticky_slideout_u.png
+  357 1 1 1 1
+  360  borders/RED/images/sticky_slideout_u.png
+  357 1 1 1 1
+  362 borders/RED/images/sticky_slideout_s.png
+  357 1 1 1 1
+  364 borders/RED/images/sticky_slideout_f.png
+  357 1 1 1 1
+  363 borders/RED/images/sticky_slideout_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 RED__BORDER_TOPRIGHT
+  370 RED
+  5 borders/RED/images/topright_u.png
+  357 1 1 1 1
+  353 borders/RED/images/topright_u.png
+  357 1 1 1 1
+  352 borders/RED/images/topright_u.png
+  357 1 1 1 1
+  354 borders/RED/images/topright_s.png
+  357 1 1 1 1
+  356 borders/RED/images/topright_f.png
+  357 1 1 1 1
+  355 borders/RED/images/topright_c.png
+  357 1 1 1 1
+  359 borders/RED/images/sticky_topright_u.png
+  357 1 1 1 1
+  361 borders/RED/images/sticky_topright_u.png
+  357 1 1 1 1
+  360  borders/RED/images/sticky_topright_u.png
+  357 1 1 1 1
+  362 borders/RED/images/sticky_topright_s.png
+  357 1 1 1 1
+  364 borders/RED/images/sticky_topright_f.png
+  357 1 1 1 1
+  363 borders/RED/images/sticky_topright_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 RED__BORDER_TOPRIGHT_BAR
+  370 RED
+  5 borders/RED/images/topright_bar_u.png
+  357 1 1 1 1
+  353 borders/RED/images/topright_bar_u.png
+  357 1 1 1 1
+  352 borders/RED/images/topright_bar_u.png
+  357 1 1 1 1
+  354 borders/RED/images/topright_bar_s.png
+  357 1 1 1 1
+  356 borders/RED/images/topright_bar_s.png
+  357 1 1 1 1
+  355 borders/RED/images/topright_bar_s.png
+  357 1 1 1 1
+  359 borders/RED/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  361 borders/RED/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  360  borders/RED/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  362 borders/RED/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+  364 borders/RED/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+  363 borders/RED/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 RED__BORDER_BOTTRIGHT
+  370 RED
+  5 borders/RED/images/bottright_u.png
+  357 1 1 1 1
+  353 borders/RED/images/bottright_u.png
+  357 1 1 1 1
+  352 borders/RED/images/bottright_u.png
+  357 1 1 1 1
+  354 borders/RED/images/bottright_s.png
+  357 1 1 1 1
+  356 borders/RED/images/bottright_f.png
+  357 1 1 1 1
+  355 borders/RED/images/bottright_c.png
+  357 1 1 1 1
+  359 borders/RED/images/sticky_bottright_u.png
+  357 1 1 1 1
+  361 borders/RED/images/sticky_bottright_u.png
+  357 1 1 1 1
+  360  borders/RED/images/sticky_bottright_u.png
+  357 1 1 1 1
+  362 borders/RED/images/sticky_bottright_s.png
+  357 1 1 1 1
+  364 borders/RED/images/sticky_bottright_f.png
+  357 1 1 1 1
+  363 borders/RED/images/sticky_bottright_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 RED__BORDER_BOTTLEFT
+  370 RED
+  5 borders/RED/images/bottleft_u.png
+  357 1 1 1 1
+  353 borders/RED/images/bottleft_u.png
+  357 1 1 1 1
+  352 borders/RED/images/bottleft_u.png
+  357 1 1 1 1
+  354 borders/RED/images/bottleft_s.png
+  357 1 1 1 1
+  356 borders/RED/images/bottleft_s.png
+  357 1 1 1 1
+  355 borders/RED/images/bottleft_s.png
+  357 1 1 1 1
+  359 borders/RED/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  361 borders/RED/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  360  borders/RED/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  362 borders/RED/images/sticky_bottleft_s.png
+  357 1 1 1 1
+  364 borders/RED/images/sticky_bottleft_s.png
+  357 1 1 1 1
+  363 borders/RED/images/sticky_bottleft_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 RED__BORDER_RIGHT
+  370 RED
+  5 borders/RED/images/right_u.png
+  357 1 1 1 1
+  353 borders/RED/images/right_u.png
+  357 1 1 1 1
+  352 borders/RED/images/right_u.png
+  357 1 1 1 1
+  354 borders/RED/images/right_s.png
+  357 1 1 1 1
+  356 borders/RED/images/right_s.png
+  357 1 1 1 1
+  355 borders/RED/images/right_s.png
+  357 1 1 1 1
+  359 borders/RED/images/sticky_right_u.png
+  357 1 1 1 1
+  361 borders/RED/images/sticky_right_u.png
+  357 1 1 1 1
+  360  borders/RED/images/sticky_right_u.png
+  357 1 1 1 1
+  362 borders/RED/images/sticky_right_s.png
+  357 1 1 1 1
+  364 borders/RED/images/sticky_right_s.png
+  357 1 1 1 1
+  363 borders/RED/images/sticky_right_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 RED__BORDER_BOTTOM
+  370 RED
+  5 borders/RED/images/bottom_u.png
+  357 1 1 1 1
+  353 borders/RED/images/bottom_u.png
+  357 1 1 1 1
+  352 borders/RED/images/bottom_u.png
+  357 1 1 1 1
+  354 borders/RED/images/bottom_s.png
+  357 1 1 1 1
+  356 borders/RED/images/bottom_s.png
+  357 1 1 1 1
+  355 borders/RED/images/bottom_s.png
+  357 1 1 1 1
+  359 borders/RED/images/sticky_bottom_u.png
+  357 1 1 1 1
+  361 borders/RED/images/sticky_bottom_u.png
+  357 1 1 1 1
+  360  borders/RED/images/sticky_bottom_u.png
+  357 1 1 1 1
+  362 borders/RED/images/sticky_bottom_s.png
+  357 1 1 1 1
+  364 borders/RED/images/sticky_bottom_s.png
+  357 1 1 1 1
+  363 borders/RED/images/sticky_bottom_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 RED__BORDER_LEFT
+  370 RED
+  5 borders/RED/images/left_u.png
+  357 1 1 1 1
+  353 borders/RED/images/left_u.png
+  357 1 1 1 1
+  352 borders/RED/images/left_u.png
+  357 1 1 1 1
+  354 borders/RED/images/left_s.png
+  357 1 1 1 1
+  356 borders/RED/images/left_s.png
+  357 1 1 1 1
+  355 borders/RED/images/left_s.png
+  357 1 1 1 1
+  359 borders/RED/images/sticky_left_u.png
+  357 1 1 1 1
+  361 borders/RED/images/sticky_left_u.png
+  357 1 1 1 1
+  360  borders/RED/images/sticky_left_u.png
+  357 1 1 1 1
+  362 borders/RED/images/sticky_left_s.png
+  357 1 1 1 1
+  364 borders/RED/images/sticky_left_s.png
+  357 1 1 1 1
+  363 borders/RED/images/sticky_left_s.png
+  357 1 1 1 1
+1000
+3 999
+  100 RED
+  501 5
+  502 5
+  503 23
+  504 5
+  506 2
+  505 999
+    12 RED__BORDER_TOPLEFT
+    11 ACTION_GANYMEDE_KILL
+    800 KILL
+    456 22
+    468 23
+    457 22
+    469 23
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463 0
+    464  22
+    465  0
+    466  23
+    470 1
+  1000
+  505 999
+    12 RED__BORDER_TITLE
+    11 ACTION_MOVE
+    1 GANYMEDE_RED
+    800 MOVE
+    454 1
+    456 10
+    468 23
+    457 99999
+    469 23
+    467 -1
+    458  0
+    459  22
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -12
+    465  0
+    466  23
+    470 1
+  1000
+  505 999
+    12 RED__BORDER_TOPRIGHT_LEFT
+    11 ACTION_GANYMEDE_ALL_RESIZES
+    800 RESIZE
+    456 20
+    468 23
+    457 20
+    469 23
+    467 -1
+    458  1024
+    459  -75
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -55
+    465  0
+    466  23
+    470 1
+  1000
+  505 999
+    12 RED__BORDER_MIDDLE
+    11 ACTION_WINDOW_SLIDEOUT_RED
+    800 SLIDEOUT
+    456 19
+    468 23
+    457 19
+    469 23
+    467 -1
+    458  1024
+    459  -55
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -37
+    465  0
+    466  23
+    470 1
+  1000
+  505 999
+    12 RED__BORDER_TOPRIGHT
+    11 ACTION_RESIZE
+    800 RESIZE_TR
+    456 21
+    457 21
+    468 23
+    469 23
+    467 -1
+    458  1024
+    459  -36
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -16
+    465  0
+    466  23
+    470 1
+  1000
+  505 999 
+    12 RED__BORDER_TOPRIGHT_BAR 
+    11 ACTION_RESIZE
+    800 RESIZE_TR 
+    456 15 
+    457 15 
+    468 23 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -15 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -1 
+    465  0 
+    466  23 
+    470 0 
+  1000 
+  505 999
+    12 RED__BORDER_RIGHT
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 5
+    468 5
+    457 5
+    469 99999
+    467 -1
+    458  1024
+    459  -5
+    460  0
+    461  23
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -24
+    470 0
+  1000
+  505 999
+    12 RED__BORDER_BOTTRIGHT
+    11 ACTION_RESIZE
+    800 RESIZE_BR
+    456 22
+    468 23
+    457 22
+    469 23
+    467 -1
+    458  1024
+    459  -22
+    460  1024
+    461  -23
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 RED__BORDER_BOTTOM
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 10
+    468 5
+    457 99999
+    469 5
+    467 -1
+    458  0
+    459  5
+    460  1024
+    461  -5
+    462 -1
+    463  1024
+    464  -23
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 RED__BORDER_BOTTLEFT
+    11 ACTION_RESIZE
+    800 DEFAULT
+    456 5
+    468 5
+    457 5
+    469 5
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -5
+    462 -1
+    463  0
+    464  5
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 RED__BORDER_LEFT
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 5
+    468 5
+    457 5
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  23
+    462 -1
+    463  5
+    464  0
+    465  1024
+    466  -5
+    470 0
+  1000
+1000
+1 999
+  100 "GANYMEDE_GREEN"
+  5 "*font-border"
+  204 1
+  205 200 255 200
+  206 0 0 0
+  201 450
+  354 "*font-border"
+  204 1
+  205 200 255 255
+  206 0 0 0
+  201 450
+  362 "*font-border"
+  204 1
+  205 0 255 255
+  206 0 0 0
+  201 450
+1000
+12 999 
+  100 GREEN__BORDER_TITLE
+  370 GREEN
+  5  borders/GREEN/images/top_u.png
+  357 6 64 1 1
+  353 borders/GREEN/images/top_u.png
+  357 6 64 1 1
+  352 borders/GREEN/images/top_u.png
+  357 6 64 1 1
+  354  borders/GREEN/images/top_s.png
+  357 6 64 1 1
+  356 borders/GREEN/images/top_f.png
+  357 6 64 1 1
+  355 borders/GREEN/images/top_c.png
+  357 6 64 1 1
+  359  borders/GREEN/images/sticky_top_u.png
+  357 6 64 1 1
+  361 borders/GREEN/images/sticky_top_u.png
+  357 6 64 1 1
+  360  borders/GREEN/images/sticky_top_u.png
+  357 6 64 1 1
+  362  borders/GREEN/images/sticky_top_s.png
+  357 6 64 1 1
+  364 borders/GREEN/images/sticky_top_f.png
+  357 6 64 1 1
+  363 borders/GREEN/images/sticky_top_c.png
+  357 6 64 1 1
+  358 0 0 2 0
+1000
+12 999 
+  100 GREEN__BORDER_TOPLEFT
+  370 GREEN
+  5 borders/GREEN/images/topleft_u.png
+  357 1 1 1 1
+  353 borders/GREEN/images/topleft_u.png
+  357 1 1 1 1
+  352 borders/GREEN/images/topleft_u.png
+  357 1 1 1 1
+  354 borders/GREEN/images/topleft_s.png
+  357 1 1 1 1
+  356 borders/GREEN/images/topleft_f.png
+  357 1 1 1 1
+  355 borders/GREEN/images/topleft_c.png
+  357 1 1 1 1
+  359 borders/GREEN/images/sticky_topleft_u.png
+  357 1 1 1 1
+  361 borders/GREEN/images/sticky_topleft_u.png
+  357 1 1 1 1
+  360  borders/GREEN/images/sticky_topleft_u.png
+  357 1 1 1 1
+  362 borders/GREEN/images/sticky_topleft_s.png
+  357 1 1 1 1
+  364 borders/GREEN/images/sticky_topleft_f.png
+  357 1 1 1 1
+  363 borders/GREEN/images/sticky_topleft_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 GREEN__BORDER_TOPRIGHT_LEFT
+  370 GREEN
+  5 borders/GREEN/images/topright_left_u.png
+  357 1 1 1 1
+  353 borders/GREEN/images/topright_left_u.png
+  357 1 1 1 1
+  352 borders/GREEN/images/topright_left_u.png
+  357 1 1 1 1
+  354 borders/GREEN/images/topright_left_s.png
+  357 1 1 1 1
+  356 borders/GREEN/images/topright_left_f.png
+  357 1 1 1 1
+  355 borders/GREEN/images/topright_left_c.png
+  357 1 1 1 1
+  359 borders/GREEN/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  361 borders/GREEN/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  360  borders/GREEN/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  362 borders/GREEN/images/sticky_topright_left_s.png
+  357 1 1 1 1
+  364 borders/GREEN/images/sticky_topright_left_f.png
+  357 1 1 1 1
+  363 borders/GREEN/images/sticky_topright_left_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 GREEN__BORDER_MIDDLE
+  370 GREEN
+  5 borders/GREEN/images/slideout_u.png
+  357 1 1 1 1
+  353 borders/GREEN/images/slideout_u.png
+  357 1 1 1 1
+  352 borders/GREEN/images/slideout_u.png
+  357 1 1 1 1
+  354 borders/GREEN/images/slideout_s.png
+  357 1 1 1 1
+  356 borders/GREEN/images/slideout_f.png
+  357 1 1 1 1
+  355 borders/GREEN/images/slideout_c.png
+  357 1 1 1 1
+  359 borders/GREEN/images/sticky_slideout_u.png
+  357 1 1 1 1
+  361 borders/GREEN/images/sticky_slideout_u.png
+  357 1 1 1 1
+  360  borders/GREEN/images/sticky_slideout_u.png
+  357 1 1 1 1
+  362 borders/GREEN/images/sticky_slideout_s.png
+  357 1 1 1 1
+  364 borders/GREEN/images/sticky_slideout_f.png
+  357 1 1 1 1
+  363 borders/GREEN/images/sticky_slideout_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 GREEN__BORDER_TOPRIGHT
+  370 GREEN
+  5 borders/GREEN/images/topright_u.png
+  357 1 1 1 1
+  353 borders/GREEN/images/topright_u.png
+  357 1 1 1 1
+  352 borders/GREEN/images/topright_u.png
+  357 1 1 1 1
+  354 borders/GREEN/images/topright_s.png
+  357 1 1 1 1
+  356 borders/GREEN/images/topright_f.png
+  357 1 1 1 1
+  355 borders/GREEN/images/topright_c.png
+  357 1 1 1 1
+  359 borders/GREEN/images/sticky_topright_u.png
+  357 1 1 1 1
+  361 borders/GREEN/images/sticky_topright_u.png
+  357 1 1 1 1
+  360  borders/GREEN/images/sticky_topright_u.png
+  357 1 1 1 1
+  362 borders/GREEN/images/sticky_topright_s.png
+  357 1 1 1 1
+  364 borders/GREEN/images/sticky_topright_f.png
+  357 1 1 1 1
+  363 borders/GREEN/images/sticky_topright_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 GREEN__BORDER_TOPRIGHT_BAR
+  370 GREEN
+  5 borders/GREEN/images/topright_bar_u.png
+  357 1 1 1 1
+  353 borders/GREEN/images/topright_bar_u.png
+  357 1 1 1 1
+  352 borders/GREEN/images/topright_bar_u.png
+  357 1 1 1 1
+  354 borders/GREEN/images/topright_bar_s.png
+  357 1 1 1 1
+  356 borders/GREEN/images/topright_bar_s.png
+  357 1 1 1 1
+  355 borders/GREEN/images/topright_bar_s.png
+  357 1 1 1 1
+  359 borders/GREEN/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  361 borders/GREEN/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  360  borders/GREEN/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  362 borders/GREEN/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+  364 borders/GREEN/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+  363 borders/GREEN/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 GREEN__BORDER_BOTTRIGHT
+  370 GREEN
+  5 borders/GREEN/images/bottright_u.png
+  357 1 1 1 1
+  353 borders/GREEN/images/bottright_u.png
+  357 1 1 1 1
+  352 borders/GREEN/images/bottright_u.png
+  357 1 1 1 1
+  354 borders/GREEN/images/bottright_s.png
+  357 1 1 1 1
+  356 borders/GREEN/images/bottright_f.png
+  357 1 1 1 1
+  355 borders/GREEN/images/bottright_c.png
+  357 1 1 1 1
+  359 borders/GREEN/images/sticky_bottright_u.png
+  357 1 1 1 1
+  361 borders/GREEN/images/sticky_bottright_u.png
+  357 1 1 1 1
+  360  borders/GREEN/images/sticky_bottright_u.png
+  357 1 1 1 1
+  362 borders/GREEN/images/sticky_bottright_s.png
+  357 1 1 1 1
+  364 borders/GREEN/images/sticky_bottright_f.png
+  357 1 1 1 1
+  363 borders/GREEN/images/sticky_bottright_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 GREEN__BORDER_BOTTLEFT
+  370 GREEN
+  5 borders/GREEN/images/bottleft_u.png
+  357 1 1 1 1
+  353 borders/GREEN/images/bottleft_u.png
+  357 1 1 1 1
+  352 borders/GREEN/images/bottleft_u.png
+  357 1 1 1 1
+  354 borders/GREEN/images/bottleft_s.png
+  357 1 1 1 1
+  356 borders/GREEN/images/bottleft_s.png
+  357 1 1 1 1
+  355 borders/GREEN/images/bottleft_s.png
+  357 1 1 1 1
+  359 borders/GREEN/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  361 borders/GREEN/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  360  borders/GREEN/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  362 borders/GREEN/images/sticky_bottleft_s.png
+  357 1 1 1 1
+  364 borders/GREEN/images/sticky_bottleft_s.png
+  357 1 1 1 1
+  363 borders/GREEN/images/sticky_bottleft_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 GREEN__BORDER_RIGHT
+  370 GREEN
+  5 borders/GREEN/images/right_u.png
+  357 1 1 1 1
+  353 borders/GREEN/images/right_u.png
+  357 1 1 1 1
+  352 borders/GREEN/images/right_u.png
+  357 1 1 1 1
+  354 borders/GREEN/images/right_s.png
+  357 1 1 1 1
+  356 borders/GREEN/images/right_s.png
+  357 1 1 1 1
+  355 borders/GREEN/images/right_s.png
+  357 1 1 1 1
+  359 borders/GREEN/images/sticky_right_u.png
+  357 1 1 1 1
+  361 borders/GREEN/images/sticky_right_u.png
+  357 1 1 1 1
+  360  borders/GREEN/images/sticky_right_u.png
+  357 1 1 1 1
+  362 borders/GREEN/images/sticky_right_s.png
+  357 1 1 1 1
+  364 borders/GREEN/images/sticky_right_s.png
+  357 1 1 1 1
+  363 borders/GREEN/images/sticky_right_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 GREEN__BORDER_BOTTOM
+  370 GREEN
+  5 borders/GREEN/images/bottom_u.png
+  357 1 1 1 1
+  353 borders/GREEN/images/bottom_u.png
+  357 1 1 1 1
+  352 borders/GREEN/images/bottom_u.png
+  357 1 1 1 1
+  354 borders/GREEN/images/bottom_s.png
+  357 1 1 1 1
+  356 borders/GREEN/images/bottom_s.png
+  357 1 1 1 1
+  355 borders/GREEN/images/bottom_s.png
+  357 1 1 1 1
+  359 borders/GREEN/images/sticky_bottom_u.png
+  357 1 1 1 1
+  361 borders/GREEN/images/sticky_bottom_u.png
+  357 1 1 1 1
+  360  borders/GREEN/images/sticky_bottom_u.png
+  357 1 1 1 1
+  362 borders/GREEN/images/sticky_bottom_s.png
+  357 1 1 1 1
+  364 borders/GREEN/images/sticky_bottom_s.png
+  357 1 1 1 1
+  363 borders/GREEN/images/sticky_bottom_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 GREEN__BORDER_LEFT
+  370 GREEN
+  5 borders/GREEN/images/left_u.png
+  357 1 1 1 1
+  353 borders/GREEN/images/left_u.png
+  357 1 1 1 1
+  352 borders/GREEN/images/left_u.png
+  357 1 1 1 1
+  354 borders/GREEN/images/left_s.png
+  357 1 1 1 1
+  356 borders/GREEN/images/left_s.png
+  357 1 1 1 1
+  355 borders/GREEN/images/left_s.png
+  357 1 1 1 1
+  359 borders/GREEN/images/sticky_left_u.png
+  357 1 1 1 1
+  361 borders/GREEN/images/sticky_left_u.png
+  357 1 1 1 1
+  360  borders/GREEN/images/sticky_left_u.png
+  357 1 1 1 1
+  362 borders/GREEN/images/sticky_left_s.png
+  357 1 1 1 1
+  364 borders/GREEN/images/sticky_left_s.png
+  357 1 1 1 1
+  363 borders/GREEN/images/sticky_left_s.png
+  357 1 1 1 1
+1000
+3 999
+  100 GREEN
+  501 5
+  502 5
+  503 23
+  504 5
+  506 2
+  505 999
+    12 GREEN__BORDER_TOPLEFT
+    11 ACTION_GANYMEDE_KILL
+    800 KILL
+    456 22
+    468 23
+    457 22
+    469 23
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463 0
+    464  22
+    465  0
+    466  23
+    470 1
+  1000
+  505 999
+    12 GREEN__BORDER_TITLE
+    11 ACTION_MOVE
+    1 GANYMEDE_GREEN
+    800 MOVE
+    454 1
+    456 10
+    468 23
+    457 99999
+    469 23
+    467 -1
+    458  0
+    459  22
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -12
+    465  0
+    466  23
+    470 1
+  1000
+  505 999
+    12 GREEN__BORDER_TOPRIGHT_LEFT
+    11 ACTION_GANYMEDE_ALL_RESIZES
+    800 RESIZE
+    456 20
+    468 23
+    457 20
+    469 23
+    467 -1
+    458  1024
+    459  -75
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -55
+    465  0
+    466  23
+    470 1
+  1000
+  505 999
+    12 GREEN__BORDER_MIDDLE
+    11 ACTION_WINDOW_SLIDEOUT_GREEN
+    800 SLIDEOUT
+    456 19
+    468 23
+    457 19
+    469 23
+    467 -1
+    458  1024
+    459  -55
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -37
+    465  0
+    466  23
+    470 1
+  1000
+  505 999
+    12 GREEN__BORDER_TOPRIGHT
+    11 ACTION_RESIZE
+    800 RESIZE_TR
+    456 21
+    457 21
+    468 23
+    469 23
+    467 -1
+    458  1024
+    459  -36
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -16
+    465  0
+    466  23
+    470 1
+  1000
+  505 999 
+    12 GREEN__BORDER_TOPRIGHT_BAR 
+    11 ACTION_RESIZE
+    800 RESIZE_TR 
+    456 15 
+    457 15 
+    468 23 
+    469 23 
+    467 -1 
+    458  1024 
+    459  -15 
+    460  0 
+    461  0 
+    462 -1 
+    463  1024 
+    464  -1 
+    465  0 
+    466  23 
+    470 0 
+  1000 
+  505 999
+    12 GREEN__BORDER_RIGHT
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 5
+    468 5
+    457 5
+    469 99999
+    467 -1
+    458  1024
+    459  -5
+    460  0
+    461  23
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -24
+    470 0
+  1000
+  505 999
+    12 GREEN__BORDER_BOTTRIGHT
+    11 ACTION_RESIZE
+    800 RESIZE_BR
+    456 22
+    468 23
+    457 22
+    469 23
+    467 -1
+    458  1024
+    459  -22
+    460  1024
+    461  -23
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 GREEN__BORDER_BOTTOM
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 10
+    468 5
+    457 99999
+    469 5
+    467 -1
+    458  0
+    459  5
+    460  1024
+    461  -5
+    462 -1
+    463  1024
+    464  -23
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 GREEN__BORDER_BOTTLEFT
+    11 ACTION_RESIZE
+    800 DEFAULT
+    456 5
+    468 5
+    457 5
+    469 5
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -5
+    462 -1
+    463  0
+    464  5
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 GREEN__BORDER_LEFT
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 5
+    468 5
+    457 5
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  23
+    462 -1
+    463  5
+    464  0
+    465  1024
+    466  -5
+    470 0
+  1000
+1000
+1 999
+  100 "GANYMEDE_DOWN"
+  5 "*font-border"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 450
+  200 1
+1000
+12 999 
+  100 ROTATED__BORDER_TITLE
+  370 DEFAULT
+  5  borders/ROTATED/images/top_u.png
+  357 0 0 6 64
+  353 borders/ROTATED/images/top_u.png
+  357 0 0 6 64
+  352 borders/ROTATED/images/top_u.png
+  357 0 0 6 64
+  354  borders/ROTATED/images/top_s.png
+  357 0 0 6 64
+  356 borders/ROTATED/images/top_f.png
+  357 0 0 6 64
+  355 borders/ROTATED/images/top_c.png
+  357 0 0 6 64
+  359  borders/ROTATED/images/sticky_top_u.png
+  357 0 0 6 64
+  361 borders/ROTATED/images/sticky_top_u.png
+  357 0 0 6 64
+  360  borders/ROTATED/images/sticky_top_u.png
+  357 0 0 6 64
+  362  borders/ROTATED/images/sticky_top_s.png
+  357 0 0 6 64
+  364 borders/ROTATED/images/sticky_top_f.png
+  357 0 0 6 64
+  363 borders/ROTATED/images/sticky_top_c.png
+  357 0 0 6 64
+  358 2 2 2 2
+1000
+12 999 
+  100 ROTATED__BORDER_TOPLEFT
+  370 DEFAULT
+  5 borders/ROTATED/images/topleft_u.png
+  357 1 1 1 1
+  353 borders/ROTATED/images/topleft_u.png
+  357 1 1 1 1
+  352 borders/ROTATED/images/topleft_u.png
+  357 1 1 1 1
+  354 borders/ROTATED/images/topleft_s.png
+  357 1 1 1 1
+  356 borders/ROTATED/images/topleft_f.png
+  357 1 1 1 1
+  355 borders/ROTATED/images/topleft_c.png
+  357 1 1 1 1
+  359 borders/ROTATED/images/sticky_topleft_u.png
+  357 1 1 1 1
+  361 borders/ROTATED/images/sticky_topleft_u.png
+  357 1 1 1 1
+  360  borders/ROTATED/images/sticky_topleft_u.png
+  357 1 1 1 1
+  362 borders/ROTATED/images/sticky_topleft_s.png
+  357 1 1 1 1
+  364 borders/ROTATED/images/sticky_topleft_f.png
+  357 1 1 1 1
+  363 borders/ROTATED/images/sticky_topleft_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 ROTATED__BORDER_TOPRIGHT_LEFT
+  370 DEFAULT
+  5 borders/ROTATED/images/topright_left_u.png
+  357 1 1 1 1
+  353 borders/ROTATED/images/topright_left_u.png
+  357 1 1 1 1
+  352 borders/ROTATED/images/topright_left_u.png
+  357 1 1 1 1
+  354 borders/ROTATED/images/topright_left_s.png
+  357 1 1 1 1
+  356 borders/ROTATED/images/topright_left_f.png
+  357 1 1 1 1
+  355 borders/ROTATED/images/topright_left_c.png
+  357 1 1 1 1
+  359 borders/ROTATED/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  361 borders/ROTATED/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  360  borders/ROTATED/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  362 borders/ROTATED/images/sticky_topright_left_s.png
+  357 1 1 1 1
+  364 borders/ROTATED/images/sticky_topright_left_f.png
+  357 1 1 1 1
+  363 borders/ROTATED/images/sticky_topright_left_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 ROTATED__BORDER_MIDDLE
+  370 DEFAULT
+  5 borders/ROTATED/images/slideout_u.png
+  357 1 1 1 1
+  353 borders/ROTATED/images/slideout_u.png
+  357 1 1 1 1
+  352 borders/ROTATED/images/slideout_u.png
+  357 1 1 1 1
+  354 borders/ROTATED/images/slideout_s.png
+  357 1 1 1 1
+  356 borders/ROTATED/images/slideout_f.png
+  357 1 1 1 1
+  355 borders/ROTATED/images/slideout_c.png
+  357 1 1 1 1
+  359 borders/ROTATED/images/sticky_slideout_u.png
+  357 1 1 1 1
+  361 borders/ROTATED/images/sticky_slideout_u.png
+  357 1 1 1 1
+  360  borders/ROTATED/images/sticky_slideout_u.png
+  357 1 1 1 1
+  362 borders/ROTATED/images/sticky_slideout_s.png
+  357 1 1 1 1
+  364 borders/ROTATED/images/sticky_slideout_f.png
+  357 1 1 1 1
+  363 borders/ROTATED/images/sticky_slideout_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 ROTATED__BORDER_TOPRIGHT
+  370 DEFAULT
+  5 borders/ROTATED/images/topright_u.png
+  357 1 1 1 1
+  353 borders/ROTATED/images/topright_u.png
+  357 1 1 1 1
+  352 borders/ROTATED/images/topright_u.png
+  357 1 1 1 1
+  354 borders/ROTATED/images/topright_s.png
+  357 1 1 1 1
+  356 borders/ROTATED/images/topright_f.png
+  357 1 1 1 1
+  355 borders/ROTATED/images/topright_c.png
+  357 1 1 1 1
+  359 borders/ROTATED/images/sticky_topright_u.png
+  357 1 1 1 1
+  361 borders/ROTATED/images/sticky_topright_u.png
+  357 1 1 1 1
+  360  borders/ROTATED/images/sticky_topright_u.png
+  357 1 1 1 1
+  362 borders/ROTATED/images/sticky_topright_s.png
+  357 1 1 1 1
+  364 borders/ROTATED/images/sticky_topright_f.png
+  357 1 1 1 1
+  363 borders/ROTATED/images/sticky_topright_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 ROTATED__BORDER_TOPRIGHT_BAR
+  370 DEFAULT
+  5 borders/ROTATED/images/topright_bar_u.png
+  357 1 1 1 1
+  353 borders/ROTATED/images/topright_bar_u.png
+  357 1 1 1 1
+  352 borders/ROTATED/images/topright_bar_u.png
+  357 1 1 1 1
+  354 borders/ROTATED/images/topright_bar_s.png
+  357 1 1 1 1
+  356 borders/ROTATED/images/topright_bar_s.png
+  357 1 1 1 1
+  355 borders/ROTATED/images/topright_bar_s.png
+  357 1 1 1 1
+  359 borders/ROTATED/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  361 borders/ROTATED/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  360  borders/ROTATED/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  362 borders/ROTATED/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+  364 borders/ROTATED/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+  363 borders/ROTATED/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 ROTATED__BORDER_BOTTRIGHT
+  370 DEFAULT
+  5 borders/ROTATED/images/bottright_u.png
+  357 1 1 1 1
+  353 borders/ROTATED/images/bottright_u.png
+  357 1 1 1 1
+  352 borders/ROTATED/images/bottright_u.png
+  357 1 1 1 1
+  354 borders/ROTATED/images/bottright_s.png
+  357 1 1 1 1
+  356 borders/ROTATED/images/bottright_f.png
+  357 1 1 1 1
+  355 borders/ROTATED/images/bottright_c.png
+  357 1 1 1 1
+  359 borders/ROTATED/images/sticky_bottright_u.png
+  357 1 1 1 1
+  361 borders/ROTATED/images/sticky_bottright_u.png
+  357 1 1 1 1
+  360  borders/ROTATED/images/sticky_bottright_u.png
+  357 1 1 1 1
+  362 borders/ROTATED/images/sticky_bottright_s.png
+  357 1 1 1 1
+  364 borders/ROTATED/images/sticky_bottright_f.png
+  357 1 1 1 1
+  363 borders/ROTATED/images/sticky_bottright_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 ROTATED__BORDER_BOTTLEFT
+  370 DEFAULT
+  5 borders/ROTATED/images/bottleft_u.png
+  357 1 1 1 1
+  353 borders/ROTATED/images/bottleft_u.png
+  357 1 1 1 1
+  352 borders/ROTATED/images/bottleft_u.png
+  357 1 1 1 1
+  354 borders/ROTATED/images/bottleft_s.png
+  357 1 1 1 1
+  356 borders/ROTATED/images/bottleft_s.png
+  357 1 1 1 1
+  355 borders/ROTATED/images/bottleft_s.png
+  357 1 1 1 1
+  359 borders/ROTATED/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  361 borders/ROTATED/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  360  borders/ROTATED/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  362 borders/ROTATED/images/sticky_bottleft_s.png
+  357 1 1 1 1
+  364 borders/ROTATED/images/sticky_bottleft_s.png
+  357 1 1 1 1
+  363 borders/ROTATED/images/sticky_bottleft_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 ROTATED__BORDER_RIGHT
+  370 DEFAULT
+  5 borders/ROTATED/images/right_u.png
+  357 1 1 1 1
+  353 borders/ROTATED/images/right_u.png
+  357 1 1 1 1
+  352 borders/ROTATED/images/right_u.png
+  357 1 1 1 1
+  354 borders/ROTATED/images/right_s.png
+  357 1 1 1 1
+  356 borders/ROTATED/images/right_s.png
+  357 1 1 1 1
+  355 borders/ROTATED/images/right_s.png
+  357 1 1 1 1
+  359 borders/ROTATED/images/sticky_right_u.png
+  357 1 1 1 1
+  361 borders/ROTATED/images/sticky_right_u.png
+  357 1 1 1 1
+  360  borders/ROTATED/images/sticky_right_u.png
+  357 1 1 1 1
+  362 borders/ROTATED/images/sticky_right_s.png
+  357 1 1 1 1
+  364 borders/ROTATED/images/sticky_right_s.png
+  357 1 1 1 1
+  363 borders/ROTATED/images/sticky_right_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 ROTATED__BORDER_BOTTOM
+  370 DEFAULT
+  5 borders/ROTATED/images/bottom_u.png
+  357 1 1 1 1
+  353 borders/ROTATED/images/bottom_u.png
+  357 1 1 1 1
+  352 borders/ROTATED/images/bottom_u.png
+  357 1 1 1 1
+  354 borders/ROTATED/images/bottom_s.png
+  357 1 1 1 1
+  356 borders/ROTATED/images/bottom_s.png
+  357 1 1 1 1
+  355 borders/ROTATED/images/bottom_s.png
+  357 1 1 1 1
+  359 borders/ROTATED/images/sticky_bottom_u.png
+  357 1 1 1 1
+  361 borders/ROTATED/images/sticky_bottom_u.png
+  357 1 1 1 1
+  360  borders/ROTATED/images/sticky_bottom_u.png
+  357 1 1 1 1
+  362 borders/ROTATED/images/sticky_bottom_s.png
+  357 1 1 1 1
+  364 borders/ROTATED/images/sticky_bottom_s.png
+  357 1 1 1 1
+  363 borders/ROTATED/images/sticky_bottom_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 ROTATED__BORDER_LEFT
+  370 DEFAULT
+  5 borders/ROTATED/images/left_u.png
+  357 1 1 1 1
+  353 borders/ROTATED/images/left_u.png
+  357 1 1 1 1
+  352 borders/ROTATED/images/left_u.png
+  357 1 1 1 1
+  354 borders/ROTATED/images/left_s.png
+  357 1 1 1 1
+  356 borders/ROTATED/images/left_s.png
+  357 1 1 1 1
+  355 borders/ROTATED/images/left_s.png
+  357 1 1 1 1
+  359 borders/ROTATED/images/sticky_left_u.png
+  357 1 1 1 1
+  361 borders/ROTATED/images/sticky_left_u.png
+  357 1 1 1 1
+  360  borders/ROTATED/images/sticky_left_u.png
+  357 1 1 1 1
+  362 borders/ROTATED/images/sticky_left_s.png
+  357 1 1 1 1
+  364 borders/ROTATED/images/sticky_left_s.png
+  357 1 1 1 1
+  363 borders/ROTATED/images/sticky_left_s.png
+  357 1 1 1 1
+1000
+3 999
+  100 ROTATED
+  501 5
+  502 23
+  503 5
+  504 5
+  508 ROTATED_BLUE
+  506 1
+  505 999
+    12 ROTATED__BORDER_TOPLEFT
+    11 ACTION_GANYMEDE_KILL
+    800 KILL
+    456 23
+    468 22
+    457 23
+    469 22
+    467 -1
+    458  1024
+    459  -23
+    460  0
+    461  0
+    462 -1
+    463 1024
+    464  -1
+    465  0
+    466  22
+    470 1
+  1000
+  505 999
+    12 ROTATED__BORDER_TITLE
+    11 ACTION_MOVE 
+    1 GANYMEDE_DOWN
+    800 MOVE 
+    454 1 
+    456 23
+    468 10
+    457 23
+    469 99999
+    467 -1
+    458 1024
+    459  -23
+    460  0
+    461  22
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  -12
+    470 1
+  1000
+  505 999
+    12 ROTATED__BORDER_TOPRIGHT_LEFT
+    11 ACTION_GANYMEDE_ALL_RESIZES
+    800 RESIZE
+    456 23
+    468 20
+    457 23
+    469 20
+    467 -1
+    458  1024
+    459  -23
+    460  1024
+    461  -75
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  -55
+    470 1
+  1000
+  505 999
+    12 ROTATED__BORDER_MIDDLE
+    11 ACTION_WINDOW_SLIDEOUT_ROTATED
+    800 SLIDEOUT_ROTATED
+    456 23
+    468 19
+    457 23
+    469 19
+    467 -1
+    458  1024
+    459  -23
+    460  1024
+    461  -55
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  -37
+    470 1
+  1000
+  505 999
+    12 ROTATED__BORDER_TOPRIGHT
+    11 ACTION_RESIZE 
+    800 RESIZE_BR
+    456 23
+    457 23
+    468 21
+    469 21
+    467 -1
+    458  1024
+    459  -23
+    460  1024
+    461  -36
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  -16
+    470 1
+  1000
+  505 999
+    12 ROTATED__BORDER_TOPRIGHT_BAR
+    11 ACTION_RESIZE 
+    800 RESIZE_BR
+    456 23
+    457 23
+    468 15
+    469 15
+    467 -1
+    458  1024
+    459  -23
+    460  1024
+    461  -15
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 ROTATED__BORDER_RIGHT
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 5
+    468 5
+    457 99999
+    469 5
+    467 -1
+    458  0
+    459  23         
+    460  1024
+    461  -5
+    462 -1
+    463  1024
+    464  -23
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 ROTATED__BORDER_BOTTRIGHT
+    11 ACTION_RESIZE
+    800 RESIZE_TR
+    456 23
+    468 22
+    457 23
+    469 22
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -22
+    462 -1
+    463  0
+    464  23
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 ROTATED__BORDER_BOTTOM
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 5
+    468 10
+    457 5
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  5
+    462 -1
+    463  0
+    464  5
+    465  1024
+    466  -23
+    470 0
+  1000
+  505 999
+    12 ROTATED__BORDER_BOTTLEFT
+    11 ACTION_RESIZE
+    800 DEFAULT
+    456 5
+    468 5
+    457 5
+    469 5
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  0
+    464  5
+    465  0
+    466  5
+    470 0
+  1000
+  505 999
+    12 ROTATED__BORDER_LEFT
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 5
+    468 5
+    457 99999
+    469 5
+    467 -1
+    458  0
+    459  5
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -23
+    465  0
+    466  5
+    470 0
+  1000
+1000
+12 999 
+  100 BLUE__ROTATED__BORDER_TITLE
+  370 BLUE
+  5  borders/ROTATED_BLUE/images/top_u.png
+  357 0 0 6 64
+  353 borders/ROTATED_BLUE/images/top_u.png
+  357 0 0 6 64
+  352 borders/ROTATED_BLUE/images/top_u.png
+  357 0 0 6 64
+  354  borders/ROTATED_BLUE/images/top_s.png
+  357 0 0 6 64
+  356 borders/ROTATED_BLUE/images/top_f.png
+  357 0 0 6 64
+  355 borders/ROTATED_BLUE/images/top_c.png
+  357 0 0 6 64
+  359  borders/ROTATED_BLUE/images/sticky_top_u.png
+  357 0 0 6 64
+  361 borders/ROTATED_BLUE/images/sticky_top_u.png
+  357 0 0 6 64
+  360  borders/ROTATED_BLUE/images/sticky_top_u.png
+  357 0 0 6 64
+  362  borders/ROTATED_BLUE/images/sticky_top_s.png
+  357 0 0 6 64
+  364 borders/ROTATED_BLUE/images/sticky_top_f.png
+  357 0 0 6 64
+  363 borders/ROTATED_BLUE/images/sticky_top_c.png
+  357 0 0 6 64
+  358 2 2 2 2
+1000
+12 999 
+  100 BLUE__ROTATED__BORDER_TOPLEFT
+  370 BLUE
+  5 borders/ROTATED_BLUE/images/topleft_u.png
+  357 1 1 1 1
+  353 borders/ROTATED_BLUE/images/topleft_u.png
+  357 1 1 1 1
+  352 borders/ROTATED_BLUE/images/topleft_u.png
+  357 1 1 1 1
+  354 borders/ROTATED_BLUE/images/topleft_s.png
+  357 1 1 1 1
+  356 borders/ROTATED_BLUE/images/topleft_f.png
+  357 1 1 1 1
+  355 borders/ROTATED_BLUE/images/topleft_c.png
+  357 1 1 1 1
+  359 borders/ROTATED_BLUE/images/sticky_topleft_u.png
+  357 1 1 1 1
+  361 borders/ROTATED_BLUE/images/sticky_topleft_u.png
+  357 1 1 1 1
+  360  borders/ROTATED_BLUE/images/sticky_topleft_u.png
+  357 1 1 1 1
+  362 borders/ROTATED_BLUE/images/sticky_topleft_s.png
+  357 1 1 1 1
+  364 borders/ROTATED_BLUE/images/sticky_topleft_f.png
+  357 1 1 1 1
+  363 borders/ROTATED_BLUE/images/sticky_topleft_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__ROTATED__BORDER_TOPRIGHT_LEFT
+  370 BLUE
+  5 borders/ROTATED_BLUE/images/topright_left_u.png
+  357 1 1 1 1
+  353 borders/ROTATED_BLUE/images/topright_left_u.png
+  357 1 1 1 1
+  352 borders/ROTATED_BLUE/images/topright_left_u.png
+  357 1 1 1 1
+  354 borders/ROTATED_BLUE/images/topright_left_s.png
+  357 1 1 1 1
+  356 borders/ROTATED_BLUE/images/topright_left_f.png
+  357 1 1 1 1
+  355 borders/ROTATED_BLUE/images/topright_left_c.png
+  357 1 1 1 1
+  359 borders/ROTATED_BLUE/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  361 borders/ROTATED_BLUE/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  360  borders/ROTATED_BLUE/images/sticky_topright_left_u.png
+  357 1 1 1 1
+  362 borders/ROTATED_BLUE/images/sticky_topright_left_s.png
+  357 1 1 1 1
+  364 borders/ROTATED_BLUE/images/sticky_topright_left_f.png
+  357 1 1 1 1
+  363 borders/ROTATED_BLUE/images/sticky_topright_left_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__ROTATED__BORDER_MIDDLE
+  370 BLUE
+  5 borders/ROTATED_BLUE/images/slideout_u.png
+  357 1 1 1 1
+  353 borders/ROTATED_BLUE/images/slideout_u.png
+  357 1 1 1 1
+  352 borders/ROTATED_BLUE/images/slideout_u.png
+  357 1 1 1 1
+  354 borders/ROTATED_BLUE/images/slideout_s.png
+  357 1 1 1 1
+  356 borders/ROTATED_BLUE/images/slideout_f.png
+  357 1 1 1 1
+  355 borders/ROTATED_BLUE/images/slideout_c.png
+  357 1 1 1 1
+  359 borders/ROTATED_BLUE/images/sticky_slideout_u.png
+  357 1 1 1 1
+  361 borders/ROTATED_BLUE/images/sticky_slideout_u.png
+  357 1 1 1 1
+  360  borders/ROTATED_BLUE/images/sticky_slideout_u.png
+  357 1 1 1 1
+  362 borders/ROTATED_BLUE/images/sticky_slideout_s.png
+  357 1 1 1 1
+  364 borders/ROTATED_BLUE/images/sticky_slideout_f.png
+  357 1 1 1 1
+  363 borders/ROTATED_BLUE/images/sticky_slideout_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__ROTATED__BORDER_TOPRIGHT
+  370 BLUE
+  5 borders/ROTATED_BLUE/images/topright_u.png
+  357 1 1 1 1
+  353 borders/ROTATED_BLUE/images/topright_u.png
+  357 1 1 1 1
+  352 borders/ROTATED_BLUE/images/topright_u.png
+  357 1 1 1 1
+  354 borders/ROTATED_BLUE/images/topright_s.png
+  357 1 1 1 1
+  356 borders/ROTATED_BLUE/images/topright_f.png
+  357 1 1 1 1
+  355 borders/ROTATED_BLUE/images/topright_c.png
+  357 1 1 1 1
+  359 borders/ROTATED_BLUE/images/sticky_topright_u.png
+  357 1 1 1 1
+  361 borders/ROTATED_BLUE/images/sticky_topright_u.png
+  357 1 1 1 1
+  360  borders/ROTATED_BLUE/images/sticky_topright_u.png
+  357 1 1 1 1
+  362 borders/ROTATED_BLUE/images/sticky_topright_s.png
+  357 1 1 1 1
+  364 borders/ROTATED_BLUE/images/sticky_topright_f.png
+  357 1 1 1 1
+  363 borders/ROTATED_BLUE/images/sticky_topright_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__ROTATED__BORDER_TOPRIGHT_BAR
+  370 BLUE
+  5 borders/ROTATED_BLUE/images/topright_bar_u.png
+  357 1 1 1 1
+  353 borders/ROTATED_BLUE/images/topright_bar_u.png
+  357 1 1 1 1
+  352 borders/ROTATED_BLUE/images/topright_bar_u.png
+  357 1 1 1 1
+  354 borders/ROTATED_BLUE/images/topright_bar_s.png
+  357 1 1 1 1
+  356 borders/ROTATED_BLUE/images/topright_bar_s.png
+  357 1 1 1 1
+  355 borders/ROTATED_BLUE/images/topright_bar_s.png
+  357 1 1 1 1
+  359 borders/ROTATED_BLUE/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  361 borders/ROTATED_BLUE/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  360  borders/ROTATED_BLUE/images/sticky_topright_bar_u.png
+  357 1 1 1 1
+  362 borders/ROTATED_BLUE/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+  364 borders/ROTATED_BLUE/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+  363 borders/ROTATED_BLUE/images/sticky_topright_bar_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__ROTATED__BORDER_BOTTRIGHT
+  370 BLUE
+  5 borders/ROTATED_BLUE/images/bottright_u.png
+  357 1 1 1 1
+  353 borders/ROTATED_BLUE/images/bottright_u.png
+  357 1 1 1 1
+  352 borders/ROTATED_BLUE/images/bottright_u.png
+  357 1 1 1 1
+  354 borders/ROTATED_BLUE/images/bottright_s.png
+  357 1 1 1 1
+  356 borders/ROTATED_BLUE/images/bottright_f.png
+  357 1 1 1 1
+  355 borders/ROTATED_BLUE/images/bottright_c.png
+  357 1 1 1 1
+  359 borders/ROTATED_BLUE/images/sticky_bottright_u.png
+  357 1 1 1 1
+  361 borders/ROTATED_BLUE/images/sticky_bottright_u.png
+  357 1 1 1 1
+  360  borders/ROTATED_BLUE/images/sticky_bottright_u.png
+  357 1 1 1 1
+  362 borders/ROTATED_BLUE/images/sticky_bottright_s.png
+  357 1 1 1 1
+  364 borders/ROTATED_BLUE/images/sticky_bottright_f.png
+  357 1 1 1 1
+  363 borders/ROTATED_BLUE/images/sticky_bottright_c.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__ROTATED__BORDER_BOTTLEFT
+  370 BLUE
+  5 borders/ROTATED_BLUE/images/bottleft_u.png
+  357 1 1 1 1
+  353 borders/ROTATED_BLUE/images/bottleft_u.png
+  357 1 1 1 1
+  352 borders/ROTATED_BLUE/images/bottleft_u.png
+  357 1 1 1 1
+  354 borders/ROTATED_BLUE/images/bottleft_s.png
+  357 1 1 1 1
+  356 borders/ROTATED_BLUE/images/bottleft_s.png
+  357 1 1 1 1
+  355 borders/ROTATED_BLUE/images/bottleft_s.png
+  357 1 1 1 1
+  359 borders/ROTATED_BLUE/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  361 borders/ROTATED_BLUE/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  360  borders/ROTATED_BLUE/images/sticky_bottleft_u.png
+  357 1 1 1 1
+  362 borders/ROTATED_BLUE/images/sticky_bottleft_s.png
+  357 1 1 1 1
+  364 borders/ROTATED_BLUE/images/sticky_bottleft_s.png
+  357 1 1 1 1
+  363 borders/ROTATED_BLUE/images/sticky_bottleft_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__ROTATED__BORDER_RIGHT
+  370 BLUE
+  5 borders/ROTATED_BLUE/images/right_u.png
+  357 1 1 1 1
+  353 borders/ROTATED_BLUE/images/right_u.png
+  357 1 1 1 1
+  352 borders/ROTATED_BLUE/images/right_u.png
+  357 1 1 1 1
+  354 borders/ROTATED_BLUE/images/right_s.png
+  357 1 1 1 1
+  356 borders/ROTATED_BLUE/images/right_s.png
+  357 1 1 1 1
+  355 borders/ROTATED_BLUE/images/right_s.png
+  357 1 1 1 1
+  359 borders/ROTATED_BLUE/images/sticky_right_u.png
+  357 1 1 1 1
+  361 borders/ROTATED_BLUE/images/sticky_right_u.png
+  357 1 1 1 1
+  360  borders/ROTATED_BLUE/images/sticky_right_u.png
+  357 1 1 1 1
+  362 borders/ROTATED_BLUE/images/sticky_right_s.png
+  357 1 1 1 1
+  364 borders/ROTATED_BLUE/images/sticky_right_s.png
+  357 1 1 1 1
+  363 borders/ROTATED_BLUE/images/sticky_right_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__ROTATED__BORDER_BOTTOM
+  370 BLUE
+  5 borders/ROTATED_BLUE/images/bottom_u.png
+  357 1 1 1 1
+  353 borders/ROTATED_BLUE/images/bottom_u.png
+  357 1 1 1 1
+  352 borders/ROTATED_BLUE/images/bottom_u.png
+  357 1 1 1 1
+  354 borders/ROTATED_BLUE/images/bottom_s.png
+  357 1 1 1 1
+  356 borders/ROTATED_BLUE/images/bottom_s.png
+  357 1 1 1 1
+  355 borders/ROTATED_BLUE/images/bottom_s.png
+  357 1 1 1 1
+  359 borders/ROTATED_BLUE/images/sticky_bottom_u.png
+  357 1 1 1 1
+  361 borders/ROTATED_BLUE/images/sticky_bottom_u.png
+  357 1 1 1 1
+  360  borders/ROTATED_BLUE/images/sticky_bottom_u.png
+  357 1 1 1 1
+  362 borders/ROTATED_BLUE/images/sticky_bottom_s.png
+  357 1 1 1 1
+  364 borders/ROTATED_BLUE/images/sticky_bottom_s.png
+  357 1 1 1 1
+  363 borders/ROTATED_BLUE/images/sticky_bottom_s.png
+  357 1 1 1 1
+1000
+12 999 
+  100 BLUE__ROTATED__BORDER_LEFT
+  370 BLUE
+  5 borders/ROTATED_BLUE/images/left_u.png
+  357 1 1 1 1
+  353 borders/ROTATED_BLUE/images/left_u.png
+  357 1 1 1 1
+  352 borders/ROTATED_BLUE/images/left_u.png
+  357 1 1 1 1
+  354 borders/ROTATED_BLUE/images/left_s.png
+  357 1 1 1 1
+  356 borders/ROTATED_BLUE/images/left_s.png
+  357 1 1 1 1
+  355 borders/ROTATED_BLUE/images/left_s.png
+  357 1 1 1 1
+  359 borders/ROTATED_BLUE/images/sticky_left_u.png
+  357 1 1 1 1
+  361 borders/ROTATED_BLUE/images/sticky_left_u.png
+  357 1 1 1 1
+  360  borders/ROTATED_BLUE/images/sticky_left_u.png
+  357 1 1 1 1
+  362 borders/ROTATED_BLUE/images/sticky_left_s.png
+  357 1 1 1 1
+  364 borders/ROTATED_BLUE/images/sticky_left_s.png
+  357 1 1 1 1
+  363 borders/ROTATED_BLUE/images/sticky_left_s.png
+  357 1 1 1 1
+1000
+3 999
+  100 ROTATED_BLUE
+  501 5
+  502 23
+  503 5
+  504 5
+  506 1
+  505 999
+    12 BLUE__ROTATED__BORDER_TOPLEFT
+    11 ACTION_GANYMEDE_KILL
+    800 KILL
+    456 23
+    468 22
+    457 23
+    469 22
+    467 -1
+    458  1024
+    459  -23
+    460  0
+    461  0
+    462 -1
+    463 1024
+    464  -1
+    465  0
+    466  22
+    470 1
+  1000
+  505 999
+    12 BLUE__ROTATED__BORDER_TITLE
+    11 ACTION_MOVE 
+    1 GANYMEDE_DOWN
+    800 MOVE 
+    454 1 
+    456 23
+    468 10
+    457 23
+    469 99999
+    467 -1
+    458 1024
+    459  -23
+    460  0
+    461  22
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  -12
+    470 1
+  1000
+  505 999
+    12 BLUE__ROTATED__BORDER_TOPRIGHT_LEFT
+    11 ACTION_GANYMEDE_ALL_RESIZES
+    800 RESIZE
+    456 23
+    468 20
+    457 23
+    469 20
+    467 -1
+    458  1024
+    459  -23
+    460  1024
+    461  -75
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  -55
+    470 1
+  1000
+  505 999
+    12 BLUE__ROTATED__BORDER_MIDDLE
+    11 ACTION_WINDOW_SLIDEOUT_ROTATED_BLUE
+    800 SLIDEOUT_ROTATED
+    456 23
+    468 19
+    457 23
+    469 19
+    467 -1
+    458  1024
+    459  -23
+    460  1024
+    461  -55
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  -37
+    470 1
+  1000
+  505 999
+    12 BLUE__ROTATED__BORDER_TOPRIGHT
+    11 ACTION_RESIZE 
+    800 RESIZE_BR
+    456 23
+    457 23
+    468 21
+    469 21
+    467 -1
+    458  1024
+    459  -23
+    460  1024
+    461  -36
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  -16
+    470 1
+  1000
+  505 999
+    12 BLUE__ROTATED__BORDER_TOPRIGHT_BAR
+    11 ACTION_RESIZE 
+    800 RESIZE_BR
+    456 23
+    457 23
+    468 15
+    469 15
+    467 -1
+    458  1024
+    459  -23
+    460  1024
+    461  -15
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 BLUE__ROTATED__BORDER_RIGHT
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 5
+    468 5
+    457 99999
+    469 5
+    467 -1
+    458  0
+    459  23         
+    460  1024
+    461  -5
+    462 -1
+    463  1024
+    464  -23
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BLUE__ROTATED__BORDER_BOTTRIGHT
+    11 ACTION_RESIZE
+    800 RESIZE_TR
+    456 23
+    468 22
+    457 23
+    469 22
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -22
+    462 -1
+    463  0
+    464  23
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BLUE__ROTATED__BORDER_BOTTOM
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 5
+    468 10
+    457 5
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  5
+    462 -1
+    463  0
+    464  5
+    465  1024
+    466  -23
+    470 0
+  1000
+  505 999
+    12 BLUE__ROTATED__BORDER_BOTTLEFT
+    11 ACTION_RESIZE
+    800 DEFAULT
+    456 5
+    468 5
+    457 5
+    469 5
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  0
+    464  5
+    465  0
+    466  5
+    470 0
+  1000
+  505 999
+    12 BLUE__ROTATED__BORDER_LEFT
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 5
+    468 5
+    457 99999
+    469 5
+    467 -1
+    458  0
+    459  5
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -23
+    465  0
+    466  5
+    470 0
+  1000
+1000

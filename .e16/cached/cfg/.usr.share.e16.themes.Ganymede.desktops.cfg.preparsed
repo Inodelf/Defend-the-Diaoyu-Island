@@ -1,0 +1,43 @@
+1001 1
+1001 0
+5 999
+  100 VERTICAL_GRADIENT_LOGO
+  560 200 200 200
+  561 "backgrounds/images/French-Products-for-Ganymede.png" 1 1 512 512 0 0
+  562 "backgrounds/images/logo_small.png" 1 512 512 0 0
+  564 0  
+  564 2  
+  564 4  
+  564 8  
+  564 10 
+  564 12 
+  564 14 
+  564 16 
+  564 18 
+  564 20 
+  564 22 
+  564 24 
+  564 26 
+  564 28 
+1000
+5 999
+  100 VERTICAL_GRADIENT_E
+  560 200 200 200
+  561 "backgrounds/images/French-Products-for-Ganymede.png" 1 1 512 512 0 0
+  562 "backgrounds/images/enlightenment.png" 1 512 512 0 0
+  564 1  
+  564 3  
+  564 5  
+  564 7  
+  564 9  
+  564 11 
+  564 13 
+  564 15 
+  564 17 
+  564 19 
+  564 21 
+  564 23 
+  564 25 
+  564 27 
+  564 29
+1000

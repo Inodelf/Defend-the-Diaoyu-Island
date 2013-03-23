@@ -1,0 +1,20 @@
+################################################################################
+##### CursorStyle config
+################################################################################
+
+CursorStyle ROOT 58
+CursorStyle TITLE 62
+CursorStyle STROKE 86
+
+#### Change style to left_ptr and fleur (missing cursors in my theme)
+CursorStyle root left_ptr
+CursorStyle default left_ptr 
+CursorStyle position left_ptr
+CursorStyle sys left_ptr 
+CursorStyle menu left_ptr
+CursorStyle title left_ptr
+CursorStyle resize fleur
+CursorStyle stroke cross
+CursorStyle select draped_box
+
+################################################################################

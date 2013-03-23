@@ -1,0 +1,233 @@
+###############
+#
+#  DestroyFunc FuncName
+#  AddToFunc FuncName
+#  + I (Action to happen immediately)
+#  + C (Action to happen on a mouse 'click')
+#  + D (Action to happen on a mouse 'double click')
+#  + H (Action to happen on a mouse 'hold')
+#  + M (Action to happen on a mouse 'motion')
+#
+###############
+#
+# 鼠标点击位置
+# ___________________________________________________
+# |                                                 |
+# |  R                  R        _____    _____     |
+# |                              | I |    | I |     |
+# |                              |___|    |___|     |
+# |                                                 |
+# |       F________S______________S________F        |
+# |        |13579 T       T        T 08642|         |
+# |        |______________________________|         |
+# |        |                              |         |
+# |       S|                              |S        |
+# |        |      W                  W    |         |
+# |        |                              |         |
+# |        |                              |         |
+# |        |                              |         |
+# |        |                              |         |
+# |        |                              |     R   |
+# |  R     |                              |         |
+# |        |                              |         |
+# |        |                              |         |
+# |        |                              |         |
+# |        |                              |         |
+# |       S|      W                 W     |S        |
+# |        |                              |         |
+# |        |                              |         |
+# |        |______________________________|         |
+# |       F       S                S       F        |
+# |_________________________________________________|
+# 
+#
+###############
+##### Keyboard Bindings
+################################################################################
+
+# some simple default key bindings:
+#
+# Alt+Tab
+
+DestroyFunc my_dbltab2
+AddToFunc my_dbltab2
++ I WindowListFunc
+
+DestroyFunc my_dbltab
+AddToFunc my_dbltab
++ I Prev(CurrentDesk) my_dbltab2
+
+Key Tab A M Windowlist Root c c CurrentDesk NoGeometry my_dbltab
+#Key Tab A M Windowlist Root c c NoCurrentDeskTitle NoGeometry
+
+Key Menu  A  A NoWindow FvwmExpose
+
+# Volume Control 
+Key  equal  A   M   Exec exec amixer set PCM 2%+
+Key  minus  A   M   Exec exec amixer set PCM 2%-
+
+# Focus and FlipFocus(当前桌面)
+Key KP_Add A M Next (AcceptsFocus CurrentDesk !Iconic) Focus
+Key KP_Subtract A M Prev (AcceptsFocus CurrentDesk !Iconic) Focus
+
+Key Next         A       SCM     Next [*] Focus
+Key Prior        A       SCM     Prev [*] Focus
+
+# Switch Desk or Pager
+Key F1 A       M GotoDesk -1
+Key F2 A       M GotoDesk 1
+
+#Mouse 3 A      M MoveToDesk 1
+#Mouse 1 A      M MoveToDesk -1
+
+Key F3 A      M Module FvwmConsole -terminal urxvt -geometry 45x5-0+0 -bg gold -fg midnightblue -fn "xft:WenQuanYi Bitmap Song:Medium:Size=10:enconding=iso10646-1"
+
+####################
+##  Program Hotkey
+####################
+#
+# keyboard 4 = windows-key
+#
+
+Key T  A      4 FvwmTerm
+Key T  A      4 FvwmTerm
+Key E  A      4 FvwmFM
+Key W  A      4 Exec exec gvim $HOME/文档/fantasy/幻魔志11-20.txt
+Key J  A      4 Exec exec gvim $HOME/文档/file/三略.txt
+Key 1  A      4 Exec exec soffice /mnt/work/yxm/工资清单.房租记帐.ods
+Key L  A      4 Exec exec xlock
+Key X  A      4 Fvwmaudacious
+Key M  A      4 Exec exec xine
+Key V  A      4 Exec exec $[fvwm_script_path]/tvtime.sh
+Key O  A      4 Exec exec soffice
+Key R  A      4 Exec exec opera
+Key N  A      4 Exec exec pidgin
+Key F  A      4 Exec exec firefox
+Key S  A      4 Exec exec stardict
+Key I  A      4 FvwmGimp
+Key K  A      4 Exec exec inkscape
+Key B  A      4 Exec exec $[fvwm_script_path]/blender2.45.sh
+Key P  A      4 Exec exec gmplayer
+
+
+Key F5 A      C Exec exec $[fvwm_script_path]/screenshot.sh
+
+#### Pager Bindings
+Key Right A CM GoToPage +1p  0p
+Key Left  A CM GoToPage -1p  0p
+Key Up    A CM GoToPage  0p -1p
+Key Down  A CM GoToPage  0p +1p
+
+#### 按指定方向改变聚焦到一个窗口：
+Key KP_1 A C Direction SouthWest Focus
+Key KP_2 A C Direction South Focus
+Key KP_3 A C Direction SouthEast Focus
+Key KP_4 A C Direction West Focus
+Key KP_6 A C Direction East Focus
+Key KP_7 A C Direction NouthWest Focus
+Key KP_8 A C Direction Nouth Focus
+Key KP_9 A C Direction NouthEast Focus
+
+###########################################################################
+### mouse bindings
+###########################################################################
+
+Mouse 1	R   	A       Menu RootMenu Nop
+Mouse 3 R       A       Nop
+Mouse 2	R    	A      	Windowlist NoCurrentDeskTitle Nop
+
+Mouse 3 WI	SC	CloseOrNot
+Mouse 3	A   MC  Menu RootMenu Nop
+# Mouse 3 A	S	Move (# Because it impact to blender hotkeys)
+
+DestroyFunc CloseOrNot
+AddToFunc CloseOrNot
++ C Silent Close
++ M Nop
+
+#   for the title bar buttons:
+Mouse 1	3    	A     	Thumbnail
+Mouse 1 1       A       close
+Mouse 1 2	    A	    Menu  MenuFvwmWindowOps Nop
+Mouse 1	5    	A     	Maximize-Func2
+
+#   for other parts of the window/borders/icons:
+Mouse 1	F	A	Resize-or-Raise
+Mouse 1	TS	A	Move-or-Raise
+Mouse 1	I	A	Move-or-Iconify
+
+############
+##### Basic Functions
+################################################################################
+
+DestroyFunc Move-or-Raise		
+AddToFunc Move-or-Raise		I Raise
++				"M" Move
++  				"D" WindowShade
+DestroyFunc Move-or-Raise2	
+AddToFunc Move-or-Raise2	"M" Raise
++				"M" Move
++  				"D" Lower
+DestroyFunc Maximize-Func		
+AddToFunc Maximize-Func		"M" Maximize	 0 100
++				"C" Maximize	 0 100
++				"D" Maximize	 100 100
+DestroyFunc Maximize-Func2	
+AddToFunc Maximize-Func2	"M" Maximize	 100 0
++				"C" Maximize	 100 0
++				"D" Maximize	 100 100
+DestroyFunc Move-or-Iconify	
+AddToFunc Move-or-Iconify	I Raise
++				"M" Move
++				"D" Iconify
+DestroyFunc Resize-or-Raise	
+AddToFunc Resize-or-Raise	I Raise
++				"M" Resize
++				"D" Lower
+DestroyFunc Resize-or-Raise2	
+AddToFunc Resize-or-Raise2	"M" Raise
++				"M" Resize
++				"D" Lower
+DestroyFunc Iconify-and-Raise     
+AddToFunc Iconify-and-Raise     I Iconify
++                               I Raise
+
+###################################################################
+### Thumbnails
+###################################################################
+
+SetEnv fvwm_icon_size 128
+
+DestroyFunc Thumbnail
+AddToFunc Thumbnail
++ I Raise
++ I ThisWindow (!Iconic) SetEnv Icon-$[w.id] $[w.iconfile]
++ I ThisWindow (!Shaded, Iconifiable, !Iconic) PipeRead \
+    "xwd -silent -id $[w.id] | convert -scale 128 -frame 1x1 \
+    -mattecolor black -quality 0 xwd:- png:$[FVWM_USERDIR]/icon.tmp.$[w.id].png \
+    && echo WindowStyle IconOverride, Icon $[FVWM_USERDIR]/icon.tmp.$[w.id].png \
+    || echo Nop"
++ I TestRc (Match) Test (f $[w.miniiconfile], f $[FVWM_USERDIR]/icon.tmp.$[w.id].png) PipeRead \
+    "composite -geometry +2+4 $[w.miniiconfile] $[FVWM_USERDIR]/icon.tmp.$[w.id].png \
+    $[FVWM_USERDIR]/icon.tmp.$[w.id].png; echo Nop"
++ I Iconify
+
+DestroyFunc DeThumbnail
+AddToFunc DeThumbnail
++ I PipeRead "echo Test \\(i \\$\\[Icon-$[w.id]\\]\\) WindowStyle Icon \\$\\[Icon-$[w.id]\\]"
++ I TestRc (NoMatch) WindowStyle NoIconOverride, Icon
++ I Exec rm -f $[FVWM_USERDIR]/icon.tmp.$[w.id].png
++ I All (Iconic, CurrentPage) PlaceAgain icon
++ I UnsetEnv Icon-$[w.id]
+
+###############################################################################
+##### Window-Identifier
+###############################################################################
+
+# Just choose colors and a fonts
+*FvwmIdentBack Colorset 4
+*FvwmIdentFore Colorset 3
+*FvwmIdentFont  "shadow=1 1 SE:xft:WenQuanYi Bitmap Song:Bold:Size=10:enconding=iso10646-1"
+#*FvwmIdentFont  "shadow=1 1 SE:xft:Vera Sans YuanTi:Medium:Size=17:enconding=iso10646-1"
+
+###############################################################################

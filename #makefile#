@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix = ${prefix}
+
+LIBS = -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf
+CXX=g++
+tmpLIBS = -lSDL -lSDL_image -lSDL_ttf
+
+IMAGE=SDL_image
+objects=main.o background.o
+game:game.cpp
+	$(CXX) -o game game.cpp $(tmpLIBS)  
+clean:
+	test 
+	rm game 

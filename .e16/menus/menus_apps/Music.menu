@@ -1,0 +1,3 @@
+"Music"
+"Gnome Chord" "gnome-chord" exec "gnome-chord"
+"Gnome Scale" "gnome-scale" exec "gnome-scale"

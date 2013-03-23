@@ -1,0 +1,7 @@
+"Education"
+"Chemical calculator" "gchemcalc" exec "gchemcalc-0.14"
+"GChemPaint Chemical Structures Editor" "gchempaint" exec "gchempaint-0.14"
+"Gnome Crystal Crystalline Structures Viewer" "gcrystal" exec "gcrystal-0.14"
+"Molecules Viewer" "gchem3d" exec "gchem3d-0.14"
+"Spectrum viewer" "gspectrum" exec "gspectrum-0.14"
+"元素周期表" "gchemtable" exec "gchemtable-0.14"

@@ -1,0 +1,36 @@
+1001 1
+12 999
+  100 DEFAULT_TOOLTIP_MAIN
+  5 "tooltips/images/ttip_cloud_big.png"
+  357 20 20 22 25
+  358 20 20 22 25
+1000
+12 999
+  100 DEFAULT_TOOLTIP_CLOUD1
+  5 "tooltips/images/ttip_cloud_small.png"
+1000
+12 999
+  100 DEFAULT_TOOLTIP_CLOUD2
+  5 "tooltips/images/ttip_cloud_small.png"
+1000
+12 999
+  100 DEFAULT_TOOLTIP_CLOUD3
+  5 "tooltips/images/ttip_cloud_small.png"
+1000
+12 999
+  100 DEFAULT_TOOLTIP_CLOUD4
+  5 "tooltips/images/ttip_cloud_small.png"
+1000
+12 999
+  100 TT_LOGO
+  5 "tooltips/images/ttip_help.png"
+1000
+1 999
+  100 "TOOLTIP_TEXT"
+  5 "*font-tooltip"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 1024
+1000
+17 999;  100 "DEFAULT";  12  "DEFAULT_TOOLTIP_MAIN";  641  "DEFAULT_TOOLTIP_CLOUD1";  642  "DEFAULT_TOOLTIP_CLOUD2";  643  "DEFAULT_TOOLTIP_CLOUD3";  644  "DEFAULT_TOOLTIP_CLOUD4";  646  "TT_LOGO";  1  "TOOLTIP_TEXT";  645  64;1000 

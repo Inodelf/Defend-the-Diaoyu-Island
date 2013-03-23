@@ -1,0 +1,35 @@
+   56  g++ -o fon t_font.cpp -lSDL -lSDL_image -lSDL_ttf
+   58  g++ -o fon t_font.cpp -lSDL -lSDL_image -lSDL_ttf
+   60  g++ -o fon t_font.cpp -lSDL -lSDL_image -lSDL_ttf
+   62  g++ -o fon t_font.cpp -lSDL -lSDL_image -lSDL_ttf
+   64  g++ -o fon t_font.cpp -lSDL -lSDL_image -lSDL_ttf
+   66  g++ -o fon t_font.cpp -lSDL -lSDL_image -lSDL_ttf
+   68  g++ -o fon t_font.cpp -lSDL -lSDL_image -lSDL_ttf
+   70  g++ -o fon t_font.cpp -lSDL -lSDL_image -lSDL_ttf
+   72  g++ -o fon t_font.cpp -lSDL -lSDL_image -lSDL_ttf
+   74  g++ -o fon t_font.cpp -lSDL -lSDL_image -lSDL_ttf
+   76  g++ -o fon t_font.cpp -lSDL -lSDL_image -lSDL_ttf
+   78  g++ -o fon t_font.cpp -lSDL -lSDL_image -lSDL_ttf
+   88  g++ -o fon t_font.cpp -lSDL -lSDL_image -lSDL_ttf
+  133  g++ -o lesson lesson08.cpp -lSDL -lSDL_image -lSDL_ttf
+  137  g++ -o new -lSDL -lSDL_image -lSDL_ttf
+  138  g++ -o new new.cpp -lSDL -lSDL_image -lSDL_ttf
+  141  g++ -o new new.cpp -lSDL -lSDL_image -lSDL_ttf
+  167  g++ -o new new.cpp -lSDL -lSDL_image -lSDL_ttf
+  169  g++ -o new new.cpp -lSDL -lSDL_image -lSDL_ttf
+  206  g++ -o lesson lesson09.cpp -lSDL -lSDL_image
+  223  g++ -o mouse mouse.cpp -lSDL -lSDL_image
+  225  g++ -o mouse mouse.cpp -lSDL -lSDL_image
+  270  g++ -o lesson10 -lSDL -lSDL_image -lSDL_mixer
+  271  g++ -o lesson10 lesson10.cpp -lSDL -lSDL_image -lSDL_mixer
+  272  g++ -o lesson10 lesson10.cpp -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf
+  479  g++ -o lesson lesson16.cpp -lSDL -lSDL_image
+  481  g++ -o lesson lesson16.cpp -lSDL -lSDL_image
+  483  g++ -o lesson lesson16.cpp -lSDL -lSDL_image
+  485  g++ -o lesson lesson16.cpp -lSDL -lSDL_image
+  487  g++ -o lesson lesson16.cpp -lSDL -lSDL_image
+  489  g++ -o lesson lesson16.cpp -lSDL -lSDL_image
+  491  g++ -o lesson lesson16.cpp -lSDL -lSDL_image
+  493  g++ -o lesson lesson16.cpp -lSDL -lSDL_image
+  495  g++ -o lesson lesson16.cpp -lSDL -lSDL_image
+ 1003  history |grep g++ >file

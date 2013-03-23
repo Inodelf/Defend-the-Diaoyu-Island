@@ -15,7 +15,7 @@ const int SCREEN_HEIGHT = 640;
 const int SCREEN_BPP = 32;
 
 //The frame rate
-const int FRAMES_PER_SECOND = 20;
+const int FRAMES_PER_SECOND = 50;
 
 //The dimentsions of the dot
 const int DOT_WIDTH = 130;

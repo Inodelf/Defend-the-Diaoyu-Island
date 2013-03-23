@@ -1,0 +1,3 @@
+"Documentation"
+"Release Notes for Fedora 18" "/usr/share/icons/hicolor/48x48/apps/fedora-release-notes.png" exec "xdg-open file:///usr/share/doc/HTML/fedora-release-notes/index.html"
+"Release Notes" "/usr/share/icons/hicolor/48x48/apps/fedora-release-notes.png" exec "xdg-open file:///usr/share/doc/HTML/fedora-release-notes/index.html"

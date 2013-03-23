@@ -1,0 +1,4 @@
+"Office"
+"Gnumeric" "/usr/share/icons/hicolor/48x48/apps/gnumeric.png" exec "gnumeric"
+"字典" "/usr/share/icons/gnome/48x48/apps/accessories-dictionary.png" exec "gnome-dictionary"
+"文档查看器" "/usr/share/icons/hicolor/48x48/apps/evince.png" exec "evince"

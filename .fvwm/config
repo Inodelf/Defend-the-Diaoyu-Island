@@ -1,0 +1,76 @@
+##################
+#
+#    _______________________________________
+#   (    ___________________________________)
+#    )  (__   _  _   _    _  
+#   (    __) ( \/ ) ( \/\/ ) /\/\
+#    )  (     \  /   \    / /    \
+#   (____)     \/     \/\/ (_/\/\_)  2.5.18
+#
+#   我的FVWM2RC文件
+#
+########################################
+#
+#
+#################
+#####  参照王垠主页,system.fvwm2rc & French man's configure
+################################################################################
+#
+#################
+#### Config fvwm environments
+################################################################################
+
+### Set image path
+ImagePath  $HOME/.fvwm/nuvoX-icons/apps/:+:$HOME/.fvwm/nuvoX-icons/actions/:+:$HOME/.fvwm/decorations/
+SetEnv fvwm_image_path $[HOME]/
+
+### Set the wallpaper and wallpaper directory
+### Use fbsetbg
+SetEnv fvwm_root "fbsetbg -f"
+
+### Path Wallpaper
+SetEnv fvwm_wallpaper_dir $[HOME]/wallpaper/
+SetEnv fvwm_wallpaper $[fvwm_wallpaper_dir]desk-wife3.png
+
+SetEnv fvwm_wallpaper_path $[HOME]/.fvwm/wallpaper/
+SetEnv fvwm_wallpaper $[fvwm_wallpaper_path]desk-1.jpg
+
+#### Set the audio/mp3 directory
+SetEnv fvwm_audio_path $[HOME]/music/
+SetEnv fvwm_audio_exec "audacious --play"
+
+#### Set the video directory
+SetEnv fvwm_video_path $[HOME]/videos/
+SetEnv fvwm_video_exec "mplayer -fs"
+
+### Path Pagers
+SetEnv fvwm_pager_path $[HOME]/.fvwm/pager/
+
+### Path Splash
+SetEnv fvwm_splash_path $[HOME]/.fvwm/splash
+
+### Path Script
+SetEnv fvwm_script_path $[HOME]/.fvwm/scripts
+
+### Path Configs
+SetEnv fvwm_configure_path $[HOME]/.fvwm/configure
+SetEnv fvwm_configure_exec "gvim"
+
+#################################################################################
+
+#################################################################################
+#### Section & Configerations
+#################################################################################
+
+Read $[fvwm_configure_path]/start
+#Read $[fvwm_configure_path]/FvwmAudio
+Read $[fvwm_configure_path]/FvwmButtons
+Read $[fvwm_configure_path]/FvwmWindowList
+Read $[fvwm_configure_path]/cursor
+Read $[fvwm_configure_path]/decoretions
+Read $[fvwm_configure_path]/fvwm.strokes
+Read $[fvwm_configure_path]/general
+Read $[fvwm_configure_path]/menustyle
+Read $[fvwm_configure_path]/mouse-keys
+
+#################################################################################

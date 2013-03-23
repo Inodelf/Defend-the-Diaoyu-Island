@@ -1,0 +1,180 @@
+################################################################################
+##### general config
+################################################################################
+
+EdgeResistance  1000 20
+EdgeScroll      0 0
+ColormapFocus   FollowsMouse
+ClickTime       150
+
+##### Desktop settings #######
+#
+#   +------+------+------+
+#   |      |      |      |      
+#   |      |      |      |      
+#   +------+------+------+
+#
+   DeskTopSize     3x1
+
+OpaqueMoveSize unlimited
+IgnoreModifiers L25
+EdgeThickness 1
+MoveThreshold 3
+HideGeometryWindow Always
+BugOpts FlickeringMoveWorkaround Off
+SnapGrid 8
+#SnapGrid 1 1
+SnapAttraction 8 SameType
+
+#### General Colorset
+Colorset 3 fg #f6f6f6, bg #000000, fgsh #000000, NoShape, RootTransparent, Tint #283e5e 70, IconAlpha 60
+Colorset 4 fg #ffffff, bg #000000, fgsh #000000, Noshape, RootTransparent, Tint #101f36 70, IconAlpha 100
+
+Colorset 5 fg #ffffff, bg #000000
+
+Colorset 6  fg #ffffff, bg #000000, fgsh #000000, RootTransparent
+
+#### Dock Colorset
+Colorset 30 fg #ffffff, bg #ffffff, hi #dde5ec, sh #a6bbce, RootTransparent , Tint #101F36 65
+
+# default Styles:
+
+Style * Font  "shadow=1 1 SE:xft:WenQuanYi Bitmap Song:Bold:Size=10:enconding=iso10646-1"
+Style * IconFont "shadow=1 1 SE:xft:WenQuanYi Bitmap Song:Medium:Size=10:enconding=iso10646-1"
+#Style * Colorset 3,HilightColorset 4
+
+Style * SmartPlacement, ResizeOutLine
+Style * WindowShadeShrinks, WindowShadeSteps 10, WindowShadeLazy
+Style * DecorateTransient, NoPPosition
+Style * IconBox 15 60 -1 -1, SloppyFocus, MouseFocusClickRaises,IconFill t l, \
+				IconBox 1000x320-1-1
+Style * SmartPlacement, WindowShadeSteps 20, ResizeOpaque
+Style * NoIcon, NoIconTitle
+
+#Style * StippledTitle
+
+# comment these lines if you dont like Icons to have Titles.
+Style * IconTitle, IconTitleColorset 6, HilightIconTitleColorset 6, IconTitleRelief 0
+Style * IconFont "xft:WenQuanYi Bitmap Song:Medium:Size=10:enconding=iso10646-1", IndexedIconName, IconBackgroundPadding 2,
+Style * IconBackgroundRelief 0, IconBackGroundColorset 6
+
+### window corner Round
+Style * RoundedCornersTop, SlightlyRoundedCorners
+
+### Resizeoutlinethin
+Style * ResizeOutline, ResizeOutlineThin
+
+### BorderUnderTitle
+#Style * BorderUnderTitle
+
+### InactiveFont
+Style * InactiveFont "shadow=1 1 SE:xft:WenQuanYi Bitmap Song:Medium:Size=10:enconding=iso10646-1"
+
+### FluxBoxHandles
+#Style * HandleWidth 5
+#Style * FluxboxHandles
+#Style * CornerWidth 21
+#Colorset 10 hi #5884d8, bg black, sh #2858a8
+
+
+################################################################################
+##### Styles
+################################################################################
+
+# Styles for various Fvwm modules:
+Style "Fvwm*"                 NoTitle,  Sticky, WindowListSkip
+Style "Fvwm*"                 BorderWidth 1, CirculateSkipIcon, CirculateSkip
+Style "FvwmPager"             StaysOnTop,NoHandles,BorderWidth 0
+Style "FvwmButtons"           StaysOnTop,NoHandles,BorderWidth 0
+Style "FvwmBanner"            StaysOnTop
+Style "FvwmConsole"           SloppyFocus
+
+# Styles for your common terminal emulator programs:
+
+Style "mlterm"                NoTitle, SloppyFocus
+Style "URxvt"                 NoTitle, SloppyFocus, StaysOnBottom, \
+				WindowShadeShrinks, StartsOnPage 0 0
+Style "gnome-terminal"        NoTitle, SloppyFocus, Layer 2
+Style "xdaliclock"            NoTitle, NoHandles, Sticky, WindowListSkip, \
+		  ClickToFocus
+Style "xmms"                  NoTitle, StartsOnDesk 1
+Style "Audacious*"             NoTitle, StartsOnDesk 1
+#Style "gvim"                  NoTitle, StartsOnDesk 0
+Style "xine"                  NoTitle, 
+Style "tvtime"                NoTitle, StartsOnDesk 1
+Style "MPlayer"               NoTitle, StaysOnTop, StartsOnDesk 1
+Style "Blender*"              NoTitle, StaysOnTop 
+Style "YafRay*"               StaysOnTop 
+Style "Adobe Reader"	      VariablePosition, VariableUSPosition
+Style *                       RaiseTransient, LowerTransient, StackTransientParent
+Style *                       RecaptureHonorsStartsOnPage, CaptureHonorsStartsOnPage
+
+# Styles for various common programs:
+Style "kcalc"               NoButton 2,RandomPlacement,ClickToFocus
+Style "ImageMagick"	        RaiseTransient, LowerTransient, StackTransientParent
+Style "The GIMP"          	RaiseTransient, LowerTransient, StackTransientParent
+
+################################################################################
+### Icons
+################################################################################
+
+Style "XTerm"   EWMHMiniIconOverride, MiniIcon Eterm.png
+Style "mlterm"  EWMHMiniIconOverride, MiniIcon Eterm.png
+Style "URxvt"   EWMHMiniIconOverride, MiniIcon Eterm.png
+Style "gnome-terminal"  EWMHMiniIconOverride, MiniIcon Eterm.png
+Style "emelFM2"   EWMHMiniIconOverride, MiniIcon kfm_home.png
+Style "gvim*"   EWMHMiniIconOverride, MiniIcon kedit.png
+Style "StarDict"   EWMHMiniIconOverride, MiniIcon bookcase.png
+Style "星际译王"   EWMHMiniIconOverride, MiniIcon bookcase.png
+Style "KTorrent"   EWMHMiniIconOverride, MiniIcon kugar.png
+Style "XMMS*"   EWMHMiniIconOverride, MiniIcon xmms.png
+Style "audacious*"   EWMHMiniIconOverride, MiniIcon xmms.png
+Style "xine"    EWMHMiniIconOverride, MiniIcon x.png
+Style "MPlayer" EWMHMiniIconOverride, MiniIcon media-player.png
+Style "Blender" EWMHMiniIconOverride, MiniIcon blender.png
+Style "tvtime"  EWMHMiniIconOverride, MiniIcon vlc.png
+Style "The GIMP"   EWMHMiniIconOverride, MiniIcon gimp.png
+Style "Mozilla Firefox"   EWMHMiniIconOverride, MiniIcon firefox.png
+Style "*Opera"   EWMHMiniIconOverride, MiniIcon opera.png
+Style "Inkscape"   EWMHMiniIconOverride, MiniIcon inkscape.png
+Style "Xpdf"   EWMHMiniIconOverride, MiniIcon acroread.png
+Style "*KPDF"   EWMHMiniIconOverride, MiniIcon acroread.png
+Style "GQview"   EWMHMiniIconOverride, MiniIcon kview.png
+Style "*ChmSee"   EWMHMiniIconOverride, MiniIcon amor.png
+Style "*kchmviewer"   EWMHMiniIconOverride, MiniIcon amor.png
+Style "Amarok*"   EWMHMiniIconOverride, MiniIcon amarok.png
+Style "*OpenOffice.org*"   EWMHMiniIconOverride, MiniIcon openoffice.png
+Style "pidgin"   EWMHMiniIconOverride, MiniIcon gaim.png
+
+Style Untitled Title,  EWMHMiniIconOverride, MiniIcon s32.png
+Style * EWMHMiniIconOverride
+
+#######
+# 程序运行指令
+####################
+DestroyFunc FvwmTerm
+AddToFunc FvwmTerm
++ I Exec urxvt -pt Root &
+
+DestroyFunc FvwmFM
+AddToFunc FvwmFM
++ I Exec emelfm2 &
+
+DestroyFunc FvwmGVim
+AddToFunc FvwmGVim
++ I Exec gvim &
+
+DestroyFunc FvwmGimp
+AddToFunc FvwmGimp
++ I Exec gimp &
+
+DestroyFunc Fvwmaudacious
+AddToFunc Fvwmaudacious
++ I Exec audacious --play &
+
+DestroyFunc FvwmMPlayer
+AddToFunc FvwmMPlayer
++ I Exec mplayer &
+
+###########################################################
+

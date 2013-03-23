@@ -1,0 +1,36 @@
+1001 1
+12 999
+  100 TT_MAIN
+  5         "tooltips/images/cloud2.png"
+  357   38 27 41 27
+  358        38 27 41 27
+1000
+12 999
+  100 TT_CLOUD1
+  5         "tooltips/images/cloud1.png"
+1000
+12 999
+  100 TT_CLOUD2
+  5         "tooltips/images/cloud1.png"
+1000
+12 999
+  100 TT_CLOUD3
+  5         "tooltips/images/cloud1.png"
+1000
+12 999
+  100 TT_CLOUD4
+  5         "tooltips/images/cloud1.png"
+1000
+12 999
+  100 TT_LOGO
+  5         "tooltips/images/cloud_logo.png"
+1000
+1 999
+  100 "TT_TEXT"
+  201 0
+  5 "*font-tooltip"
+  204 0
+  205 0 0 0
+  206 180 180 180
+1000
+17 999;  100 "DEFAULT";  12  "TT_MAIN";  641  "TT_CLOUD1";  642  "TT_CLOUD2";  643  "TT_CLOUD3";  644  "TT_CLOUD4";  646  "TT_LOGO";  1  "TT_TEXT";  645  64;1000

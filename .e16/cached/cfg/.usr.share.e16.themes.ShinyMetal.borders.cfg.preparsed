@@ -1,0 +1,1794 @@
+1001 1
+12 999
+  100 BUTTON
+  5 "images/button_1.png"
+  357 2 2 2 2
+  353 "images/button_2.png"
+  357 2 2 2 2
+  352 "images/button_3.png"
+  357 2 2 2 2
+  354 "images/button_1.png"
+  357 2 2 2 2
+  356 "images/button_2.png"
+  357 2 2 2 2
+  355 "images/button_3.png"
+  357 2 2 2 2
+  359 "images/button_1.png"
+  357 2 2 2 2
+  361 "images/button_2.png"
+  357 2 2 2 2
+  360 "images/button_3.png"
+  357 2 2 2 2
+  362 "images/button_1.png"
+  357 2 2 2 2
+  364 "images/button_2.png"
+  357 2 2 2 2
+  363 "images/button_3.png"
+  357 2 2 2 2
+1000
+12 999;   100 "BUTTON_"KILL;  5 "images/button_"kill"_1.png";  357 2 2 2 2;  353 "images/button_"kill"_2.png";  357 2 2 2 2;  352 "images/button_"kill"_3.png";  357 2 2 2 2;  354 "images/button_"kill"_1.png";  357 2 2 2 2;  356 "images/button_"kill"_2.png";  357 2 2 2 2;  355 "images/button_"kill"_3.png";  357 2 2 2 2;  359 "images/button_"kill"_1.png";  357 2 2 2 2;  361 "images/button_"kill"_2.png";  357 2 2 2 2;  360 "images/button_"kill"_3.png";  357 2 2 2 2;  362 "images/button_"kill"_1.png";  357 2 2 2 2;  364 "images/button_"kill"_2.png";  357 2 2 2 2;  363 "images/button_"kill"_3.png";  357 2 2 2 2;1000;;
+12 999;   100 "BUTTON_"ICONIFY;  5 "images/button_"iconify"_1.png";  357 2 2 2 2;  353 "images/button_"iconify"_2.png";  357 2 2 2 2;  352 "images/button_"iconify"_3.png";  357 2 2 2 2;  354 "images/button_"iconify"_1.png";  357 2 2 2 2;  356 "images/button_"iconify"_2.png";  357 2 2 2 2;  355 "images/button_"iconify"_3.png";  357 2 2 2 2;  359 "images/button_"iconify"_1.png";  357 2 2 2 2;  361 "images/button_"iconify"_2.png";  357 2 2 2 2;  360 "images/button_"iconify"_3.png";  357 2 2 2 2;  362 "images/button_"iconify"_1.png";  357 2 2 2 2;  364 "images/button_"iconify"_2.png";  357 2 2 2 2;  363 "images/button_"iconify"_3.png";  357 2 2 2 2;1000;;
+12 999;   100 "BUTTON_"STICK;  5 "images/button_"stick"_1.png";  357 2 2 2 2;  353 "images/button_"stick"_2.png";  357 2 2 2 2;  352 "images/button_"stick"_3.png";  357 2 2 2 2;  354 "images/button_"stick"_1.png";  357 2 2 2 2;  356 "images/button_"stick"_2.png";  357 2 2 2 2;  355 "images/button_"stick"_3.png";  357 2 2 2 2;  359 "images/button_"stick"_1.png";  357 2 2 2 2;  361 "images/button_"stick"_2.png";  357 2 2 2 2;  360 "images/button_"stick"_3.png";  357 2 2 2 2;  362 "images/button_"stick"_1.png";  357 2 2 2 2;  364 "images/button_"stick"_2.png";  357 2 2 2 2;  363 "images/button_"stick"_3.png";  357 2 2 2 2;1000;;
+12 999;   100 "BUTTON_"SLIDEOUT;  5 "images/button_"slideout_right"_1.png";  357 2 2 2 2;  353 "images/button_"slideout_right"_2.png";  357 2 2 2 2;  352 "images/button_"slideout_right"_3.png";  357 2 2 2 2;  354 "images/button_"slideout_right"_1.png";  357 2 2 2 2;  356 "images/button_"slideout_right"_2.png";  357 2 2 2 2;  355 "images/button_"slideout_right"_3.png";  357 2 2 2 2;  359 "images/button_"slideout_right"_1.png";  357 2 2 2 2;  361 "images/button_"slideout_right"_2.png";  357 2 2 2 2;  360 "images/button_"slideout_right"_3.png";  357 2 2 2 2;  362 "images/button_"slideout_right"_1.png";  357 2 2 2 2;  364 "images/button_"slideout_right"_2.png";  357 2 2 2 2;  363 "images/button_"slideout_right"_3.png";  357 2 2 2 2;1000;;
+12 999;   100 "BUTTON_"MAXIMISE;  5 "images/button_"maximise"_1.png";  357 2 2 2 2;  353 "images/button_"maximise"_2.png";  357 2 2 2 2;  352 "images/button_"maximise"_3.png";  357 2 2 2 2;  354 "images/button_"maximise"_1.png";  357 2 2 2 2;  356 "images/button_"maximise"_2.png";  357 2 2 2 2;  355 "images/button_"maximise"_3.png";  357 2 2 2 2;  359 "images/button_"maximise"_1.png";  357 2 2 2 2;  361 "images/button_"maximise"_2.png";  357 2 2 2 2;  360 "images/button_"maximise"_3.png";  357 2 2 2 2;  362 "images/button_"maximise"_1.png";  357 2 2 2 2;  364 "images/button_"maximise"_2.png";  357 2 2 2 2;  363 "images/button_"maximise"_3.png";  357 2 2 2 2;1000;;
+12 999;   100 "BUTTON_"SHADE;  5 "images/button_"up_bar"_1.png";  357 2 2 2 2;  353 "images/button_"up_bar"_2.png";  357 2 2 2 2;  352 "images/button_"up_bar"_3.png";  357 2 2 2 2;  354 "images/button_"up_bar"_1.png";  357 2 2 2 2;  356 "images/button_"up_bar"_2.png";  357 2 2 2 2;  355 "images/button_"up_bar"_3.png";  357 2 2 2 2;  359 "images/button_"up_bar"_1.png";  357 2 2 2 2;  361 "images/button_"up_bar"_2.png";  357 2 2 2 2;  360 "images/button_"up_bar"_3.png";  357 2 2 2 2;  362 "images/button_"up_bar"_1.png";  357 2 2 2 2;  364 "images/button_"up_bar"_2.png";  357 2 2 2 2;  363 "images/button_"up_bar"_3.png";  357 2 2 2 2;1000;;
+12 999;   100 "BUTTON_"MAXIMISE_HORIZONTAL;  5 "images/button_"maximise_horizontal"_1.png";  357 2 2 2 2;  353 "images/button_"maximise_horizontal"_2.png";  357 2 2 2 2;  352 "images/button_"maximise_horizontal"_3.png";  357 2 2 2 2;  354 "images/button_"maximise_horizontal"_1.png";  357 2 2 2 2;  356 "images/button_"maximise_horizontal"_2.png";  357 2 2 2 2;  355 "images/button_"maximise_horizontal"_3.png";  357 2 2 2 2;  359 "images/button_"maximise_horizontal"_1.png";  357 2 2 2 2;  361 "images/button_"maximise_horizontal"_2.png";  357 2 2 2 2;  360 "images/button_"maximise_horizontal"_3.png";  357 2 2 2 2;  362 "images/button_"maximise_horizontal"_1.png";  357 2 2 2 2;  364 "images/button_"maximise_horizontal"_2.png";  357 2 2 2 2;  363 "images/button_"maximise_horizontal"_3.png";  357 2 2 2 2;1000;;
+12 999;   100 "BUTTON_"MAXIMISE_VERTICAL;  5 "images/button_"maximise_vertical"_1.png";  357 2 2 2 2;  353 "images/button_"maximise_vertical"_2.png";  357 2 2 2 2;  352 "images/button_"maximise_vertical"_3.png";  357 2 2 2 2;  354 "images/button_"maximise_vertical"_1.png";  357 2 2 2 2;  356 "images/button_"maximise_vertical"_2.png";  357 2 2 2 2;  355 "images/button_"maximise_vertical"_3.png";  357 2 2 2 2;  359 "images/button_"maximise_vertical"_1.png";  357 2 2 2 2;  361 "images/button_"maximise_vertical"_2.png";  357 2 2 2 2;  360 "images/button_"maximise_vertical"_3.png";  357 2 2 2 2;  362 "images/button_"maximise_vertical"_1.png";  357 2 2 2 2;  364 "images/button_"maximise_vertical"_2.png";  357 2 2 2 2;  363 "images/button_"maximise_vertical"_3.png";  357 2 2 2 2;1000;;
+12 999;   100 "BUTTON_"SWIRL;  5 "images/button_"swirl"_1.png";  357 2 2 2 2;  353 "images/button_"swirl"_2.png";  357 2 2 2 2;  352 "images/button_"swirl"_3.png";  357 2 2 2 2;  354 "images/button_"swirl"_1.png";  357 2 2 2 2;  356 "images/button_"swirl"_2.png";  357 2 2 2 2;  355 "images/button_"swirl"_3.png";  357 2 2 2 2;  359 "images/button_"swirl"_1.png";  357 2 2 2 2;  361 "images/button_"swirl"_2.png";  357 2 2 2 2;  360 "images/button_"swirl"_3.png";  357 2 2 2 2;  362 "images/button_"swirl"_1.png";  357 2 2 2 2;  364 "images/button_"swirl"_2.png";  357 2 2 2 2;  363 "images/button_"swirl"_3.png";  357 2 2 2 2;1000;;
+12 999;   100 "BUTTON_"ARROW_UP;  5 "images/button_"arrow_up"_1.png";  357 2 2 2 2;  353 "images/button_"arrow_up"_2.png";  357 2 2 2 2;  352 "images/button_"arrow_up"_3.png";  357 2 2 2 2;  354 "images/button_"arrow_up"_1.png";  357 2 2 2 2;  356 "images/button_"arrow_up"_2.png";  357 2 2 2 2;  355 "images/button_"arrow_up"_3.png";  357 2 2 2 2;  359 "images/button_"arrow_up"_1.png";  357 2 2 2 2;  361 "images/button_"arrow_up"_2.png";  357 2 2 2 2;  360 "images/button_"arrow_up"_3.png";  357 2 2 2 2;  362 "images/button_"arrow_up"_1.png";  357 2 2 2 2;  364 "images/button_"arrow_up"_2.png";  357 2 2 2 2;  363 "images/button_"arrow_up"_3.png";  357 2 2 2 2;1000;;
+12 999;   100 "BUTTON_"ARROW_DOWN;  5 "images/button_"arrow_down"_1.png";  357 2 2 2 2;  353 "images/button_"arrow_down"_2.png";  357 2 2 2 2;  352 "images/button_"arrow_down"_3.png";  357 2 2 2 2;  354 "images/button_"arrow_down"_1.png";  357 2 2 2 2;  356 "images/button_"arrow_down"_2.png";  357 2 2 2 2;  355 "images/button_"arrow_down"_3.png";  357 2 2 2 2;  359 "images/button_"arrow_down"_1.png";  357 2 2 2 2;  361 "images/button_"arrow_down"_2.png";  357 2 2 2 2;  360 "images/button_"arrow_down"_3.png";  357 2 2 2 2;  362 "images/button_"arrow_down"_1.png";  357 2 2 2 2;  364 "images/button_"arrow_down"_2.png";  357 2 2 2 2;  363 "images/button_"arrow_down"_3.png";  357 2 2 2 2;1000;;
+12 999;   100 "BUTTON_"ARROW_RIGHT;  5 "images/button_"arrow_right"_1.png";  357 2 2 2 2;  353 "images/button_"arrow_right"_2.png";  357 2 2 2 2;  352 "images/button_"arrow_right"_3.png";  357 2 2 2 2;  354 "images/button_"arrow_right"_1.png";  357 2 2 2 2;  356 "images/button_"arrow_right"_2.png";  357 2 2 2 2;  355 "images/button_"arrow_right"_3.png";  357 2 2 2 2;  359 "images/button_"arrow_right"_1.png";  357 2 2 2 2;  361 "images/button_"arrow_right"_2.png";  357 2 2 2 2;  360 "images/button_"arrow_right"_3.png";  357 2 2 2 2;  362 "images/button_"arrow_right"_1.png";  357 2 2 2 2;  364 "images/button_"arrow_right"_2.png";  357 2 2 2 2;  363 "images/button_"arrow_right"_3.png";  357 2 2 2 2;1000;;
+12 999;   100 "BUTTON_"ARROW_LEFT;  5 "images/button_"arrow_left"_1.png";  357 2 2 2 2;  353 "images/button_"arrow_left"_2.png";  357 2 2 2 2;  352 "images/button_"arrow_left"_3.png";  357 2 2 2 2;  354 "images/button_"arrow_left"_1.png";  357 2 2 2 2;  356 "images/button_"arrow_left"_2.png";  357 2 2 2 2;  355 "images/button_"arrow_left"_3.png";  357 2 2 2 2;  359 "images/button_"arrow_left"_1.png";  357 2 2 2 2;  361 "images/button_"arrow_left"_2.png";  357 2 2 2 2;  360 "images/button_"arrow_left"_3.png";  357 2 2 2 2;  362 "images/button_"arrow_left"_1.png";  357 2 2 2 2;  364 "images/button_"arrow_left"_2.png";  357 2 2 2 2;  363 "images/button_"arrow_left"_3.png";  357 2 2 2 2;1000;;
+12 999
+  100 BUTTON_BLACK
+  5 "images/black.png"
+1000
+12 999
+  100 TITLE_BAR_HORIZONTAL
+  5  "images/bar_horizontal_1.png"
+  357 3 3 2 2
+  353 "images/bar_horizontal_2.png"
+  357 3 3 2 2
+  352 "images/bar_horizontal_3.png"
+  357 3 3 2 2
+  354  "images/bar_amber_horizontal_1.png"
+  357 3 3 3 3
+  356 "images/bar_amber_horizontal_2.png"
+  357 3 3 3 3
+  355 "images/bar_amber_horizontal_3.png"
+  357 3 3 3 3
+  359  "images/bar_horizontal_1.png"
+  357 3 3 2 2
+  361 "images/bar_horizontal_2.png"
+  357 3 3 2 2
+  360 "images/bar_horizontal_3.png"
+  357 3 3 2 2
+  362  "images/bar_horizontal_1.png"
+  357 3 3 2 2
+  364 "images/bar_horizontal_2.png"
+  357 3 3 2 2
+  363 "images/bar_horizontal_3.png"
+  357 3 3 2 2
+  358 2 2 1 1
+1000
+12 999
+  100 TITLE_BAR_VERTICAL
+  5  "images/bar_vertical_1.png"
+  357 2 2 3 3
+  353 "images/bar_vertical_2.png"
+  357 2 2 3 3
+  352 "images/bar_vertical_3.png"
+  357 2 2 3 3
+  354  "images/bar_amber_vertical_1.png"
+  357 3 3 3 3
+  356 "images/bar_amber_vertical_2.png"
+  357 3 3 3 3
+  355 "images/bar_amber_vertical_3.png"
+  357 3 3 3 3
+  359  "images/bar_vertical_1.png"
+  357 2 2 3 3
+  361 "images/bar_vertical_2.png"
+  357 2 2 3 3
+  360 "images/bar_vertical_3.png"
+  357 2 2 3 3
+  362  "images/bar_vertical_1.png"
+  357 2 2 3 3
+  364 "images/bar_vertical_2.png"
+  357 2 2 3 3
+  363 "images/bar_vertical_3.png"
+  357 2 2 3 3
+  358 1 1 2 2
+1000
+12 999
+  100 BAR_HORIZONTAL
+  5  "images/bar_horizontal_1.png"
+  357 3 3 1 1
+  353 "images/bar_horizontal_2.png"
+  357 3 3 1 1
+  352 "images/bar_horizontal_3.png"
+  357 3 3 1 1
+  354  "images/bar_horizontal_1.png"
+  357 3 3 1 1
+  356 "images/bar_horizontal_2.png"
+  357 3 3 1 1
+  355 "images/bar_horizontal_3.png"
+  357 3 3 1 1
+  359  "images/bar_horizontal_1.png"
+  357 3 3 1 1
+  361 "images/bar_horizontal_2.png"
+  357 3 3 1 1
+  360 "images/bar_horizontal_3.png"
+  357 3 3 1 1
+  362  "images/bar_horizontal_1.png"
+  357 3 3 1 1
+  364 "images/bar_horizontal_2.png"
+  357 3 3 1 1
+  363 "images/bar_horizontal_3.png"
+  357 3 3 1 1
+1000
+1 999
+  100 "TEXT1"
+  5 "*font-border"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+1000
+1 999
+  100 "TEXT2"
+  5 "*font-border"
+  204 0
+  205 0 0 0
+  206 0 0 0
+  201 1024
+  354 "*font-border"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 1024
+1000
+3 999
+  100 BORDERLESS
+  501 0
+  502 0
+  503 0
+  504 0
+1000
+3 999
+  100 DEFAULT
+  501 1
+  502 1
+  503 16
+  504 5
+  506 2
+  507 0
+  505 999
+    12 BUTTON_ICONIFY
+    11 ACTION_ICONIFY
+    800 ICONIFY
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    462 -1
+    459 0
+    461 0
+    464 15
+    466 15
+    470 1
+  1000
+  505 999
+    12 BUTTON_SHADE
+    11 ACTION_SHADE
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    462 -1
+    459 16
+    461 0
+    464 31
+    466 15
+    470 1
+  1000
+  505 999
+    12 TITLE_BAR_HORIZONTAL
+    11 ACTION_MOVE
+    1 TEXT1
+    800 MOVE
+    454 1
+    456 4
+    468 16
+    469 16
+    457 99999
+    467 -1
+    458  0
+    459  32
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -49
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON_STICK
+    11 ACTION_STICK
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  1024
+    459  -48
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -33
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON_KILL
+    11 ACTION_KILL
+    800 KILL
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  1024
+    459  -32
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -16
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON_SLIDEOUT
+    11 ACTION_WINDOW_SLIDEOUT
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  1024
+    459  -16
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 1
+    457 1
+    468 0
+    469 99999
+    467 -1
+    458  1024
+    459  -1
+    460  0
+    461  16
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -6
+    470 0
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 1
+    457 1
+    468 0
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  16
+    462 -1
+    463  0
+    464  0
+    465  1024
+    466  -6
+    470 0
+  1000
+  505 999
+    12 BUTTON
+    11 ACTION_RESIZE
+    800 RESIZE_TR
+    456 10
+    457 10
+    468 5
+    469 5
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -5
+    462 -1
+    463  0
+    464  9
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BAR_HORIZONTAL
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 2
+    457 99999
+    468 5
+    469 5
+    467 -1
+    458  0
+    459  10
+    460  1024
+    461  -5
+    462 -1
+    463  1024
+    464  -16
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BUTTON
+    11 ACTION_RESIZE
+    800 RESIZE_BR
+    456 10
+    457 10
+    468 5
+    469 5
+    467 -1
+    458  1024
+    459  -15
+    460  1024
+    461  -5
+    462 -1
+    463  1024
+    464  -6
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BUTTON
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 5
+    457 5
+    468 5
+    469 5
+    467 -1
+    458  1024
+    459  -5
+    460  1024
+    461  -5
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+1000
+3 999
+  100 BOTTOM
+  501 1
+  502 1
+  503 1
+  504 16
+  506 3
+  507 0
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 0
+    457 99999
+    468 1
+    469 1
+    467 -1
+    458  0
+    459  -1
+    460  0
+    461  -1
+    462 -1
+    463  1024
+    464  0
+    465  1024
+    466  0
+    470 0
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 1
+    457 1
+    468 0
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  16
+    462 -1
+    463  0
+    464  0
+    465  1024
+    466  -6
+    470 0
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 1
+    457 1
+    468 0
+    469 99999
+    467 -1
+    458  1024
+    459  -1
+    460  0
+    461  16
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -6
+    470 0
+  1000
+  505 999
+    12 BUTTON_ICONIFY
+    11 ACTION_ICONIFY
+    800 ICONIFY
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -16
+    462 -1
+    463  0
+    464  16
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 BUTTON_SHADE
+    11 ACTION_SHADE
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  0
+    459  16
+    460  1024
+    461  -16
+    462 -1
+    463  0
+    464  31
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 TITLE_BAR_HORIZONTAL
+    11 ACTION_MOVE
+    1 TEXT1
+    800 MOVE
+    454 1
+    456 4
+    468 16
+    469 16
+    457 99999
+    467 -1
+    458  0
+    459  32
+    460  1024
+    461  -16
+    462 -1
+    463  1024
+    464  -49
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 BUTTON_STICK
+    11 ACTION_STICK
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  1024
+    459  -48
+    460  1024
+    461  -16
+    462 -1
+    463  1024
+    464  -33
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 BUTTON_KILL
+    11 ACTION_KILL
+    800 KILL
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  1024
+    459  -32
+    460  1024
+    461  -16
+    462 -1
+    463  1024
+    464  -16
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 BUTTON_SLIDEOUT
+    11 ACTION_WINDOW_SLIDEOUT
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  1024
+    459  -16
+    460  1024
+    461  -16
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 1
+  1000
+1000
+3 999
+  100 ICONBOX
+  501 0
+  502 0
+  503 0
+  504 0
+1000
+3 999
+  100 FIXEDSIZE
+  501 1
+  502 1
+  503 16
+  504 1
+  506 2
+  505 999
+    12 BUTTON_ICONIFY
+    11 ACTION_ICONIFY
+    800 ICONIFY
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    462 -1
+    459 0
+    461 0
+    464 15
+    466 15
+    470 1
+  1000
+  505 999
+    12 BUTTON_SHADE
+    11 ACTION_SHADE
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    462 -1
+    459 16
+    461 0
+    464 31
+    466 15
+    470 1
+  1000
+  505 999
+    12 TITLE_BAR_HORIZONTAL
+    11 ACTION_MOVE
+    800 MOVE
+    1 TEXT1
+    454 1
+    456 4
+    468 16
+    469 16
+    457 99999
+    467 -1
+    458  0
+    459  32
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -49
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON_STICK
+    11 ACTION_STICK
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  1024
+    459  -48
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -33
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON_KILL
+    11 ACTION_KILL
+    800 KILL
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  1024
+    459  -32
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -16
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON_SLIDEOUT
+    11 ACTION_WINDOW_SLIDEOUT
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  1024
+    459  -16
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_MOVE
+    800 MOVE
+    456 1
+    457 1
+    468 0
+    469 99999
+    467 -1
+    458  1024
+    459  -1
+    460  0
+    461  16
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_MOVE
+    800 MOVE
+    456 1
+    457 1
+    468 0
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  16
+    462 -1
+    463  0
+    464  0
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_MOVE
+    800 MOVE
+    456 1
+    457 99999
+    468 1
+    469 1
+    467 -1
+    458  0
+    459  1
+    460  1024
+    461  -1
+    462 -1
+    463  1024
+    464  -2
+    465  1024
+    466  -1
+    470 0
+  1000
+1000
+3 999
+  100 MENU_BORDER
+  501 6
+  502 0
+  503 16
+  504 16
+  506 0
+  505 999
+    12 BUTTON_SHADE
+    11 ACTION_SHADE
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    462 -1
+    459 0
+    461 0
+    464 15
+    466 15
+    470 1
+  1000
+  505 999
+    12 TITLE_BAR_VERTICAL
+    11 ACTION_MOVE
+    800 MOVE
+    456 6
+    468 6
+    469 99999
+    457 6
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  16
+    462 -1
+    463  0
+    464  5
+    465  1024
+    466  -17
+    470 1
+  1000
+  505 999
+    12 BUTTON_KILL
+    11 ACTION_KILL
+    800 KILL
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -16
+    462 -1
+    463  0
+    464  15
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 BUTTON_SLIDEOUT
+    11 ACTION_WINDOW_SLIDEOUT
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  0
+    459  16
+    460  1024
+    461  -16
+    462 -1
+    463  0
+    464  31
+    465  1024
+    466  -1
+    470 1
+  1000
+1000
+3 999
+  100 PAGER
+  501 1
+  502 1
+  503 8
+  504 1
+  506 2
+  507 0
+  505 999
+    12 BUTTON_ICONIFY
+    11 ACTION_ICONIFY
+    800 ICONIFY
+    456 8
+    457 8
+    468 8
+    469 8
+    467 -1
+    462 -1
+    459 0
+    461 0
+    464 7
+    466 7
+    470 1
+  1000
+  505 999
+    12 TITLE_BAR_HORIZONTAL
+    11 ACTION_MOVE
+    1 TEXT1
+    800 MOVE
+    456 4
+    457 99999
+    468 8
+    469 8
+    467 -1
+    458  0
+    459  8
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  7
+    470 1
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 1
+    457 1
+    468 0
+    469 99999
+    467 -1
+    458  1024
+    459  -1
+    460  0
+    461  8
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -2
+    470 0
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 1
+    457 1
+    468 0
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  8
+    462 -1
+    463  0
+    464  0
+    465  1024
+    466  -2
+    470 0
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 0
+    457 99999
+    468 1
+    469 1
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -1
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+1000
+3 999
+  100 SHAPED
+  501 1
+  502 1
+  503 16
+  504 5
+  506 2
+  505 999
+    12 BUTTON_ICONIFY
+    11 ACTION_ICONIFY
+    800 ICONIFY
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    462 -1
+    459 0
+    461 0
+    464 15
+    466 15
+    470 1
+  1000
+  505 999
+    12 BUTTON_SHADE
+    11 ACTION_SHADE
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    462 -1
+    459 16
+    461 0
+    464 31
+    466 15
+    470 1
+  1000
+  505 999
+    12 TITLE_BAR_HORIZONTAL
+    11 ACTION_MOVE
+    800 MOVE
+    1 TEXT1
+    454 1
+    456 4
+    468 16
+    469 16
+    457 99999
+    467 -1
+    458  0
+    459  32
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -49
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON_STICK
+    11 ACTION_STICK
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  1024
+    459  -48
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -33
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON_KILL
+    11 ACTION_KILL
+    800 KILL
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  1024
+    459  -32
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -16
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON_SLIDEOUT
+    11 ACTION_WINDOW_SLIDEOUT
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  1024
+    459  -16
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON
+    11 ACTION_RESIZE
+    800 RESIZE_TR
+    456 10
+    457 10
+    468 5
+    469 5
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -5
+    462 -1
+    463  0
+    464  9
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BAR_HORIZONTAL
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 2
+    457 99999
+    468 5
+    469 5
+    467 -1
+    458  0
+    459  10
+    460  1024
+    461  -5
+    462 -1
+    463  1024
+    464  -16
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BUTTON
+    11 ACTION_RESIZE
+    800 RESIZE_BR
+    456 10
+    457 10
+    468 5
+    469 5
+    467 -1
+    458  1024
+    459  -15
+    460  1024
+    461  -5
+    462 -1
+    463  1024
+    464  -6
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BUTTON
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 5
+    457 5
+    468 5
+    469 5
+    467 -1
+    458  1024
+    459  -5
+    460  1024
+    461  -5
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+1000
+3 999
+  100 SIDE
+  501 16
+  502 1
+  503 1
+  504 5
+  506 0
+  505 999
+    12 BUTTON_ICONIFY
+    11 ACTION_ICONIFY
+    800 ICONIFY
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    462 -1
+    459 0
+    461 0
+    464 15
+    466 15
+    470 1
+  1000
+  505 999
+    12 BUTTON_SHADE
+    11 ACTION_SHADE
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    462 -1
+    459 0
+    461 16
+    464 15
+    466 31
+    470 1
+  1000
+  505 999
+    12 TITLE_BAR_VERTICAL
+    11 ACTION_MOVE
+    800 MOVE
+    456 4
+    468 4
+    469 99999
+    457 16
+    467 -1
+    458  0
+    459  8
+    460  0
+    461  32
+    462 -1
+    463  0
+    464  15
+    465  1024
+    466  -54
+    470 1
+  1000
+  505 999
+    12 BUTTON_STICK
+    11 ACTION_STICK
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -53
+    462 -1
+    463  0
+    464  15
+    465  1024
+    466  -38
+    470 1
+  1000
+  505 999
+    12 BUTTON_KILL
+    11 ACTION_KILL
+    800 KILL
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -37
+    462 -1
+    463  0
+    464  15
+    465  1024
+    466  -22
+    470 1
+  1000
+  505 999
+    12 BUTTON_SLIDEOUT
+    11 ACTION_WINDOW_SLIDEOUT
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -21
+    462 -1
+    463  0
+    464  15
+    465  1024
+    466  -6
+    470 1
+  1000
+  505 999
+    12 BUTTON
+    11 ACTION_RESIZE
+    800 RESIZE_TR
+    456 16
+    457 16
+    468 5
+    469 5
+    467 -1
+    458  0
+    459  0
+    460  1024
+    461  -5
+    462 -1
+    463  0
+    464  15
+    465  1024
+    466  -1
+    470 1
+  1000
+  505 999
+    12 BAR_HORIZONTAL
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 2
+    457 99999
+    468 5
+    469 5
+    467 -1
+    458  0
+    459  16
+    460  1024
+    461  -5
+    462 -1
+    463  1024
+    464  -16
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BUTTON
+    11 ACTION_RESIZE
+    800 RESIZE_BR
+    456 10
+    457 10
+    468 5
+    469 5
+    467 -1
+    458  1024
+    459  -15
+    460  1024
+    461  -5
+    462 -1
+    463  1024
+    464  -6
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BUTTON
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 5
+    457 5
+    468 5
+    469 5
+    467 -1
+    458  1024
+    459  -5
+    460  1024
+    461  -5
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_RESIZE_H
+    800 RESIZE_H
+    456 1
+    457 1
+    468 0
+    469 99999
+    467 -1
+    458  1024
+    459  -1
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -6
+    470 0
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_RESIZE_V
+    800 RESIZE_V
+    456 0
+    457 99999
+    468 1
+    469 1
+    467 -1
+    458  0
+    459  16
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -2
+    465  0
+    466  0
+    470 0
+  1000
+1000
+3 999
+  100 FIXEDSIZE
+  501 1
+  502 1
+  503 16
+  504 1
+  506 2
+  505 999
+    12 BUTTON_ICONIFY
+    11 ACTION_ICONIFY
+    800 ICONIFY
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    462 -1
+    459 0
+    461 0
+    464 15
+    466 15
+    470 1
+  1000
+  505 999
+    12 BUTTON_SHADE
+    11 ACTION_SHADE
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    462 -1
+    459 16
+    461 0
+    464 31
+    466 15
+    470 1
+  1000
+  505 999
+    12 TITLE_BAR_HORIZONTAL
+    11 ACTION_MOVE
+    800 MOVE
+    1 TEXT1
+    454 1
+    456 4
+    468 16
+    469 16
+    457 99999
+    467 -1
+    458  0
+    459  32
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -49
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON_STICK
+    11 ACTION_STICK
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  1024
+    459  -48
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -33
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON_KILL
+    11 ACTION_KILL
+    800 KILL
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  1024
+    459  -32
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -16
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON_SLIDEOUT
+    11 ACTION_WINDOW_SLIDEOUT
+    456 16
+    457 16
+    468 16
+    469 16
+    467 -1
+    458  1024
+    459  -16
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -1
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_MOVE
+    800 MOVE
+    456 1
+    457 1
+    468 0
+    469 99999
+    467 -1
+    458  1024
+    459  -1
+    460  0
+    461  16
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_MOVE
+    800 MOVE
+    456 1
+    457 1
+    468 0
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  16
+    462 -1
+    463  0
+    464  0
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_MOVE
+    800 MOVE
+    456 1
+    457 99999
+    468 1
+    469 1
+    467 -1
+    458  0
+    459  1
+    460  1024
+    461  -1
+    462 -1
+    463  1024
+    464  -2
+    465  1024
+    466  -1
+    470 0
+  1000
+1000
+3 999
+  100 TRANSIENT
+  501 1
+  502 1
+  503 16
+  504 1
+  __SHADE_DIRECTION__UP
+  505 999
+    12 TITLE_BAR_HORIZONTAL
+    11 ACTION_MOVE
+    800 MOVE
+    1 TEXT2
+    454 1
+    456 4
+    468 16
+    469 16
+    457 0
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  0
+    462 -1
+    463  1024
+    464  -17
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON_SLIDEOUT
+    11 ACTION_WINDOW_SLIDEOUT
+    456 16
+    457 16
+    468 16
+    469 16
+    467 0
+    458  1024
+    459  0
+    460  0
+    461  0
+    462 0
+    463  1024
+    464  15
+    465  0
+    466  15
+    470 1
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_MOVE
+    800 MOVE
+    456 1
+    457 1
+    468 0
+    469 99999
+    467 -1
+    458  1024
+    459  -1
+    460  0
+    461  16
+    462 -1
+    463  1024
+    464  -1
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_MOVE
+    800 MOVE
+    456 1
+    457 1
+    468 0
+    469 99999
+    467 -1
+    458  0
+    459  0
+    460  0
+    461  16
+    462 -1
+    463  0
+    464  0
+    465  1024
+    466  -1
+    470 0
+  1000
+  505 999
+    12 BUTTON_BLACK
+    11 ACTION_MOVE
+    800 MOVE
+    456 1
+    457 99999
+    468 1
+    469 1
+    467 -1
+    458  0
+    459  1
+    460  1024
+    461  -1
+    462 -1
+    463  1024
+    464  -2
+    465  1024
+    466  -1
+    470 0
+  1000
+1000
+4 999
+  100 SLIDEOUT1
+  12 BUTTON_KILL
+  11 ACTION_KILL
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SLIDEOUT2
+  12 BUTTON_ICONIFY
+  11 ACTION_ICONIFY
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SLIDEOUT3
+  12 BUTTON_STICK
+  11 ACTION_STICK
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SLIDEOUT4
+  12 BUTTON_SHADE
+  11 ACTION_SHADE
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SLIDEOUT5
+  12 BUTTON_MAXIMISE
+  11 ACTION_MAX
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SLIDEOUT6
+  12 BUTTON_MAXIMISE_HORIZONTAL
+  11 ACTION_MAXW
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SLIDEOUT7
+  12 BUTTON_MAXIMISE_VERTICAL
+  11 ACTION_MAXH
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SLIDEOUT8
+  12 BUTTON_SWIRL
+  11 ACTION_SNAPSHOT
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SLIDEOUT9
+  12 BUTTON_ARROW_UP
+  11 ACTION_RAISE
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SLIDEOUT10
+  12 BUTTON_ARROW_DOWN
+  11 ACTION_LOWER
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SLIDEOUT11
+  12 BUTTON_ARROW_LEFT
+  11 ACTION_SEND_PREV
+  541 1
+  542 0
+  538 1
+1000
+4 999
+  100 SLIDEOUT12
+  12 BUTTON_ARROW_RIGHT
+  11 ACTION_SEND_NEXT
+  541 1
+  542 0
+  538 1
+1000
+16 999
+  100 mainwindowslider
+  620 1
+  4 SLIDEOUT1
+  4 SLIDEOUT2
+  4 SLIDEOUT3
+  4 SLIDEOUT4
+  4 SLIDEOUT5
+  4 SLIDEOUT6
+  4 SLIDEOUT7
+  4 SLIDEOUT8
+  4 SLIDEOUT9
+  4 SLIDEOUT10
+  4 SLIDEOUT11
+  4 SLIDEOUT12
+1000

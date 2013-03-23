@@ -1,0 +1,5 @@
+"AudioVideo"
+"GnomeBaker CD/DVD Writer" "/usr/share/icons/hicolor/48x48/apps/gnomebaker.png" exec "gnomebaker"
+"Rhythmbox" "/usr/share/icons/hicolor/48x48/apps/rhythmbox.png" exec "rhythmbox"
+"创建一个视频项目" "/usr/share/icons/hicolor/48x48/apps/brasero.png" exec "brasero --video"
+"录音机" "/usr/share/icons/hicolor/48x48/apps/gnome-sound-recorder.png" exec "gnome-sound-recorder"

@@ -1,0 +1,50 @@
+1001 1
+1001 0
+800 999
+  100 DEFAULT
+  802 255 255 255
+  801 50 30 25
+  803 cursors/images/cursor.xbm
+1000
+800 999
+  100 MOVE
+  802 255 160 140
+  801 50 30 25
+  803 cursors/images/move.xbm
+1000
+800 999
+  100 RESIZE_H
+  802 255 160 140
+  801 50 30 25
+  803 cursors/images/resize_h.xbm
+1000
+800 999
+  100 RESIZE_V
+  802 255 160 140
+  801 50 30 25
+  803 cursors/images/resize_v.xbm
+1000
+800 999
+  100 RESIZE_BR
+  802 255 160 140
+  801 50 30 25
+  803 cursors/images/resize_br.xbm
+1000
+800 999
+  100 RESIZE_TR
+  802 255 160 140
+  801 50 30 25
+  803 cursors/images/resize_tr.xbm
+1000
+800 999
+  100 KILL
+  802 255 255 0
+  801 0 0 0
+  803 cursors/images/kill.xbm
+1000
+800 999
+  100 ICONIFY
+  802 255 160 140
+  801 50 30 25
+  803 cursors/images/iconify.xbm
+1000

@@ -1,0 +1,79 @@
+##########
+##### 原始标题栏配置  来自fvwm-crystal.
+##################################################################
+
+#Read ./decorations/ClearLook/Theme.fvwm-crystal
+#Read ./decorations/CrystalZono/Theme.fvwm-crystal
+
+###########
+
+##########
+### New Titlebar Decoration from taviso
+###################################################################
+
+# Colorset setup
+
+# What colorset numbers do we use?
+SetEnv cs-window-inactive "9"
+SetEnv cs-window-active "10"
+
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Colorsets
+
+Colorset $[cs-window-inactive] Foreground "black", Background "#999999", \
+Hilight "#999999", Shadow "#222222", Tint
+Colorset $[cs-window-active] Foreground "black", Background "#EEEEEE", \
+Hilight "#cccccc", Shadow "#999999", Tint
+
+DestroyFunc FuncFvwmDecorBackground
+AddToFunc   FuncFvwmDecorBackground
++ I TitleStyle AllActive   TiledPixmap Mac-buttons/title-active.png
++ I TitleStyle AllInactive TiledPixmap Mac-buttons/title-inactive.png
++ I TitleStyle TextOffset -1
++ I TitleStyle Centered
++ I TitleStyle  -- Flat
+FuncFvwmDecorBackground
+
++ I FuncFvwmDecorBackground
+AddButtonStyle 1 \
+    ActiveUp   (Pixmap Mac-buttons/button-red.png -- flat) \
+    ActiveDown (Pixmap Mac-buttons/button-red-icon.png -- flat) \
+    Inactive   (Pixmap Mac-buttons/button-gray-red.png -- flat)
+
+AddButtonStyle 3 \
+    ActiveUp   (Pixmap Mac-buttons/button-yellow.png -- flat) \
+    ActiveDown (Pixmap Mac-buttons/button-yellow-icon.png -- flat) \
+    Inactive   (Pixmap Mac-buttons/button-gray-yellow.png -- flat)
+	
+AddButtonStyle 5 \
+    ActiveUp   (Pixmap Mac-buttons/button-green.png -- flat) \
+    ActiveDown (Pixmap Mac-buttons/button-green-icon.png -- flat) \
+    Inactive   (Pixmap Mac-buttons/button-gray-green.png -- flat)
+
+AddButtonStyle 2 \
+    ActiveUp   (Pixmap Mac-buttons/button-blue.png -- flat) \
+    ActiveDown (Pixmap Mac-buttons/button-blue-icon.png -- flat) \
+    Inactive   (Pixmap Mac-buttons/button-gray-blue.png -- flat)
+
+Style * HandleWidth 1, BorderWidth 1
+Style * Colorset                $[cs-window-inactive], \
+        BorderColorset          $[cs-window-inactive], \
+        HilightColorset         $[cs-window-active], \
+        HilightBorderColorset   $[cs-window-active]
+
+Style "*" Button 1, Button 2, Button 3, Button 5, GrabFocusOff
+Style "*" FvwmButtons
+
+Style * UseDecor WindowDecoration
+
+AddToFunc   FuncFvwmReloadDecor
++ I BorderStyle -- HiddenHandles
++ I BorderStyle -- Flat
++ I ButtonStyle All -- UseTitleStyle
++ I ButtonStyle All -- Flat
+FuncFvwmReloadDecor
+
+TitleStyle Height 20
+TitleStyle ButtonWidth 20
+
+###################################################################

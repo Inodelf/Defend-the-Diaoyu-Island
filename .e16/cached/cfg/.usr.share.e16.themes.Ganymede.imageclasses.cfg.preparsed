@@ -1,0 +1,864 @@
+1001 1
+1 999
+  100 "COORDS"
+  5 "*font-coords"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+1000
+12 999
+  100 "COORDS"
+  5 "common/button_u.png"
+  357 3 3 3 3
+  353 "common/button_s.png"
+  357 3 3 3 3
+  352 "common/button_c.png"
+  357 3 3 3 3
+  358 3 3 3 3
+1000
+1001 0
+1 999
+  100 "DIALOG"
+  5 "*font-dialog"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+1000
+1 999
+  100 "DIALOG_WIDGET_TEXT"
+  5 "*font-dialog"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+1000
+1 999
+  100 "DIALOG_WIDGET_BUTTON"
+  5 "*font-dialog"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+1000
+1 999
+  100 "DIALOG_WIDGET_RADIO_BUTTON"
+  5 "*font-dialog"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+1000
+1 999
+  100 "DIALOG_WIDGET_TABLE"
+  5 "*font-dialog"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+1000
+1 999
+  100 "DIALOG_WIDGET_CHECK_BUTTON"
+  5 "*font-dialog"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+1000
+1 999
+  100 "DIALOG_WIDGET_AREA"
+  5 "*font-dialog"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+1000
+1 999
+  100 "DIALOG_WIDGET_BUTTON"
+  5 "*font-dialog"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+1000
+1 999
+  100 "DIALOG_BUTTON"
+  5 "*font-dialog"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+1000
+12 999
+  100 DIALOG
+  5 ABOUT/background.png
+  371 0
+  358 0 0 0 0
+1000
+12 999
+  100 DIALOG_BUTTON
+  5 common/button_u.png
+  357 3 3 3 3
+  353 common/button_s.png
+  357 3 3 3 3
+  352 common/button_c.png
+  357 3 3 3 3
+  358 3 3 3 3
+1000
+12 999
+  100 DIALOG_WIDGET_BUTTON
+  5 common/button_u.png
+  357 3 3 3 3
+  353 common/button_s.png
+  357 3 3 3 3
+  352 common/button_c.png
+  357 3 3 3 3
+  358 3 3 3 3
+1000
+12 999
+  100 DIALOG_WIDGET_AREA
+  5 common/button_s.png
+  357 3 3 3 3
+  358 3 3 3 3 
+1000
+12 999
+  100 DIALOG_WIDGET_SEPARATOR
+  5 dialogs/images/separator.png
+  357 1 1 1 1
+  353 dialogs/images/separator.png
+  357 1 1 1 1
+  352 dialogs/images/separator.png
+  357 1 1 1 1
+  358 1 1 1 1
+1000
+12 999
+  100 DIALOG_WIDGET_SLIDER_BASE_HORIZONTAL
+  5 dialogs/images/slider_back_horiz.png
+  357 1 1 1 1
+  358 1 1 1 1
+1000
+12 999
+  100 DIALOG_WIDGET_SLIDER_BASE_VERTICAL
+  5 dialogs/images/slider_back_vert.png
+  357 1 1 1 1
+  358 1 1 1 1
+1000
+12 999
+  100 DIALOG_WIDGET_SLIDER_KNOB_VERTICAL
+  5 dialogs/images/knob_normal.png
+  357 0 0 0 0
+  352 dialogs/images/knob_clicked.png
+  357 0 0 0 0
+  358 2 2 2 2
+1000
+12 999
+  100 DIALOG_WIDGET_SLIDER_KNOB_HORIZONTAL
+  5 dialogs/images/knob_normal.png
+  357 0 0 0 0
+  352 dialogs/images/knob_clicked.png
+  357 0 0 0 0
+  358 2 2 2 2
+1000
+12 999
+  100 DIALOG_WIDGET_RADIO_BUTTON
+  5 dialogs/images/checkbox_u.png
+  357 0 0 0 0
+  353 dialogs/images/checkbox_f.png
+  357 0 0 0 0
+  354 dialogs/images/radio_sel.png
+  357 0 0 0 0
+  356 dialogs/images/radio_sel.png
+  357 0 0 0 0
+  358 7 7 7 7
+1000
+12 999
+  100 DIALOG_WIDGET_CHECK_BUTTON
+  5 dialogs/images/checkbox_u.png
+  357 0 0 0 0
+  353 dialogs/images/checkbox_f.png
+  357 0 0 0 0
+  354 dialogs/images/checkbox_s.png
+  357 0 0 0 0
+  356 dialogs/images/checkbox_s.png
+  357 0 0 0 0
+  358 7 7 7 7
+1000
+12 999 
+  100 SETTINGS_AREADESK_AREA
+  5 common/button_s.png
+  357 2 2 2 2
+  358 4 4 4 4
+1000
+12 999 
+  100 SETTINGS_AREA_AREA
+  5 common/button_u.png
+  357 2 2 2 2
+  358 4 4 4 4
+1000
+12 999 
+  100 SETTINGS_DESKTOP_AREA
+  5 common/button_u.png
+  357 2 2 2 2
+  358 4 4 4 4
+1000
+12 999 
+  100 DESKTOP_RAISEBUTTON_HORIZ
+  5 dragbar/images/dragbar_raise_normal.png
+  352 dragbar/images/dragbar_raise_clicked.png
+  353 dragbar/images/dragbar_raise_normal.png
+  358 4 4 4 4
+1000
+12 999 
+  100 DESKTOP_DRAGBUTTON_HORIZ
+  5 dragbar/images/dragbar_normal.png
+  357 10 2 2 2
+  352 dragbar/images/dragbar_clicked.png
+  357 10 2 2 2
+  353 dragbar/images/dragbar_hilited.png
+  357 10 2 2 2
+  358 4 4 4 4
+1000
+12 999 
+  100 DESKTOP_LOWERBUTTON_HORIZ
+  5 dragbar/images/dragbar_lower_normal.png
+  352 dragbar/images/dragbar_lower_clicked.png
+  353 dragbar/images/dragbar_lower_normal.png
+  358 4 4 4 4
+1000
+12 999 
+  100 DESKTOP_DESKRAY_HORIZ
+  5 dragbar/images/dragbar_deskray_normal.png
+  352 dragbar/images/dragbar_deskray_clicked.png
+  353 dragbar/images/dragbar_deskray_hilited.png
+  358 4 4 4 4
+1000
+12 999 
+  100 DESKTOP_DRAGBUTTON_VERT
+  5 dragbar/images/dragbar_vert_normal.png
+  357 2 2 10 2
+  352 dragbar/images/dragbar_vert_clicked.png
+  357 2 2 10 2
+  353 dragbar/images/dragbar_vert_hilited.png
+  357 2 2 10 2
+  358 4 4 4 4
+1000
+12 999 
+  100 DESKTOP_RAISEBUTTON_VERT
+  5 dragbar/images/dragbar_raise_normal.png
+  352 dragbar/images/dragbar_raise_clicked.png
+  353 dragbar/images/dragbar_raise_hilited.png
+  358 4 4 4 4
+1000
+12 999 
+  100 DESKTOP_LOWERBUTTON_VERT
+  5 dragbar/images/dragbar_lower_normal.png
+  352 dragbar/images/dragbar_lower_clicked.png
+  353 dragbar/images/dragbar_lower_hilited.png
+  358 4 4 4 4
+1000
+12 999 
+  100 DESKTOP_DESKRAY_VERT
+  5 dragbar/images/dragbar_deskray_vert_normal.png
+  352 dragbar/images/dragbar_deskray_vert_clicked.png
+  353 dragbar/images/dragbar_deskray_vert_hilited.png
+  358 4 4 4 4
+1000
+1 999
+  100 "GANYMEDE_TOOLTIP"
+  5 "*font-iconbox"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+1000
+12 999
+  100 DEFAULT_TOOLTIP_MAIN
+  5 "tooltips/images/bubble_large.png"
+  357 0 0 0 0
+  358 30 35 25 25
+1000
+12 999
+  100 DEFAULT_TOOLTIP_CLOUD1
+  5 "tooltips/images/bubble_small.png"
+1000
+12 999
+  100 DEFAULT_TOOLTIP_CLOUD2
+  5 "tooltips/images/bubble_small.png"
+1000
+12 999
+  100 DEFAULT_TOOLTIP_CLOUD3
+  5 "tooltips/images/bubble_small.png"
+1000
+12 999
+  100 DEFAULT_TOOLTIP_CLOUD4
+  5 "tooltips/images/bubble_small.png"
+1000
+12 999
+  100 ICONBOX_HORIZONTAL
+  5 "ABOUT/background.png"
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999
+  100 ICONBOX_VERTICAL
+  5 "ABOUT/background.png"
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999
+  100 ICONBOX_COVER_VERTICAL
+  5 "iconbox/images/cover.png"
+  357   2 2 2 2
+  358        4 4 4 4
+1000
+12 999
+  100 ICONBOX_COVER_HORIZONTAL
+  5 "iconbox/images/cover.png"
+  357   2 2 2 2
+  358        4 4 4 4
+1000
+12 999
+  100 ICONBOX_SCROLLBAR_KNOB_HORIZONTAL
+  5 "iconbox/images/scrollbar_horiz.png"
+  357 10 10 1 1
+  358 2 2 2 2
+1000
+12 999
+  100 ICONBOX_SCROLLBAR_KNOB_VERTICAL
+  5 "iconbox/images/scrollbar_vert.png"
+  357 1 1 10 10
+  358 2 2 2 2
+1000
+12 999
+  100 ICONBOX_SCROLLKNOB_HORIZONTAL
+  5 "common/empty.png"
+  357   1 1 1 1 
+  352 "common/empty.png"
+  357   1 1 1 1
+  358        1 1 1 1
+1000
+12 999
+  100 ICONBOX_SCROLLKNOB_VERTICAL
+  5 "common/empty.png"
+  357   1 1 1 1
+  352 "common/empty.png"
+  357   1 1 1 1 
+  358        1 1 1 1
+1000
+12 999
+  100 ICONBOX_SCROLLBAR_BASE_HORIZONTAL
+  5  "init/images/background_left.png"
+  357 2 2 2 2
+  358 1 1 1 1
+1000
+12 999
+  100 ICONBOX_SCROLLBAR_BASE_VERTICAL
+  5  "init/images/background_left_rot.png"
+  357 2 2 2 2
+  358 1 1 1 1
+1000
+12 999
+  100 ICONBOX_ARROW_UP
+  5 "iconbox/images/arrow_up1.png"
+  357   2 2 2 2
+  353 "iconbox/images/arrow_up2.png"
+  357   2 2 2 2
+  352 "iconbox/images/arrow_up3.png"
+  357   2 2 2 2
+  358        2 2 2 2
+1000
+12 999
+  100 ICONBOX_ARROW_DOWN
+  5 "iconbox/images/arrow_down1.png"
+  357   2 2 2 2
+  353 "iconbox/images/arrow_down2.png"
+  357   2 2 2 2
+  352 "iconbox/images/arrow_down3.png"
+  357   2 2 2 2
+  358        2 2 2 2
+1000
+12 999
+  100 ICONBOX_ARROW_LEFT
+  5 "iconbox/images/arrow_left1.png"
+  357   2 2 2 2
+  353 "iconbox/images/arrow_left2.png"
+  357   2 2 2 2
+  352 "iconbox/images/arrow_left3.png"
+  357   2 2 2 2
+  358        2 2 2 2
+1000
+12 999
+  100 ICONBOX_ARROW_RIGHT
+  5 "iconbox/images/arrow_right1.png"
+  357   2 2 2 2
+  353 "iconbox/images/arrow_right2.png"
+  357   2 2 2 2
+  352 "iconbox/images/arrow_right3.png"
+  357   2 2 2 2
+  358        2 2 2 2
+1000
+12 999
+  100 "ICONBOX_TITLE_BLANK"
+  5 "common/button_u.png"
+  357 3 3 3 3
+  353 "common/button_s.png"
+  357 3 3 3 3
+  352 "common/button_c.png"
+  357 3 3 3 3
+  358 3 3 3 3
+1000
+12 999
+  100 "ICONBOX_TITLE_MAIN"
+  5 "common/button_u.png"
+  357 3 3 3 3
+  353 "common/button_s.png"
+  357 3 3 3 3
+  352 "common/button_c.png"
+  357 3 3 3 3
+  358 3 3 3 3
+1000
+12 999
+  100 DEFAULT_ICON_BUTTON
+  5 "common/dock_u.png"
+  357 3 3 3 3
+  353 "common/dock_s.png"
+  357 3 3 3 3
+  352 "common/dock_c.png"
+  357 3 3 3 3
+  358 3 3 3 3
+1000
+12 999
+  100 RED_ICON_BUTTON
+  5 "common/dock_u.png"
+  357 3 3 3 3
+  353 "common/dock_s.png"
+  357 3 3 3 3
+  352 "common/dock_c.png"
+  357 3 3 3 3
+  358 3 3 3 3
+1000
+12 999
+  100 GREEN_ICON_BUTTON
+  5 "common/dock_u.png"
+  357 3 3 3 3
+  353 "common/dock_s.png"
+  357 3 3 3 3
+  352 "common/dock_c.png"
+  357 3 3 3 3
+  358 3 3 3 3
+1000
+17 999;  100 "ICONBOX";  12  "DEFAULT_TOOLTIP_MAIN";  641  "DEFAULT_TOOLTIP_CLOUD1";  642  "DEFAULT_TOOLTIP_CLOUD2";  643  "DEFAULT_TOOLTIP_CLOUD3";  644  "DEFAULT_TOOLTIP_CLOUD4";  646 "DO_HELP_BUTTON";  1  "GANYMEDE_TOOLTIP";  645  64;1000
+12 999
+  100 PAGER_SEL
+  5 pager/images/pager_current.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999
+  100 PAGER_WIN
+  5 common/dock_s.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+12 999
+  100 PAGER_BACKGROUND
+  5 common/dock_u.png
+  357 2 2 2 2
+  358 2 2 2 2
+1000
+1 999
+  100 "PAGER_WINDOW_TITLE"
+  5 "*font-pager"
+  204 1
+  205 255 255 255
+  206 0 0 0
+  201 512
+1000
+17 999;  100 "PAGER";  12  "DEFAULT_TOOLTIP_MAIN";  641  "DEFAULT_TOOLTIP_CLOUD1";  642  "DEFAULT_TOOLTIP_CLOUD2";  643  "DEFAULT_TOOLTIP_CLOUD3";  644  "DEFAULT_TOOLTIP_CLOUD4";  646 "DO_HELP_BUTTON";  1  "GANYMEDE_TOOLTIP";  645  64;1000
+12 999
+  100 DEFAULT_DOCK_BUTTON
+  5 "common/dock_u.png"
+  357 3 3 3 3
+  353 "common/dock_s.png"
+  357 3 3 3 3
+  352 "common/dock_c.png"
+  357 3 3 3 3
+  358 3 3 3 3
+1000
+12 999 
+  100 ETERM_ARROW_UP
+  5 dragbar/images/dragbar_raise_normal.png
+  352 dragbar/images/dragbar_raise_clicked.png
+  353 dragbar/images/dragbar_raise_normal.png
+  358 4 4 4 4
+1000
+12 999 
+  100 ETERM_ARROW_DOWN
+  5 dragbar/images/dragbar_lower_normal.png
+  352 dragbar/images/dragbar_lower_clicked.png
+  353 dragbar/images/dragbar_lower_normal.png
+  358 4 4 4 4
+1000
+12 999
+  100 ETERM_MENU_SUBMENU
+  5 "menustyles/images/normal_more.png"
+  357 3 15 15 0
+  353 "menustyles/images/focused_more.png"
+  357 3 15 15 0
+  352 "menustyles/images/clicked_more.png"
+  357 3 15 15 0
+  358 3 15 1 1
+1000
+12 999
+  100 ETERM_MENU_ITEM
+  5 "menustyles/images/back.png"
+  357 0 0 0 0 
+  353 "menustyles/images/back.png"
+  357 0 0 0 0
+  352 "menustyles/images/back.png"
+  357 0 0 0 0
+  358 1 1 1 1 
+1000
+12 999
+  100 ETERM_TROUGH
+  5 common/button_c.png
+  357 3 3 3 3
+  358 3 3 3 3
+1000
+12 999
+  100 ETERM_ANCHOR
+  5 common/button_s.png
+  357 3 3 3 3
+  358 3 3 3 3
+1000
+12 999
+  100 EPPLET_BACKGROUND_HORIZONTAL
+  5 common/dock_u.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_BACKGROUND_VERTICAL
+  5 common/dock_u.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_BUTTON
+  5 common/button_u.png
+  357 3 3 3 3
+  353 common/button_s.png
+  357 3 3 3 3
+  352 common/button_c.png
+  357 3 3 3 3
+  358 3 3 3 3
+1000
+12 999
+  100 EPPLET_TOGGLEBUTTON_OFF
+  5 epplets/images/button_u.png
+  357 1 1 1 1
+  353 epplets/images/button_s.png
+  357 1 1 1 1
+  352 epplets/images/button_c.png
+  357 1 1 1 1
+  358 7 7 7 7
+1000
+12 999
+  100 EPPLET_TOGGLEBUTTON_ON
+  5 epplets/images/button_c.png
+  357 1 1 1 1
+  353 epplets/images/button_s.png
+  357 1 1 1 1
+  352 epplets/images/button_u.png
+  357 1 1 1 1
+  358 7 7 7 7
+1000
+12 999
+  100 EPPLET_DRAWINGAREA
+  5 common/button_s.png
+  357 3 3 3 3
+  358 3 3 3 3 
+1000
+12 999
+  100 EPPLET_HSLIDER_BASE
+  5 dialogs/images/slider_back_horiz.png
+  357 1 1 1 1
+  358 1 1 1 1
+1000
+12 999
+  100 EPPLET_VSLIDER_BASE
+  5 dialogs/images/slider_back_vert.png
+  357 1 1 1 1
+  358 1 1 1 1
+1000
+12 999
+  100 EPPLET_HSLIDER_KNOB
+  5 epplets/images/knob_normal.png
+  357 0 0 0 0
+  352 epplets/images/knob_clicked.png
+  357 0 0 0 0
+  358 2 2 2 2
+1000
+12 999
+  100 EPPLET_VSLIDER_KNOB
+  5 epplets/images/knob_normal.png
+  357 0 0 0 0
+  352 epplets/images/knob_clicked.png
+  357 0 0 0 0
+  358 2 2 2 2
+1000
+12 999
+  100 EPPLET_POPUP_BASE
+  5 common/button_s.png
+  357 3 3 3 3
+  358 3 3 3 3 
+1000
+12 999
+  100 EPPLET_POPUP_ENTRY
+  5 common/button_u.png
+  357 3 3 3 3
+  353 common/button_s.png
+  357 3 3 3 3
+  352 common/button_c.png
+  357 3 3 3 3
+  358 3 3 3 3
+1000
+12 999
+  100 EPPLET_HBAR_BASE
+  5 dialogs/images/slider_back_horiz.png
+  357 1 1 1 1
+  358 1 1 1 1
+1000
+12 999
+  100 EPPLET_VBAR_BASE
+  5 dialogs/images/slider_back_vert.png
+  357 1 1 1 1
+  358 1 1 1 1
+1000
+12 999
+  100 EPPLET_HBAR_BAR
+  5 epplets/images/hslider_normal.png
+  357 0 0 0 0
+  358 0 0 0 0
+1000
+12 999
+  100 EPPLET_VBAR_BAR
+  5 epplets/images/vslider_normal.png
+  357 0 0 0 0
+1000
+12 999
+  100 EPPLET_ARROW_DOWN
+  5 epplets/images/arrow_down_u.png
+  357 3 3 3 3
+  353 epplets/images/arrow_down_s.png
+  357 3 3 3 3
+  352 epplets/images/arrow_down_c.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_ARROW_UP
+  5 epplets/images/arrow_up_u.png
+  357 3 3 3 3
+  353 epplets/images/arrow_up_s.png
+  357 3 3 3 3
+  352 epplets/images/arrow_up_c.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_ARROW_LEFT
+  5 epplets/images/arrow_left_u.png
+  357 3 3 3 3
+  353 epplets/images/arrow_left_s.png
+  357 3 3 3 3
+  352 epplets/images/arrow_left_c.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_ARROW_RIGHT
+  5 epplets/images/arrow_right_u.png
+  357 3 3 3 3
+  353 epplets/images/arrow_right_s.png
+  357 3 3 3 3
+  352 epplets/images/arrow_right_c.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_PLAY
+  5 epplets/images/play_u.png
+  357 3 3 3 3
+  353 epplets/images/play_s.png
+  357 3 3 3 3
+  352 epplets/images/play_c.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_STOP
+  5 epplets/images/stop_u.png
+  357 3 3 3 3
+  353 epplets/images/stop_s.png
+  357 3 3 3 3
+  352 epplets/images/stop_c.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_PAUSE
+  5 epplets/images/pause_u.png
+  357 3 3 3 3
+  353 epplets/images/pause_s.png
+  357 3 3 3 3
+  352 epplets/images/pause_c.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_PREVIOUS
+  5 epplets/images/prev_u.png
+  357 3 3 3 3
+  353 epplets/images/prev_s.png
+  357 3 3 3 3
+  352 epplets/images/prev_c.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_NEXT
+  5 epplets/images/next_u.png
+  357 3 3 3 3
+  353 epplets/images/next_s.png
+  357 3 3 3 3
+  352 epplets/images/next_c.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_EJECT
+  5 epplets/images/eject_u.png
+  357 3 3 3 3
+  353 epplets/images/eject_s.png
+  357 3 3 3 3
+  352 epplets/images/eject_c.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_CLOSE
+  5 epplets/images/close_u.png
+  357 3 3 3 3
+  353 epplets/images/close_s.png
+  357 3 3 3 3
+  352 epplets/images/close_c.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_FAST_FORWARD
+  5 epplets/images/ff_u.png
+  357 3 3 3 3
+  353 epplets/images/ff_s.png
+  357 3 3 3 3
+  352 epplets/images/ff_c.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_REWIND
+  5 epplets/images/rew_u.png
+  357 3 3 3 3
+  353 epplets/images/rew_s.png
+  357 3 3 3 3
+  352 epplets/images/rew_c.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_REPEAT
+  5 epplets/images/repeat_u.png
+  357 3 3 3 3
+  353 epplets/images/repeat_s.png
+  357 3 3 3 3
+  352 epplets/images/repeat_c.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_SKIP
+  5 epplets/images/skip_u.png
+  357 3 3 3 3
+  353 epplets/images/skip_s.png
+  357 3 3 3 3
+  352 epplets/images/skip_c.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_HELP
+  5 epplets/images/help_u.png
+  357 3 3 3 3
+  353 epplets/images/help_s.png
+  357 3 3 3 3
+  352 epplets/images/help_c.png
+  357 3 3 3 3
+1000
+12 999
+  100 EPPLET_CONFIGURE
+  5 epplets/images/configure_u.png
+  357 3 3 3 3
+  353 epplets/images/configure_s.png
+  357 3 3 3 3
+  352 epplets/images/configure_c.png
+  357 3 3 3 3
+1000
+1 999
+  100 "EPPLET_LABEL"
+  5 "*font-epplet"
+  204 1
+  205 210 210 255
+  206 0 0 0
+  201 512
+1000
+1 999
+  100 "EPPLET_BUTTON"
+  5 "*font-epplet"
+  204 1
+  205 210 210 255
+  206 0 0 0
+  201 512
+1000
+1 999
+  100 "EPPLET_TOGGLEBUTTON_ON"
+  5 "*font-epplet"
+  204 1
+  205 210 210 255
+  206 0 0 0
+  201 512
+1000
+1 999
+  100 "EPPLET_TOGGLEBUTTON_OFF"
+  5 "*font-epplet"
+  204 1
+  205 210 210 255
+  206 0 0 0
+  201 512
+1000
+1 999
+  100 "EPPLET_POPUP"
+  5 "*font-epplet"
+  204 1
+  205 210 210 255
+  206 0 0 0
+  201 512
+1000
+1 999
+  100 "EPPLET_TEXT_TINY"
+  5 "*font-epplet-small"
+  204 1
+  205 210 210 255
+  206 0 0 0
+  201 512
+1000
+1 999
+  100 "EPPLET_TEXT_MEDIUM"
+  5 "*font-epplet-medium"
+  204 1
+  205 210 210 255
+  206 0 0 0
+  201 512
+1000
+1 999
+  100 "EPPLET_TEXT_LARGE"
+  5 "*font-epplet-large"
+  204 1
+  205 210 210 255
+  206 0 0 0
+  201 512
+1000

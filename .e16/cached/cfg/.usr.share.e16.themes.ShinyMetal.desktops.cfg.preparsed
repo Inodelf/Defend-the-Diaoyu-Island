@@ -1,0 +1,50 @@
+1001 1
+5 999
+  100 EBACKGROUND_ICON_LOGO
+  560 100 70 40
+  561 "pix/bg.png" 1 0 0 0 0 0
+  562 "backgrounds/images/Elogo.png" 1 512 512 0 0
+  564 0
+  564 2
+  564 4
+  564 8
+  564 12
+  564 14
+  564 18
+  564 20
+  564 22
+  564 24
+  564 28
+1000
+5 999
+  100 VERTICAL_GRADIENT_LOGO
+  560 200 200 200
+  561 "backgrounds/images/V_gray_grad.png" 1 0 0 0 0 1024
+  562 "backgrounds/images/Enlightenment_gry.png" 1 1024 1023 -1 0
+  564 1
+  564 3
+  564 5
+  564 7
+  564 9
+  564 11
+  564 13
+  564 15
+  564 17
+  564 21
+  564 23
+  564 25
+  564 27
+  564 29
+  564 31
+1000
+5 999
+  100 EBACKGROUND_TILED
+  560 100 70 40
+  561 "pix/bg.png" 1 0 0 0 0 0
+  564 6
+  564 10
+  564 16
+  564 19
+  564 26
+  564 30
+1000
