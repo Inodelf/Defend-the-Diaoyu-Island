@@ -9,6 +9,8 @@
 (setq display-time-day-and-date t)
 ;;显示行列
 (column-number-mode t)
+;;显示行号
+(global-linum-mode t)
 ;;禁用启动信息
 (setq inhibit-startup-message t)
 ;;语法高亮
@@ -46,6 +48,9 @@
    ("gnus" . emacs-lisp-mode)
    ("\\.idl$" . idl-mode)))
 
+;;在emacs中添加约会提醒
+(setq appt-issue-message t)
+
 (add-to-list 'load-path "~/git-emacs/")
 (require 'git-emacs)
 (require 'xcscope)
@@ -64,3 +69,70 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  )
+
+
+
+;;以下是erc的配置
+;;默认编码
+(setq erc-default-coding-system '(utf-8 . utf-8))
+;;设置nick和全名
+(setq erc-nick "mordory"
+      erc-user-full-name "mordory")
+;;登录后自加入的channels
+(erc-autojoin-mode 1)
+(setq erc-autojoin-channels-alist
+      '(("oftc.net"
+	 "#ubuntu-cn")))
+
+;;关键信息高亮
+(erc-match-mode 1)
+(setq erc-keywords '("emacs" "org-mode"))
+(setq erc-pals '("rms"))
+
+;;屏蔽的消息
+(setq erc-ignore-list nil)
+(setq erc-hide-list
+      '("JOIN" "PART" "QUIT" "MODE"))
+
+;;新消息提醒
+(defun xwl-erc-text-matched-hook (match-type nickuserhost message)
+  "Shows a growl notification, when user's nick was mentioned.
+     If the buffer is currently not visible, makes it sticky."
+  (when (and (erc-match-current-nick-p nickuserhost message)
+             (not (string-match (regexp-opt '("Users"
+                                              "User"
+                                              "topic set by"
+                                              "Welcome to "
+                                              "nickname"
+                                              "identified"
+                                              "invalid"
+                                              ))
+                                message)))
+    (let ((s (concat "ERC: " (buffer-name (current-buffer)))))
+      (case system-type
+        ((darwin)
+         (xwl-growl s message))))))
+ 
+(add-hook 'erc-text-matched-hook 'xwl-erc-text-matched-hook)
+ 
+(defun xwl-growl (title message)
+  (start-process "zenity" " zenity" growlnotify-command title "-a" "Emacs")
+  (process-send-string " zenity" message)
+  (process-send-string " zenity" "\n")
+  (process-send-eof " zenity"))
+
+;;时间戳
+(erc-timestamp-mode 1)
+;;时间戳显示方式
+(setq erc-insert-timestamp-function 'erc-insert-timestamp-left)
+;;记录log
+(require 'erc-log)
+(erc-log-mode 1)
+(setq erc-log-channels-directory "~/var/erc/"
+      erc-save-buffer-on-part t
+      erc-log-file-coding-system 'utf-8
+      erc-log-write-after-send t
+      erc-log-write-after-insert t)
+ 
+(unless (file-exists-p erc-log-channels-directory)
+  (mkdir erc-log-channels-directory t))
