@@ -1,8 +1,38 @@
+;;在emacs里使用scheme   
+;; Also highlight parens   
+(setq show-paren-delay 0  
+   show-paren-style 'parenthesis)
+;; This is the binary name of my scheme implementation   
+(setq scheme-program-name "mit-scheme")  
+;;auto complete配置
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "/usr/share/emacs/site-lisp/ac-dict")
+(ac-config-default)
+;;颜色配置
+(add-to-list 'load-path "~/.emacs.d/lisp/")
+(require 'color-theme)
+(color-theme-initialize)
+(color-theme-comidia)
+;(set-background-color "black") ;; 使用黑色背景
+;(set-foreground-color "white") ;; 使用白色前景
+;(set-face-foreground 'region "green")  ;; 区域前景颜色设为绿色
+;(set-face-background 'region "blue") ;; 区域背景色设为蓝色
 ;;git-emacs
 ;;支持emacs和外部程序的粘贴
 (setq x-select-enable-clipboard t)
 ;;显示括号匹配
 (show-paren-mode t)
+;;先用光标定位，然后鼠标中键点击
+(setq mouse-yank-at-point t)
+;;防止页面滚动时跳动， scroll-margin 3 可以在靠近屏幕边沿3行时就开始滚动，可以很好的看到上下文。
+(setq scroll-margin 3
+      scroll-conservatively 10000)
+;;把fill-column设为80
+(setq default-fill-column 80)
+;;org-mode下的自动换行
+(add-hook 'org-mode-hook (lambda () (setq truncate-lines nil))) 
+;;递归使用minibuffer
+(setq enable-recursive-minibuffers t)
 ;;显示时间格式
 (display-time-mode 1)
 (setq display-time-24hr-format t)
@@ -62,15 +92,26 @@
   ;; If there is more than one, they won't work right.
  '(column-number-mode t)
  '(display-time-mode t)
- '(show-paren-mode t))
+ '(show-paren-mode t)
+ '(truncate-partial-width-windows nil))
 (custom-set-faces
   ;; custom-set-faces was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  )
-
-
+(setq org-todo-keywords
+    '((sequence "TODO(t!)" "NEXT(n)" "WAITTING(w)" "SOMEDAY(s)" "|" "DONE(d@/!)" "ABORT(a@/!)")
+     ))  
+;;可以定义org-remember命令的快捷键，比如C-c c(这个快捷键应该是org菜单中最快捷的)
+(define-key global-map "\C-cc" 'org-remember)
+;;org-mode不同文件之间的移动
+   '(org-refile-targets (quote (("newgtd.org" :maxlevel . 1)                                                                                             
+                               ("someday.org" :level . 2))))
+;;org-remember的模板配置
+(org-remember-insinuate) (setq org-directory "~/Documents/Dropbox/0.GTD/") (setq org-remember-templates '(("New" ?n "* %? %t \n %i\n %a" "~/Documents/Dropbox/0.GTD/inbox.org" ) ("Task" ?t "** TODO %?\n %i\n %a" "~/Documents/Dropbox/0.GTD/task.org" "Tasks") ("Calendar" ?c "** TODO %?\n %i\n %a" "~/Documents/Dropbox/0.GTD/task.org" "Tasks") ("Idea" ?i "** %?\n %i\n %a" "~/Documents/Dropbox/0.GTD/task.org" "Ideas") ("Note" ?r "* %?\n %i\n %a" "~/Documents/Dropbox/0.GTD/note.org" ) ("Project" ?p "** %?\n %i\n %a" "~/Documents/Dropbox/0.GTD/project.org" %g) )) (setq org-default-notes-file (concat org-directory "/inbox.org"))
+;;emacs的日程表快捷键
+(define-key global-map "\C-ca" 'org-agenda)
 
 ;;以下是erc的配置
 ;;默认编码
@@ -116,10 +157,21 @@
 (add-hook 'erc-text-matched-hook 'xwl-erc-text-matched-hook)
  
 (defun xwl-growl (title message)
-  (start-process "zenity" " zenity" growlnotify-command title "-a" "Emacs")
+  (start-process "zenity" " “zenity --notification --text message" "Emacs")
   (process-send-string " zenity" message)
   (process-send-string " zenity" "\n")
   (process-send-eof " zenity"))
+
+;;只能在emacs-24以后用的ERC提醒配置
+;(require 'notifications)  
+;(defun erc-global-notify (match-type nick message)  
+;  "Notify when a message is recieved."  
+;  (notifications-notify  
+;   :body message  
+;   :title (car (split-string nick "!"))  
+;   :urgency 'normal))  
+;(add-hook 'erc-text-matched-hook 'erc-global-notify) 
+
 
 ;;时间戳
 (erc-timestamp-mode 1)
