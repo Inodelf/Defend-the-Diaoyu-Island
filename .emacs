@@ -9,14 +9,14 @@
 (add-to-list 'ac-dictionary-directories "/usr/share/emacs/site-lisp/ac-dict")
 (ac-config-default)
 ;;颜色配置
-(add-to-list 'load-path "~/.emacs.d/lisp/")
+(add-to-list 'load-path "~/.emacs.d/")
 (require 'color-theme)
 (color-theme-initialize)
 (color-theme-comidia)
-;(set-background-color "black") ;; 使用黑色背景
-;(set-foreground-color "white") ;; 使用白色前景
-;(set-face-foreground 'region "green")  ;; 区域前景颜色设为绿色
-;(set-face-background 'region "blue") ;; 区域背景色设为蓝色
+(set-background-color "black") ;; 使用黑色背景
+(set-foreground-color "white") ;; 使用白色前景
+(set-face-foreground 'region "green")  ;; 区域前景颜色设为绿色
+(set-face-background 'region "blue") ;; 区域背景色设为蓝色
 ;;git-emacs
 ;;支持emacs和外部程序的粘贴
 (setq x-select-enable-clipboard t)
@@ -80,9 +80,10 @@
 
 ;;在emacs中添加约会提醒
 (setq appt-issue-message t)
-
+;;git-emacs
 (add-to-list 'load-path "~/git-emacs/")
 (require 'git-emacs)
+
 (require 'xcscope)
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
 (custom-set-variables
@@ -136,42 +137,41 @@
       '("JOIN" "PART" "QUIT" "MODE"))
 
 ;;新消息提醒
-(defun xwl-erc-text-matched-hook (match-type nickuserhost message)
-  "Shows a growl notification, when user's nick was mentioned.
-     If the buffer is currently not visible, makes it sticky."
-  (when (and (erc-match-current-nick-p nickuserhost message)
-             (not (string-match (regexp-opt '("Users"
-                                              "User"
-                                              "topic set by"
-                                              "Welcome to "
-                                              "nickname"
-                                              "identified"
-                                              "invalid"
-                                              ))
-                                message)))
-    (let ((s (concat "ERC: " (buffer-name (current-buffer)))))
-      (case system-type
-        ((darwin)
-         (xwl-growl s message))))))
+;(defun xwl-erc-text-matched-hook (match-type nickuserhost message)
+;  "Shows a growl notification, when user's nick was mentioned.
+;     If the buffer is currently not visible, makes it sticky."
+;  (when (and (erc-match-current-nick-p nickuserhost message)
+;             (not (string-match (regexp-opt '("Users"
+;                                              "User"
+;                                              "topic set by"
+;                                              "Welcome to "
+;                                              "nickname"
+;                                              "identified"
+;                                              "invalid"
+;                                              ))
+;                                message)))
+;    (let ((s (concat "ERC: " (buffer-name (current-buffer)))))
+;      (case system-type
+;        ((darwin)
+;         (xwl-growl s message))))))
  
-(add-hook 'erc-text-matched-hook 'xwl-erc-text-matched-hook)
+;(add-hook 'erc-text-matched-hook 'xwl-erc-text-matched-hook)
  
-(defun xwl-growl (title message)
-  (start-process "zenity" " “zenity --notification --text message" "Emacs")
-  (process-send-string " zenity" message)
-  (process-send-string " zenity" "\n")
-  (process-send-eof " zenity"))
+;(defun xwl-growl (title message)
+;  (start-process "zenity" " “zenity --notification --text message" "Emacs")
+;  (process-send-string " zenity" message)
+;  (process-send-string " zenity" "\n")
+;  (process-send-eof " zenity"))
 
 ;;只能在emacs-24以后用的ERC提醒配置
-;(require 'notifications)  
-;(defun erc-global-notify (match-type nick message)  
-;  "Notify when a message is recieved."  
-;  (notifications-notify  
-;   :body message  
-;   :title (car (split-string nick "!"))  
-;   :urgency 'normal))  
-;(add-hook 'erc-text-matched-hook 'erc-global-notify) 
-
+(require 'notifications)  
+(defun erc-global-notify (match-type nick message)  
+  "Notify when a message is recieved."  
+  (notifications-notify  
+   :body message  
+   :title (car (split-string nick "!"))  
+   :urgency 'normal))  
+(add-hook 'erc-text-matched-hook 'erc-global-notify) 
 
 ;;时间戳
 (erc-timestamp-mode 1)
@@ -188,3 +188,18 @@
  
 (unless (file-exists-p erc-log-channels-directory)
   (mkdir erc-log-channels-directory t))
+
+
+;;emacs-w3m
+;load & init 
+(autoload 'w3m "w3m" "interface for w3m on emacs" t)
+(autoload 'w3m-browse-url "w3m" "Ask a WWW browser to show a URL." t)
+(autoload 'w3m-search "w3m-search" "Search words using emacs-w3m." t)
+
+;settings
+(setq w3m-use-cookies t)
+(setq w3m-home-page "http://www.google.com")
+
+(require 'mime-w3m) 
+(setq w3m-default-display-inline-image t) 
+(setq w3m-default-toggle-inline-images t)
